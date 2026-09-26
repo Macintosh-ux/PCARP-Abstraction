@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="ASCII"?>
+<assembly:AssemblyModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:assembly="platform:/resource/Kieker/model/analysismodel.ecore/assembly">
+  <components key="++unknown-component++">
+    <value signature="++unknown-component++">
+      <operations key="++unknown-operation++">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.0/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.0/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.utils.utils">
+    <value signature="uxsim.utils.utils">
+      <operations key="public Object catch_exceptions_and_warn(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.1/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object get_font_for_matplotlib(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.1/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.1/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.utils.catch_exceptions_and_warn">
+    <value signature="uxsim.utils.catch_exceptions_and_warn">
+      <operations key="public Object decorator(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.2/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object wrapper(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.2/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.2/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.scenario_reader_writer.scenario_reader_writer">
+    <value signature="uxsim.scenario_reader_writer.scenario_reader_writer">
+      <operations key="public Object demand_info_record(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.3/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.uxsim.World">
+    <value signature="uxsim.uxsim.World">
+      <operations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object addNode(Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object addLink(Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object get_node(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public void adddemand(Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object addVehicle(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object exec_simulation(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="public void finalize_scenario(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="public void print_scenario_stats(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="public void simulation_terminated(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.4/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.uxsim.Node">
+    <value signature="uxsim.uxsim.Node">
+      <operations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void generate(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public void update(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public void signal_control(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public void flow_capacity_update(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="public void transfer(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.5/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.uxsim.Link">
+    <value signature="uxsim.uxsim.Link">
+      <operations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void init_after_tmax_fix(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object density(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object num_vehicles(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object speed(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="public void update(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="public void in_out_flow_constraint(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="public void set_traveltime_instant(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.6/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.scenario_reader_writer.demand_info_record">
+    <value signature="uxsim.scenario_reader_writer.demand_info_record">
+      <operations key="public Object wrapper(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.7/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.7/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.uxsim.Vehicle">
+    <value signature="uxsim.uxsim.Vehicle">
+      <operations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void update(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public void record_log(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public void route_pref_update(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public void carfollow(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="public void route_next_link_choice(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="public void end_trip(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.8/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.uxsim.RouteChoice">
+    <value signature="uxsim.uxsim.RouteChoice">
+      <operations key="private void __init__(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void route_search_all(Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public void homogeneous_DUO_update(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.9/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.analyzer.Analyzer">
+    <value signature="uxsim.analyzer.Analyzer">
+      <operations key="private void __init__(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void show_simulation_progress(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public void basic_analysis(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object od_to_pandas(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object od_analysis(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="public void print_simple_stats(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.10/@value"/>
+    </value>
+  </components>
+  <components key="uxsim.analyzer.analyzer">
+    <value signature="uxsim.analyzer.analyzer">
+      <operations key="public Object load_font_data(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.11/@value"/>
+    </value>
+  </components>
+</assembly:AssemblyModel>

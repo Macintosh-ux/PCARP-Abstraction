@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ASCII"?>
+<statistics:StatisticsModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:statistics="platform:/resource/Kieker/model/analysismodel.ecore/statistics">
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000004"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.0/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000004"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.1/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000006"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.2/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000003"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.3/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000003"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.4/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000144"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.5/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000000A2"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.6/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000000A2"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.7/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000002"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.8/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000002"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.9/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000003"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.10/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.11/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.12/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.13/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.14/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.15/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.16/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000009"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.17/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000012"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.18/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000009"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.19/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000003"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.20/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000003"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.21/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000002D0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.22/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000011F"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.23/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000002D0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.24/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000002D0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.25/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000003C0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.26/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000003C0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.27/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000003C0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.28/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000003C0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.29/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000003C0"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.30/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000060EB"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.31/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000060EB"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.32/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000002"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.33/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000002"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.34/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000110"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.35/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000001525"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.36/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000138"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.37/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000093"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.38/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000093"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.39/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.40/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.41/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.42/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.43/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.44/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.45/@value"/>
+  </statistics>
+  <statistics>
+    <value>
+      <properties key="calls" value="ACED00057372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000001"/>
+    </value>
+    <key href="execution-model.xmi#//@invocations.46/@value"/>
+  </statistics>
+</statistics:StatisticsModel>

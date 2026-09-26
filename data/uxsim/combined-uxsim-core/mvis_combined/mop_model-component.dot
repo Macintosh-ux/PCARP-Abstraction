@@ -1,0 +1,490 @@
+digraph "mop_model" {
+	rankdir="LR"
+	node [fillcolor="white",shape="box",color="#000000",style="filled"]
+	edge [color="#000000",style="solid",arrowhead="open"]
+	"uxsim.uxsim_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.uxsim
+"]
+	"uxsim.scenario_reader_writer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.scenario_reader_writer
+"]
+	"turtle_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+turtle.turtle
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer
+"]
+	"builtins_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+builtins.builtins
+"]
+	"uxsim.utils_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.utils
+"]
+	"matplotlib_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+matplotlib.matplotlib
+"]
+	"inspect_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+inspect.inspect
+"]
+	"asyncio_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+asyncio.asyncio
+"]
+	"uxsim.analyzer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.analyzer
+"]
+	"uxsim.Utilities.Utilities_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.Utilities.Utilities
+"]
+	"optparse_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+optparse.optparse
+"]
+	"collections_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+collections.collections
+"]
+	"PyQt5.QtWidgets_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+PyQt5.QtWidgets
+"]
+	"uxsim.DTAsolvers.DTAsolvers_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.DTAsolvers.DTAsolvers
+"]
+	"uxsim.OSMImporter2.OSMImporter2_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.OSMImporter2.OSMImporter2
+"]
+	"socket_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+socket.socket
+"]
+	"_operator_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+_operator._operator
+"]
+	"lzma_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+lzma.lzma
+"]
+	"aifc_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+aifc.aifc
+"]
+	"scipy.interpolate_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+scipy.interpolate
+"]
+	"uxsim.TaxiHandler.TaxiHandler_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.TaxiHandler.TaxiHandler
+"]
+	"uxsim.uxsim.World_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.World
+"]
+	"uxsim.uxsim.Node_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.Node
+"]
+	"numpy_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+numpy.numpy
+"]
+	"imaplib_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+imaplib.imaplib
+"]
+	"uxsim.uxsim.Vehicle_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.Vehicle
+"]
+	"networkx_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+networkx.networkx
+"]
+	"scipy.sparse.csgraph_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+scipy.sparse.csgraph
+"]
+	"ast_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+ast.ast
+"]
+	"IPython.display_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+IPython.display
+"]
+	"uxsim.uxsim.Route_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.uxsim.Route
+"]
+	"uxsim.utils.catch_exceptions_and_warn_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.utils.catch_exceptions_and_warn
+"]
+	"PyQt5.QtGui_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+PyQt5.QtGui
+"]
+	"PyQt5.QtCore_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+PyQt5.QtCore
+"]
+	"++unknown-component++_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+.++unknown-component++
+"]
+	"_tracemalloc_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+_tracemalloc._tracemalloc
+"]
+	"uxsim.analyzer.Analyzer_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.analyzer.Analyzer
+"]
+	"uxsim.scenario_reader_writer.demand_info_record_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.scenario_reader_writer.demand_info_record
+"]
+	"tokenize_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+tokenize.tokenize
+"]
+	"uxsim.OSMImporter.OSMImporter_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.OSMImporter.OSMImporter
+"]
+	"uxsim.analyzer.analyzer_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.analyzer.analyzer
+"]
+	"tqdm.auto_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+tqdm.auto
+"]
+	"uxsim.uxsim.RouteChoice_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.RouteChoice
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer
+"]
+	"uxsim.uxsim.Link_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.Link
+"]
+	"marshal_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+marshal.marshal
+"]
+	"cgi_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+cgi.cgi
+"]
+	"contextlib_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+contextlib.contextlib
+"]
+	"uxsim.utils.utils_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.utils.utils
+"]
+	"matplotlib.lines_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+matplotlib.lines
+"]
+	"_curses_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+_curses._curses
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow
+"]
+	"pathlib_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+pathlib.pathlib
+"]
+	"glob_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+glob.glob
+"]
+	"re_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+re.re
+"]
+	"importlib.resources_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+importlib.resources
+"]
+	"scipy.sparse_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+scipy.sparse
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.GraphWidget_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.GraphWidget
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.PandasModel_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.PandasModel
+"]
+	"tkinter_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+tkinter.tkinter
+"]
+	"pipes_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+pipes.pipes
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem
+"]
+	"shapely.geometry_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+shapely.geometry
+"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.TaxiHandler.TaxiHandler.TripRequest
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.NodeItem_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.NodeItem
+"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "turtle_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "builtins_0" [label="1"]
+	"uxsim.utils_0" -> "matplotlib_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "turtle_0" [label="1"]
+	"uxsim.uxsim_0" -> "inspect_0" [label="2"]
+	"uxsim.utils_0" -> "asyncio_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.analyzer_0" -> "turtle_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "optparse_0" [label="2"]
+	"uxsim.uxsim_0" -> "turtle_0" [label="1"]
+	"uxsim.analyzer_0" -> "collections_0" [label="5"]
+	"uxsim.analyzer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "builtins_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "PyQt5.QtWidgets_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "builtins_0" [label="3"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "turtle_0" [label="4"]
+	"uxsim.uxsim_0" -> "socket_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "_operator_0" [label="3"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.uxsim_0" -> "lzma_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "optparse_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "aifc_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.uxsim_0" [label="2"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "asyncio_0" [label="2"]
+	"uxsim.analyzer_0" -> "scipy.interpolate_0" [label="1"]
+	"uxsim.uxsim_0" -> "_operator_0" [label="6"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "inspect_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "asyncio_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.utils_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.Node_0" [label="960"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "numpy_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "asyncio_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "imaplib_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"uxsim.analyzer_0" -> "_operator_0" [label="2"]
+	"uxsim.uxsim_0" -> "numpy_0" [label="14"]
+	"uxsim.utils_0" -> "turtle_0" [label="1"]
+	"uxsim.analyzer_0" -> "matplotlib_0" [label="4"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.Vehicle_0" [label="272"]
+	"uxsim.analyzer_0" -> "uxsim.utils_0" [label="1"]
+	"uxsim.uxsim_0" -> "optparse_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "turtle_0" [label="3"]
+	"uxsim.uxsim_0" -> "asyncio_0" [label="2"]
+	"uxsim.Utilities.Utilities_0" -> "numpy_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "optparse_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "aifc_0" [label="1"]
+	"uxsim.analyzer_0" -> "asyncio_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.uxsim.Node_0" [label="960"]
+	"uxsim.Utilities.Utilities_0" -> "builtins_0" [label="1"]
+	"uxsim.analyzer_0" -> "inspect_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "networkx_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.uxsim.World_0" [label="324"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "optparse_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "scipy.sparse.csgraph_0" [label="1"]
+	"uxsim.utils_0" -> "ast_0" [label="1"]
+	"uxsim.analyzer_0" -> "IPython.display_0" [label="1"]
+	"uxsim.uxsim_0" -> "aifc_0" [label="1"]
+	"uxsim.analyzer_0" -> "aifc_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Route_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "_operator_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.utils.catch_exceptions_and_warn_0" [label="3"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "PyQt5.QtGui_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "PyQt5.QtCore_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "asyncio_0" [label="2"]
+	"++unknown-component++_0" -> "uxsim.uxsim.World_0" [label="4"]
+	"uxsim.utils_0" -> "numpy_0" [label="1"]
+	"uxsim.utils_0" -> "_operator_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "_tracemalloc_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "turtle_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.analyzer.Analyzer_0" [label="1"]
+	"++unknown-component++_0" -> "uxsim.scenario_reader_writer.demand_info_record_0" [label="2"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.analyzer_0" -> "tokenize_0" [label="2"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "turtle_0" [label="2"]
+	"uxsim.analyzer_0" -> "numpy_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "builtins_0" [label="2"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "numpy_0" [label="2"]
+	"uxsim.analyzer_0" -> "optparse_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.uxsim_0" [label="2"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "inspect_0" [label="4"]
+	"uxsim.Utilities.Utilities_0" -> "inspect_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.analyzer_0" [label="3"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.analyzer.analyzer_0" [label="1"]
+	"uxsim.analyzer_0" -> "tqdm.auto_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "_operator_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="2"]
+	"uxsim.analyzer_0" -> "builtins_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "lzma_0" [label="2"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "turtle_0" [label="2"]
+	"uxsim.scenario_reader_writer_0" -> "inspect_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "networkx_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.analyzer.Analyzer_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.RouteChoice_0" [label="2"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "numpy_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "_operator_0" [label="6"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer_0" [label="1"]
+	"uxsim.utils_0" -> "inspect_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "aifc_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "builtins_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.RouteChoice_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.Link_0" [label="3"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "_operator_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "marshal_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.World_0" [label="162"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "cgi_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.uxsim.World_0" [label="2"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Vehicle_0" [label="1"]
+	"uxsim.uxsim_0" -> "collections_0" [label="2"]
+	"++unknown-component++_0" -> "uxsim.utils.catch_exceptions_and_warn_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "IPython.display_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "contextlib_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "lzma_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.utils.utils_0" [label="1"]
+	"uxsim.analyzer_0" -> "networkx_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.uxsim.Link_0" [label="9"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.uxsim.Node_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "numpy_0" [label="11"]
+	"uxsim.utils_0" -> "contextlib_0" [label="1"]
+	"uxsim.analyzer_0" -> "matplotlib.lines_0" [label="7"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "builtins_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "builtins_0" [label="2"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "aifc_0" [label="1"]
+	"uxsim.utils.catch_exceptions_and_warn_0" -> "uxsim.analyzer.Analyzer_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "aifc_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "_operator_0" [label="4"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "_curses_0" [label="1"]
+	"uxsim.analyzer_0" -> "lzma_0" [label="2"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Node_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "pathlib_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.analyzer.Analyzer_0" [label="1"]
+	"uxsim.analyzer_0" -> "glob_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.uxsim.Vehicle_0" [label="147"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "aifc_0" [label="1"]
+	"uxsim.uxsim_0" -> "marshal_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "collections_0" [label="2"]
+	"uxsim.uxsim_0" -> "scipy.sparse.csgraph_0" [label="1"]
+	"uxsim.analyzer_0" -> "socket_0" [label="2"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "numpy_0" [label="3"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "inspect_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "imaplib_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.uxsim.Vehicle_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "imaplib_0" [label="1"]
+	"uxsim.utils_0" -> "IPython.display_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "re_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="0"]
+	"uxsim.Utilities.Utilities_0" -> "collections_0" [label="1"]
+	"uxsim.analyzer_0" -> "importlib.resources_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.utils_0" [label="1"]
+	"uxsim.uxsim_0" -> "scipy.sparse_0" [label="1"]
+	"uxsim.scenario_reader_writer.demand_info_record_0" -> "uxsim.uxsim.World_0" [label="2"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "inspect_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.GraphWidget_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.PandasModel_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "asyncio_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "inspect_0" [label="2"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "collections_0" [label="2"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "optparse_0" [label="2"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "asyncio_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "asyncio_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "numpy_0" [label="6"]
+	"uxsim.Utilities.Utilities_0" -> "scipy.sparse_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.uxsim.Link_0" [label="9"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "networkx_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.uxsim_0" -> "tkinter_0" [label="1"]
+	"uxsim.uxsim_0" -> "pipes_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.utils_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "optparse_0" [label="2"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "marshal_0" [label="1"]
+	"uxsim.utils_0" -> "aifc_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.scenario_reader_writer_0" [label="2"]
+	"uxsim.analyzer_0" -> "scipy.sparse.csgraph_0" [label="2"]
+	"uxsim.scenario_reader_writer_0" -> "pipes_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "lzma_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem_0" [label="1"]
+	"uxsim.analyzer_0" -> "pathlib_0" [label="1"]
+	"uxsim.analyzer_0" -> "imaplib_0" [label="3"]
+	"uxsim.uxsim_0" -> "imaplib_0" [label="3"]
+	"uxsim.scenario_reader_writer_0" -> "marshal_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.analyzer_0" [label="4"]
+	"uxsim.scenario_reader_writer_0" -> "_operator_0" [label="8"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Link_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "matplotlib_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "shapely.geometry_0" [label="2"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.TaxiHandler.TaxiHandler.TripRequest_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.uxsim.World_0" [label="6"]
+	"uxsim.analyzer_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.uxsim.Link_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.uxsim.Route_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.uxsim.RouteChoice_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.uxsim.Link_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.uxsim.Link_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.uxsim.Route_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" -> "uxsim.uxsim.Link_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.NodeItem_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+}

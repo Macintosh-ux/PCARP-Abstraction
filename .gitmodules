@@ -1,0 +1,27 @@
+[submodule "pyparse"]
+        path = tools/pyparse
+        url = https://github.com/Misrobody/pyparse.git
+[submodule "grouped-graph-visualizer"]
+        path = tools/grouped-graph-visualizer
+        url = https://github.com/Misrobody/grouped-graph-visualizer.git
+[submodule "Otkt-Instrument"]
+        path = tools/Otkt-Instrument
+        url = https://github.com/Misrobody/Otkt-Instrument.git
+[submodule "apps/numpy"]
+	path = apps/numpy
+	url = https://github.com/numpy/numpy.git
+[submodule "apps/scipy"]
+	path = apps/scipy
+	url = https://github.com/scipy/scipy.git
+[submodule "apps/matplotlib"]
+	path = apps/matplotlib
+	url = https://github.com/matplotlib/matplotlib.git
+[submodule "apps/Pillow"]
+	path = apps/Pillow
+	url = https://github.com/python-pillow/Pillow.git
+[submodule "apps/UXsim"]
+	path = apps/UXsim
+	url = https://github.com/toruseo/UXsim.git
+[submodule "apps/anytree"]
+	path = apps/anytree
+	url = https://github.com/c0fec0de/anytree.git

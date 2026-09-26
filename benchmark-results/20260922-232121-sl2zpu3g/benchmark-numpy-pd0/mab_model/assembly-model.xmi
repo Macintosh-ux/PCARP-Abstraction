@@ -1,0 +1,2558 @@
+<?xml version="1.0" encoding="ASCII"?>
+<assembly:AssemblyModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:assembly="platform:/resource/Kieker/model/analysismodel.ecore/assembly">
+  <components key="-- none --.AGGREGATED::aggregated">
+    <value signature="-- none --.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.33/@value"/>
+    </value>
+  </components>
+  <components key="lib_core.AGGREGATED::aggregated">
+    <value signature="lib_core.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.16/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.16/@value"/>
+      <storages key="numeric.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="test_errstate.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="_methods.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="MyArray2">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="ArrayRandom">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="_UFuncNoLoopError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="test_strings.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="ThrowsAfter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="test_numerictypes.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="printoptions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="_asarray.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="SubArrayFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="_ctypes">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="setup.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="shape_base.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="_ArrayMemoryError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="iinfo">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+      <storages key="_internal.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.18/@value"/>
+        </value>
+      </storages>
+      <storages key="memmap.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.19/@value"/>
+        </value>
+      </storages>
+      <storages key="c_void_p">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.20/@value"/>
+        </value>
+      </storages>
+      <storages key="test_cython.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.21/@value"/>
+        </value>
+      </storages>
+      <storages key="test_array_api_info.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.22/@value"/>
+        </value>
+      </storages>
+      <storages key="getlimits.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.23/@value"/>
+        </value>
+      </storages>
+      <storages key="overrides.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.24/@value"/>
+        </value>
+      </storages>
+      <storages key="multiarray.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.25/@value"/>
+        </value>
+      </storages>
+      <storages key="ArrayStruct">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.26/@value"/>
+        </value>
+      </storages>
+      <storages key="test_cpu_features.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.27/@value"/>
+        </value>
+      </storages>
+      <storages key="arrayprint.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.28/@value"/>
+        </value>
+      </storages>
+      <storages key="MachArLike">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.29/@value"/>
+        </value>
+      </storages>
+      <storages key="ArrayProxy">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.30/@value"/>
+        </value>
+      </storages>
+      <storages key="_Stream">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.31/@value"/>
+        </value>
+      </storages>
+      <storages key="test_umath.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.32/@value"/>
+        </value>
+      </storages>
+      <storages key="_TimelikeFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.33/@value"/>
+        </value>
+      </storages>
+      <storages key="test_custom_dtypes.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.34/@value"/>
+        </value>
+      </storages>
+      <storages key="Vec">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.35/@value"/>
+        </value>
+      </storages>
+      <storages key="errstate">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.36/@value"/>
+        </value>
+      </storages>
+      <storages key="ArrayDunder">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.37/@value"/>
+        </value>
+      </storages>
+      <storages key="IntegerFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.38/@value"/>
+        </value>
+      </storages>
+      <storages key="_natype.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.39/@value"/>
+        </value>
+      </storages>
+      <storages key="fromnumeric.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.40/@value"/>
+        </value>
+      </storages>
+      <storages key="_add_newdocs_scalars.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.41/@value"/>
+        </value>
+      </storages>
+      <storages key="test__exceptions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.42/@value"/>
+        </value>
+      </storages>
+      <storages key="test_limited_api.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.43/@value"/>
+        </value>
+      </storages>
+      <storages key="test_simd_module.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.44/@value"/>
+        </value>
+      </storages>
+      <storages key="test_casting_unittests.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.45/@value"/>
+        </value>
+      </storages>
+      <storages key="test_longdouble.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.46/@value"/>
+        </value>
+      </storages>
+      <storages key="DatetimeFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.47/@value"/>
+        </value>
+      </storages>
+      <storages key="StructuredVoidFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.48/@value"/>
+        </value>
+      </storages>
+      <storages key="records.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.49/@value"/>
+        </value>
+      </storages>
+      <storages key="_machar.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.50/@value"/>
+        </value>
+      </storages>
+      <storages key="Arrayish">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.51/@value"/>
+        </value>
+      </storages>
+      <storages key="_locales.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.52/@value"/>
+        </value>
+      </storages>
+      <storages key="test_einsum.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.53/@value"/>
+        </value>
+      </storages>
+      <storages key="einsumfunc.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.54/@value"/>
+        </value>
+      </storages>
+      <storages key="test_multiarray.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.55/@value"/>
+        </value>
+      </storages>
+      <storages key="FloatingFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.56/@value"/>
+        </value>
+      </storages>
+      <storages key="_dtype.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.57/@value"/>
+        </value>
+      </storages>
+      <storages key="test_umath_accuracy.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.58/@value"/>
+        </value>
+      </storages>
+      <storages key="test_deprecations.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.59/@value"/>
+        </value>
+      </storages>
+      <storages key="function_base.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.60/@value"/>
+        </value>
+      </storages>
+      <storages key="test_scalarmath.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.61/@value"/>
+        </value>
+      </storages>
+      <storages key="defchararray.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.62/@value"/>
+        </value>
+      </storages>
+      <storages key="test_stringdtype.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.63/@value"/>
+        </value>
+      </storages>
+      <storages key="data_source">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.64/@value"/>
+        </value>
+      </storages>
+      <storages key="ComplexFloatingFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.65/@value"/>
+        </value>
+      </storages>
+      <storages key="frominterface">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.66/@value"/>
+        </value>
+      </storages>
+      <storages key="test_arrayobject.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.67/@value"/>
+        </value>
+      </storages>
+      <storages key="DestructoBox">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.68/@value"/>
+        </value>
+      </storages>
+      <storages key="UFuncTypeError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.69/@value"/>
+        </value>
+      </storages>
+      <storages key="umath.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.70/@value"/>
+        </value>
+      </storages>
+      <storages key="test_unicode.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.71/@value"/>
+        </value>
+      </storages>
+      <storages key="MyThing">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.72/@value"/>
+        </value>
+      </storages>
+      <storages key="dummy_ctype">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.73/@value"/>
+        </value>
+      </storages>
+      <storages key="MyNoArrayFunctionArray">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.74/@value"/>
+        </value>
+      </storages>
+      <storages key="_UFuncOutputCastingError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.75/@value"/>
+        </value>
+      </storages>
+      <storages key="strings.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.76/@value"/>
+        </value>
+      </storages>
+      <storages key="test_extint128.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.77/@value"/>
+        </value>
+      </storages>
+      <storages key="_string_helpers.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.78/@value"/>
+        </value>
+      </storages>
+      <storages key="_UFuncInputCastingError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.79/@value"/>
+        </value>
+      </storages>
+      <storages key="test_print.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.80/@value"/>
+        </value>
+      </storages>
+      <storages key="ArrayInterface">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.81/@value"/>
+        </value>
+      </storages>
+      <storages key="numerictypes.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.82/@value"/>
+        </value>
+      </storages>
+      <storages key="test_simd.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.83/@value"/>
+        </value>
+      </storages>
+      <storages key="test_scalar_ctors.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.84/@value"/>
+        </value>
+      </storages>
+      <storages key="_ufunc_config.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.85/@value"/>
+        </value>
+      </storages>
+      <storages key="BoolFormat">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.86/@value"/>
+        </value>
+      </storages>
+      <storages key="test_umath_complex.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.87/@value"/>
+        </value>
+      </storages>
+      <storages key="test_defchararray.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.88/@value"/>
+        </value>
+      </storages>
+      <storages key="test_mem_overlap.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.89/@value"/>
+        </value>
+      </storages>
+      <storages key="test_ufunc.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.90/@value"/>
+        </value>
+      </storages>
+      <storages key="SomeClass">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.91/@value"/>
+        </value>
+      </storages>
+      <storages key="test_scalarbuffer.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.92/@value"/>
+        </value>
+      </storages>
+      <storages key="_type_aliases.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.93/@value"/>
+        </value>
+      </storages>
+      <storages key="_UFuncCastingError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.16/@value/@providedStorages.94/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="pycore.AGGREGATED::aggregated">
+    <value signature="pycore.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.35/@value"/>
+      <storages key="_internal.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.35/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.35/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="multiarray.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.35/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="distutils.AGGREGATED::aggregated">
+    <value signature="distutils.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.14/@value"/>
+    </value>
+  </components>
+  <components key="numpy.AGGREGATED::aggregated">
+    <value signature="numpy.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.8/@value"/>
+      <storages key="ctypeslib.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="test_laguerre.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="__config__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="_polybase.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="matlib.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="polynomial.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="legendre.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="polyutils.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="PytestTester">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="test_printing.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="laguerre.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="_globals.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="test_polynomial.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="test_classes.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="test_hermite_e.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="_pytesttester.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="test_chebyshev.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="version.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+      <storages key="ABCPolyBase">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.18/@value"/>
+        </value>
+      </storages>
+      <storages key="hermite.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.19/@value"/>
+        </value>
+      </storages>
+      <storages key="dtypes.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.20/@value"/>
+        </value>
+      </storages>
+      <storages key="exceptions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.21/@value"/>
+        </value>
+      </storages>
+      <storages key="test_hermite.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.22/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.23/@value"/>
+        </value>
+      </storages>
+      <storages key="test_legendre.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.24/@value"/>
+        </value>
+      </storages>
+      <storages key="conftest.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.25/@value"/>
+        </value>
+      </storages>
+      <storages key="hermite_e.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.26/@value"/>
+        </value>
+      </storages>
+      <storages key="_expired_attrs_2_0.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.27/@value"/>
+        </value>
+      </storages>
+      <storages key="chebyshev.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.28/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="libtests.AGGREGATED::aggregated">
+    <value signature="libtests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.38/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.38/@value"/>
+      <storages key="test_polynomial.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="JustReader">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="test_nanfunctions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="test__datasource.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="test_format.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="test_shape_base.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="test_function_base.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="test_recfunctions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="test_arraypad.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="JustWriter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="test_mixins.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="test_io.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="typingtests.AGGREGATED::aggregated">
+    <value signature="typingtests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.15/@value"/>
+      <storages key="scalars.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="simple_py3.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="index_tricks.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="ufunc_config.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="ufunclike.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="array_constructors.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="multiarray.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="numeric.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="arrayprint.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="literal.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="ndarray_misc.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="mod.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="random.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="shape.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="lib_version.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="dtype.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="test_runtime.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="lib_utils.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+      <storages key="arrayterator.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.18/@value"/>
+        </value>
+      </storages>
+      <storages key="einsumfunc.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.19/@value"/>
+        </value>
+      </storages>
+      <storages key="fromnumeric.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.20/@value"/>
+        </value>
+      </storages>
+      <storages key="arithmetic.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.21/@value"/>
+        </value>
+      </storages>
+      <storages key="ndarray_conversion.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.22/@value"/>
+        </value>
+      </storages>
+      <storages key="simple.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.23/@value"/>
+        </value>
+      </storages>
+      <storages key="flatiter.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.24/@value"/>
+        </value>
+      </storages>
+      <storages key="test_isfile.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.25/@value"/>
+        </value>
+      </storages>
+      <storages key="comparisons.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.26/@value"/>
+        </value>
+      </storages>
+      <storages key="ndarray_shape_manipulation.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.27/@value"/>
+        </value>
+      </storages>
+      <storages key="array_like.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.28/@value"/>
+        </value>
+      </storages>
+      <storages key="bitwise_ops.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.29/@value"/>
+        </value>
+      </storages>
+      <storages key="test_typing.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.30/@value"/>
+        </value>
+      </storages>
+      <storages key="ma.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.15/@value/@providedStorages.31/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="tedistutils.AGGREGATED::aggregated">
+    <value signature="tedistutils.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.27/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.27/@value"/>
+      <storages key="system_info">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="ArmCCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="PkgNotFound">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="lib2def.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="InstallableLib">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="Mingw32CCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="log.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="_shell_utils.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="Configuration">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="LinuxCPUInfo">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="_Cache">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="Win32CPUInfo">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="IntelCCompilerW">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="DarwinCPUInfo">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="_Parse">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="from_template.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="misc_util.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="VariableSet">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+      <storages key="core.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.18/@value"/>
+        </value>
+      </storages>
+      <storages key="ccompiler_opt.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.19/@value"/>
+        </value>
+      </storages>
+      <storages key="mingw32ccompiler.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.20/@value"/>
+        </value>
+      </storages>
+      <storages key="SunOSCPUInfo">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.21/@value"/>
+        </value>
+      </storages>
+      <storages key="conv_template.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.22/@value"/>
+        </value>
+      </storages>
+      <storages key="npy_pkg_config.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.23/@value"/>
+        </value>
+      </storages>
+      <storages key="ccompiler.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.24/@value"/>
+        </value>
+      </storages>
+      <storages key="_CCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.25/@value"/>
+        </value>
+      </storages>
+      <storages key="_numpy_info">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.26/@value"/>
+        </value>
+      </storages>
+      <storages key="ssl2_info">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.27/@value"/>
+        </value>
+      </storages>
+      <storages key="FujitsuCCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.28/@value"/>
+        </value>
+      </storages>
+      <storages key="system_info.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.29/@value"/>
+        </value>
+      </storages>
+      <storages key="_Distutils">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.30/@value"/>
+        </value>
+      </storages>
+      <storages key="IntelEM64TCCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.31/@value"/>
+        </value>
+      </storages>
+      <storages key="extension.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.32/@value"/>
+        </value>
+      </storages>
+      <storages key="mkl_info">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.33/@value"/>
+        </value>
+      </storages>
+      <storages key="LibraryInfo">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.34/@value"/>
+        </value>
+      </storages>
+      <storages key="cpuinfo.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.35/@value"/>
+        </value>
+      </storages>
+      <storages key="IRIXCPUInfo">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.36/@value"/>
+        </value>
+      </storages>
+      <storages key="FormatError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.37/@value"/>
+        </value>
+      </storages>
+      <storages key="IntelCCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.38/@value"/>
+        </value>
+      </storages>
+      <storages key="_Feature">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.39/@value"/>
+        </value>
+      </storages>
+      <storages key="NumpyDistribution">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.40/@value"/>
+        </value>
+      </storages>
+      <storages key="CCompilerOpt">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.41/@value"/>
+        </value>
+      </storages>
+      <storages key="PathScaleCCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.42/@value"/>
+        </value>
+      </storages>
+      <storages key="IntelEM64TCCompilerW">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.43/@value"/>
+        </value>
+      </storages>
+      <storages key="exec_command.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.44/@value"/>
+        </value>
+      </storages>
+      <storages key="Extension">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.45/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="testingtests.AGGREGATED::aggregated">
+    <value signature="testingtests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.11/@value"/>
+      <storages key="mod">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.11/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="ReferenceCycleInDel">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.11/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="liblinalg.AGGREGATED::aggregated">
+    <value signature="liblinalg.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.13/@value"/>
+      <storages key="_linalg.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.13/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.13/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="omlib.AGGREGATED::aggregated">
+    <value signature="omlib.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.40/@value"/>
+      <storages key="AxisConcatenator">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="Repository">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="_type_check_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="_scimath_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="nd_grid">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="NumpyVersion">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="_arraypad_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="BagObj">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="_version.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="Arrayterator">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="_arraysetops_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="_function_base_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="StringConverter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="_nanfunctions_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="_twodim_base_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="format.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="_polynomial_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+      <storages key="WriteWrap">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.18/@value"/>
+        </value>
+      </storages>
+      <storages key="_datasource.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.19/@value"/>
+        </value>
+      </storages>
+      <storages key="vectorize">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.20/@value"/>
+        </value>
+      </storages>
+      <storages key="_arrayterator_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.21/@value"/>
+        </value>
+      </storages>
+      <storages key="NpzFile">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.22/@value"/>
+        </value>
+      </storages>
+      <storages key="container">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.23/@value"/>
+        </value>
+      </storages>
+      <storages key="_FileOpeners">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.24/@value"/>
+        </value>
+      </storages>
+      <storages key="_array_utils_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.25/@value"/>
+        </value>
+      </storages>
+      <storages key="ndenumerate">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.26/@value"/>
+        </value>
+      </storages>
+      <storages key="_histograms_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.27/@value"/>
+        </value>
+      </storages>
+      <storages key="_shape_base_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.28/@value"/>
+        </value>
+      </storages>
+      <storages key="poly1d">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.29/@value"/>
+        </value>
+      </storages>
+      <storages key="IndexExpression">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.30/@value"/>
+        </value>
+      </storages>
+      <storages key="NameValidator">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.31/@value"/>
+        </value>
+      </storages>
+      <storages key="recfunctions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.32/@value"/>
+        </value>
+      </storages>
+      <storages key="_npyio_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.33/@value"/>
+        </value>
+      </storages>
+      <storages key="_iotools.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.34/@value"/>
+        </value>
+      </storages>
+      <storages key="_stride_tricks_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.35/@value"/>
+        </value>
+      </storages>
+      <storages key="ndindex">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.36/@value"/>
+        </value>
+      </storages>
+      <storages key="introspect.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.37/@value"/>
+        </value>
+      </storages>
+      <storages key="_utils_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.38/@value"/>
+        </value>
+      </storages>
+      <storages key="mixins.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.39/@value"/>
+        </value>
+      </storages>
+      <storages key="LineSplitter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.40/@value"/>
+        </value>
+      </storages>
+      <storages key="_Deprecate">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.41/@value"/>
+        </value>
+      </storages>
+      <storages key="_ufunclike_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.42/@value"/>
+        </value>
+      </storages>
+      <storages key="_index_tricks_impl.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.40/@value/@providedStorages.43/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="f2pytests.AGGREGATED::aggregated">
+    <value signature="f2pytests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.45/@value"/>
+      <storages key="util.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="Intent">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="Array">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="test_pyf_src.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="test_f2py2e.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="CompilerChecker">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="test_array_from_pyobj.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="test_docs.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="test_return_character.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="om_typing.AGGREGATED::aggregated">
+    <value signature="om_typing.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.29/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.29/@value"/>
+      <storages key="_nested_sequence.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="_array_like.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="_scalars.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="_nbit.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="_char_codes.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="_dtype_like.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="_shape.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="_add_docstring.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="_extended_precision.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="distutilscommand.AGGREGATED::aggregated">
+    <value signature="distutilscommand.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.1/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.1/@value"/>
+      <storages key="build_clib.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.1/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="GrabStdout">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.1/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="install_data.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.1/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.1/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="config.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.1/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="build_src.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.1/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="install.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.1/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="linalgtests.AGGREGATED::aggregated">
+    <value signature="linalgtests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.28/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.28/@value"/>
+      <storages key="test_linalg.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.28/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="LinalgCase">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.28/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="omma.AGGREGATED::aggregated">
+    <value signature="omma.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.30/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.30/@value"/>
+      <storages key="_DomainSafeDivide">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="_DomainGreaterEqual">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="ModuleTester">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="_MaskedUnaryOperation">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="timer_comparison.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="_DomainTan">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="_DomainCheckInterval">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="mrecords.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="_frommethod">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="_MaskedPrintOption">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="core.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="_DomainedBinaryOperation">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="_MaskedBinaryOperation">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="_extrema_operation">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="_convert2ma">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="_MaskedUFunc">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="_DomainGreater">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+      <storages key="testutils.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.18/@value"/>
+        </value>
+      </storages>
+      <storages key="extras.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.19/@value"/>
+        </value>
+      </storages>
+      <storages key="_fromnxfunction">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.20/@value"/>
+        </value>
+      </storages>
+      <storages key="MaskedIterator">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.30/@value/@providedStorages.21/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="testing_private.AGGREGATED::aggregated">
+    <value signature="testing_private.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.0/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.0/@value"/>
+      <storages key="clear_and_catch_warnings">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.0/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="suppress_warnings">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.0/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="extbuild.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.0/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="utils.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.0/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="pycompat.AGGREGATED::aggregated">
+    <value signature="pycompat.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.34/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.34/@value"/>
+      <storages key="py3k.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.34/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="contextlib_nullcontext">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.34/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.34/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="lif2py.AGGREGATED::aggregated">
+    <value signature="lif2py.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.37/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.37/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="_isocbind.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="use_rules.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="common_rules.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="Expr">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="_FromStringWorker">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="f2py2e.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="capi_maps.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="auxfuncs.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="_src_pyf.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="cb_rules.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="throw_error">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="crackfortran.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="_Pair">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="symbolic.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="rules.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="f90mod_rules.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="cfuncs.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.37/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="distutilsfcompiler.AGGREGATED::aggregated">
+    <value signature="distutilsfcompiler.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.10/@value"/>
+      <storages key="nag.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="gnu.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="hpux.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="FCompiler">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="pathf95.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="none.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="intel.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="sun.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="ibm.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="EnvironmentConfig">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="absoft.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="mips.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="vast.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="lahey.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="fujitsu.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="arm.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="compaq.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+      <storages key="g95.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.18/@value"/>
+        </value>
+      </storages>
+      <storages key="nv.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.19/@value"/>
+        </value>
+      </storages>
+      <storages key="environment.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.20/@value"/>
+        </value>
+      </storages>
+      <storages key="pg.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.10/@value/@providedStorages.21/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="omtests.AGGREGATED::aggregated">
+    <value signature="omtests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.5/@value"/>
+      <storages key="WrappedArray">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="FindFuncs">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="test_numpy_config.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="test_subclassing.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="test_old_ma.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="test_public_api.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="test_scripts.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="CSAIterator">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="ParseCall">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="test_configtool.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="test_core.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="test_arrayobject.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="ArrayNoInheritance">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.5/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="omfft.AGGREGATED::aggregated">
+    <value signature="omfft.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.22/@value"/>
+      <storages key="_pocketfft.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.22/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="_helper.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.22/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.22/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="py_utils.AGGREGATED::aggregated">
+    <value signature="py_utils.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.3/@value"/>
+      <storages key="_inspect.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.3/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="_convertions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.3/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="LegacyVersion">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.3/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="_pep440.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.3/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="Version">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.3/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="_pyinstallertests.AGGREGATED::aggregated">
+    <value signature="_pyinstallertests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.24/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.24/@value"/>
+      <storages key="pyinstaller-smoke.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.24/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="randomtests.AGGREGATED::aggregated">
+    <value signature="randomtests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.21/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.21/@value"/>
+      <storages key="test_generator_mt19937.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.21/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="test_direct.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.21/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="test_randomstate.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.21/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="distutilstests.AGGREGATED::aggregated">
+    <value signature="distutilstests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.25/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.25/@value"/>
+      <storages key="test_fcompiler_intel.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="test_misc_util.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="redirect_stdout">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+      <storages key="utilities.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.3/@value"/>
+        </value>
+      </storages>
+      <storages key="test_npy_pkg_config.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.4/@value"/>
+        </value>
+      </storages>
+      <storages key="test_ccompiler_opt_conf.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.5/@value"/>
+        </value>
+      </storages>
+      <storages key="test_system_info.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.6/@value"/>
+        </value>
+      </storages>
+      <storages key="_system_info">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.7/@value"/>
+        </value>
+      </storages>
+      <storages key="FakeCCompilerOpt">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.8/@value"/>
+        </value>
+      </storages>
+      <storages key="redirect_stderr">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.9/@value"/>
+        </value>
+      </storages>
+      <storages key="emulate_nonposix">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.10/@value"/>
+        </value>
+      </storages>
+      <storages key="test_from_template.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.11/@value"/>
+        </value>
+      </storages>
+      <storages key="test_log.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.12/@value"/>
+        </value>
+      </storages>
+      <storages key="test_ccompiler_opt.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.13/@value"/>
+        </value>
+      </storages>
+      <storages key="test_fcompiler_nagfor.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.14/@value"/>
+        </value>
+      </storages>
+      <storages key="test_shell_utils.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.15/@value"/>
+        </value>
+      </storages>
+      <storages key="test_fcompiler_gnu.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.16/@value"/>
+        </value>
+      </storages>
+      <storages key="test_fcompiler.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.25/@value/@providedStorages.17/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="acktesting.AGGREGATED::aggregated">
+    <value signature="acktesting.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.18/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.18/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.18/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="GenericObject">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.18/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="randomdata.AGGREGATED::aggregated">
+    <value signature="randomdata.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.17/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.17/@value"/>
+      <storages key="extending.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.17/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="extending_distributions.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.17/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="f2py_backends.AGGREGATED::aggregated">
+    <value signature="f2py_backends.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.26/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.26/@value"/>
+      <storages key="MesonBackend">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.26/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="MesonTemplate">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.26/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+      <storages key="Backend">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.26/@value/@providedStorages.2/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="matrixlibtests.AGGREGATED::aggregated">
+    <value signature="matrixlibtests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.39/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.39/@value"/>
+      <storages key="test_matrix_linalg.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.39/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="builtins.AGGREGATED::aggregated">
+    <value signature="builtins.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.12/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.12/@value"/>
+    </value>
+  </components>
+  <components key="terandom.AGGREGATED::aggregated">
+    <value signature="terandom.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.7/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.7/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.7/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="_pickle.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.7/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="ommatrixlib.AGGREGATED::aggregated">
+    <value signature="ommatrixlib.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.44/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.44/@value"/>
+      <storages key="defmatrix.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.44/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.44/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="gzip.AGGREGATED::aggregated">
+    <value signature="gzip.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.31/@value"/>
+    </value>
+  </components>
+  <components key="urllib.AGGREGATED::aggregated">
+    <value signature="urllib.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.36/@value"/>
+    </value>
+  </components>
+  <components key="ffttests.AGGREGATED::aggregated">
+    <value signature="ffttests.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.19/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.19/@value"/>
+    </value>
+  </components>
+  <components key="_core.AGGREGATED::aggregated">
+    <value signature="_core.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.32/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.32/@value"/>
+    </value>
+  </components>
+  <components key="calendar.AGGREGATED::aggregated">
+    <value signature="calendar.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.23/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.23/@value"/>
+    </value>
+  </components>
+  <components key="hashlib.AGGREGATED::aggregated">
+    <value signature="hashlib.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.4/@value"/>
+    </value>
+  </components>
+  <components key="itertools.AGGREGATED::aggregated">
+    <value signature="itertools.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.43/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.43/@value"/>
+    </value>
+  </components>
+  <components key="numpytyping.AGGREGATED::aggregated">
+    <value signature="numpytyping.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.41/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.41/@value"/>
+      <storages key="mypy_plugin.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.41/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.41/@value/@providedStorages.1/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="_csv.AGGREGATED::aggregated">
+    <value signature="_csv.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.6/@value"/>
+    </value>
+  </components>
+  <components key="te_pyinstaller.AGGREGATED::aggregated">
+    <value signature="te_pyinstaller.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.42/@value"/>
+      <storages key="hook-numpy.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.42/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="inspect.AGGREGATED::aggregated">
+    <value signature="inspect.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.9/@value"/>
+    </value>
+  </components>
+  <components key="++unknown-component++.AGGREGATED::aggregated">
+    <value signature="++unknown-component++.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.20/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.20/@value"/>
+    </value>
+  </components>
+  <components key="fractions.AGGREGATED::aggregated">
+    <value signature="fractions.AGGREGATED::aggregated">
+      <operations key="__aggregated_operation__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.2/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.2/@value"/>
+    </value>
+  </components>
+</assembly:AssemblyModel>

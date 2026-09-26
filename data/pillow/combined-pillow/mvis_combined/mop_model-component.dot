@@ -1,0 +1,109 @@
+digraph "mop_model" {
+	rankdir="LR"
+	node [fillcolor="white",shape="box",color="#000000",style="filled"]
+	edge [color="#000000",style="solid",arrowhead="open"]
+	"++unknown-component++_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+.++unknown-component++
+"]
+	"PIL.Image.Image_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.Image.Image
+"]
+	"PIL.ImageDraw.ImageDraw_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageDraw.ImageDraw
+"]
+	"PIL.TiffTags.TiffTags_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.TiffTags.TiffTags
+"]
+	"PIL.PngImagePlugin.PngImagePlugin_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.PngImagePlugin.PngImagePlugin
+"]
+	"PIL.ImageFile.ImageFile_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageFile.ImageFile
+"]
+	"PIL.ImageChops.ImageChops_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageChops.ImageChops
+"]
+	"PIL.ImageEnhance.Contrast_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageEnhance.Contrast
+"]
+	"PIL.ImageOps.ImageOps_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageOps.ImageOps
+"]
+	"PIL.ImageFont.ImageFont_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageFont.ImageFont
+"]
+	"PIL._util._util_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL._util._util
+"]
+	"PIL.ImageEnhance._Enhance_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageEnhance._Enhance
+"]
+	"PIL.ImageStat.Stat_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageStat.Stat
+"]
+	"PIL.ImageFont.FreeTypeFont_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageFont.FreeTypeFont
+"]
+	"PIL.ImageColor.ImageColor_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageColor.ImageColor
+"]
+	"PIL.PngImagePlugin._idat_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.PngImagePlugin._idat
+"]
+	"PIL.ImageMode.ImageMode_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageMode.ImageMode
+"]
+	"PIL._binary._binary_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL._binary._binary
+"]
+	"PIL.TiffTags.TagInfo_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.TiffTags.TagInfo
+"]
+	"PIL.ImageFilter.BuiltinFilter_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageFilter.BuiltinFilter
+"]
+	"++unknown-component++_0" -> "PIL.Image.Image_0" [label="2"]
+	"PIL.ImageDraw.ImageDraw_0" -> "PIL.Image.Image_0" [label="1"]
+	"++unknown-component++_0" -> "PIL.TiffTags.TiffTags_0" [label="1"]
+	"PIL.PngImagePlugin.PngImagePlugin_0" -> "PIL.ImageFile.ImageFile_0" [label="1"]
+	"PIL.ImageChops.ImageChops_0" -> "PIL.Image.Image_0" [label="2"]
+	"PIL.ImageDraw.ImageDraw_0" -> "PIL.ImageDraw.ImageDraw_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL.Image.Image_0" [label="3"]
+	"PIL.PngImagePlugin.PngImagePlugin_0" -> "PIL.PngImagePlugin.PngImagePlugin_0" [label="2"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL.Image.Image_0" [label="1"]
+	"PIL.ImageEnhance.Contrast_0" -> "PIL.Image.Image_0" [label="4"]
+	"++unknown-component++_0" -> "PIL.ImageOps.ImageOps_0" [label="1"]
+	"PIL.ImageOps.ImageOps_0" -> "PIL.Image.Image_0" [label="2"]
+	"PIL.ImageFont.ImageFont_0" -> "PIL._util._util_0" [label="1"]
+	"PIL.PngImagePlugin.PngImagePlugin_0" -> "PIL.Image.Image_0" [label="2"]
+	"PIL.ImageEnhance._Enhance_0" -> "PIL.Image.Image_0" [label="1"]
+	"PIL.ImageStat.Stat_0" -> "PIL.Image.Image_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL.PngImagePlugin.PngImagePlugin_0" [label="1"]
+	"++unknown-component++_0" -> "PIL.ImageFont.ImageFont_0" [label="1"]
+	"PIL.ImageStat.Stat_0" -> "PIL.ImageStat.Stat_0" [label="1"]
+	"PIL.ImageDraw.ImageDraw_0" -> "PIL.ImageFont.FreeTypeFont_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL.ImageColor.ImageColor_0" [label="1"]
+	"PIL.ImageColor.ImageColor_0" -> "PIL.Image.Image_0" [label="4"]
+	"PIL.PngImagePlugin.PngImagePlugin_0" -> "PIL.PngImagePlugin._idat_0" [label="1"]
+	"++unknown-component++_0" -> "PIL.ImageEnhance.Contrast_0" [label="1"]
+	"PIL.ImageFont.ImageFont_0" -> "PIL.ImageFont.FreeTypeFont_0" [label="2"]
+	"PIL.PngImagePlugin._idat_0" -> "PIL.PngImagePlugin.PngImagePlugin_0" [label="1"]
+	"PIL.ImageDraw.ImageDraw_0" -> "PIL.ImageColor.ImageColor_0" [label="3"]
+	"PIL.Image.Image_0" -> "PIL.ImageMode.ImageMode_0" [label="1"]
+	"++unknown-component++_0" -> "PIL.ImageChops.ImageChops_0" [label="1"]
+	"PIL.ImageColor.ImageColor_0" -> "PIL.ImageColor.ImageColor_0" [label="4"]
+	"PIL.ImageFont.FreeTypeFont_0" -> "PIL.ImageFont.ImageFont_0" [label="1"]
+	"PIL.PngImagePlugin.PngImagePlugin_0" -> "PIL._binary._binary_0" [label="2"]
+	"PIL.ImageEnhance.Contrast_0" -> "PIL.ImageStat.Stat_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL._util._util_0" [label="1"]
+	"PIL.ImageFont.ImageFont_0" -> "PIL.ImageFont.ImageFont_0" [label="1"]
+	"++unknown-component++_0" -> "PIL.ImageDraw.ImageDraw_0" [label="1"]
+	"PIL.TiffTags.TiffTags_0" -> "PIL.TiffTags.TagInfo_0" [label="147"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL.PngImagePlugin._idat_0" [label="1"]
+	"++unknown-component++_0" -> "PIL.ImageEnhance._Enhance_0" [label="1"]
+	"PIL.ImageOps.ImageOps_0" -> "PIL.ImageOps.ImageOps_0" [label="1"]
+	"PIL.ImageFont.FreeTypeFont_0" -> "PIL.Image.Image_0" [label="1"]
+	"PIL.ImageFont.FreeTypeFont_0" -> "PIL._util._util_0" [label="2"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL.ImageFile.ImageFile_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL.ImageFilter.BuiltinFilter_0" [label="2"]
+}

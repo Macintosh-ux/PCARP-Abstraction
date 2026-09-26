@@ -1,0 +1,150 @@
+# NOTE: dask tests run on a very small number of examples in CI due to
+# slowness. This causes very high flakiness in the tests.
+# Before changing this file, please run with at least 200 examples.
+
+# Broken edge case with shape 0
+# https://github.com/dask/dask/issues/11800
+array_api_tests/test_array_object.py::test_setitem
+
+# Various indexing errors
+array_api_tests/test_array_object.py::test_getitem_masking
+
+# zero division error, and typeerror: tuple indices must be integers or slices not tuple
+array_api_tests/test_creation_functions.py::test_eye
+
+# attributes are np.float32 instead of float
+# (see also https://github.com/data-apis/array-api/issues/405)
+array_api_tests/test_data_type_functions.py::test_finfo[float32]
+array_api_tests/test_data_type_functions.py::test_finfo[complex64]
+
+# out[-1]=dask.array<getitem ...> but should be some floating number
+# (I think the test is not forcing the op to be computed?)
+array_api_tests/test_creation_functions.py::test_linspace
+
+# Shape mismatch
+array_api_tests/test_indexing_functions.py::test_take
+
+# missing `take_along_axis`, https://github.com/dask/dask/issues/3663
+array_api_tests/test_indexing_functions.py::test_take_along_axis
+
+# Array methods and attributes not already on da.Array cannot be wrapped
+array_api_tests/test_has_names.py::test_has_names[array_method-__array_namespace__]
+array_api_tests/test_has_names.py::test_has_names[array_method-to_device]
+array_api_tests/test_has_names.py::test_has_names[array_attribute-device]
+array_api_tests/test_has_names.py::test_has_names[array_attribute-mT]
+
+# Data-dependent output shape
+# These tests fail as array-api-tests doesn't cope with unknown shapes
+# Also, output shape is (math.nan, ) instead of (None, )
+# Also, da.unique() doesn't accept equals_nan which causes non-compliant
+# output when there are NaNs in the input.
+array_api_tests/test_searching_functions.py::test_nonzero
+array_api_tests/test_set_functions.py::test_unique_all
+array_api_tests/test_set_functions.py::test_unique_counts
+array_api_tests/test_set_functions.py::test_unique_inverse
+array_api_tests/test_set_functions.py::test_unique_values
+
+# Linalg failures (signature failures/missing methods)
+
+# fails for ndim > 2
+array_api_tests/test_linalg.py::test_svdvals
+
+# dtype mismatch got uint64, but should be uint8; NPY_PROMOTION_STATE=weak doesn't help
+array_api_tests/test_linalg.py::test_tensordot
+
+# AssertionError: out.dtype=uint64, but should be uint8 [tensordot(uint8, uint8)]
+array_api_tests/test_linalg.py::test_linalg_tensordot
+
+# ZeroDivisionError in dask's normalize_chunks/auto_chunks internals
+array_api_tests/test_linalg.py::test_inv
+array_api_tests/test_linalg.py::test_matrix_power
+
+# Linalg - these don't exist in dask
+array_api_tests/test_signatures.py::test_extension_func_signature[linalg.cross]
+array_api_tests/test_signatures.py::test_extension_func_signature[linalg.det]
+array_api_tests/test_signatures.py::test_extension_func_signature[linalg.eigh]
+array_api_tests/test_signatures.py::test_extension_func_signature[linalg.eigvalsh]
+array_api_tests/test_signatures.py::test_extension_func_signature[linalg.matrix_power]
+array_api_tests/test_signatures.py::test_extension_func_signature[linalg.pinv]
+array_api_tests/test_signatures.py::test_extension_func_signature[linalg.slogdet]
+array_api_tests/test_linalg.py::test_cross
+array_api_tests/test_linalg.py::test_det
+array_api_tests/test_linalg.py::test_eigh
+array_api_tests/test_linalg.py::test_eigvalsh
+array_api_tests/test_linalg.py::test_matrix_rank
+array_api_tests/test_linalg.py::test_pinv
+array_api_tests/test_linalg.py::test_slogdet
+array_api_tests/test_has_names.py::test_has_names[linalg-cross]
+array_api_tests/test_has_names.py::test_has_names[linalg-det]
+array_api_tests/test_has_names.py::test_has_names[linalg-eigh]
+array_api_tests/test_has_names.py::test_has_names[linalg-eigvalsh]
+array_api_tests/test_has_names.py::test_has_names[linalg-matrix_power]
+array_api_tests/test_has_names.py::test_has_names[linalg-pinv]
+array_api_tests/test_has_names.py::test_has_names[linalg-slogdet]
+
+# Constructing the input arrays fails to a weird shape error...
+array_api_tests/test_linalg.py::test_solve
+
+# missing full_matrices kw
+# https://github.com/dask/dask/issues/10389
+# also only supports 2-d inputs
+array_api_tests/test_linalg.py::test_svd
+
+# Missing dlpack stuff
+array_api_tests/test_signatures.py::test_func_signature[from_dlpack]
+array_api_tests/test_signatures.py::test_array_method_signature[__array_namespace__]
+array_api_tests/test_signatures.py::test_array_method_signature[__dlpack__]
+array_api_tests/test_signatures.py::test_array_method_signature[__dlpack_device__]
+array_api_tests/test_signatures.py::test_array_method_signature[to_device]
+array_api_tests/test_has_names.py::test_has_names[creation-from_dlpack]
+array_api_tests/test_has_names.py::test_has_names[array_method-__dlpack__]
+array_api_tests/test_has_names.py::test_has_names[array_method-__dlpack_device__]
+
+# No mT on dask array
+array_api_tests/meta/test_hypothesis_helpers.py::test_symmetric_matrices
+
+# Edge case of args near 2**63
+# https://github.com/dask/dask/issues/11706
+array_api_tests/test_creation_functions.py::test_arange
+
+# da.searchsorted with a sorter argument is not supported
+array_api_tests/test_searching_functions.py::test_searchsorted
+
+# 2023.12 support
+array_api_tests/test_manipulation_functions.py::test_repeat
+
+# 2024.12 support
+array_api_tests/test_array_object.py::test_getitem_arrays_and_ints_1[1]
+array_api_tests/test_array_object.py::test_getitem_arrays_and_ints_1[None]
+array_api_tests/test_array_object.py::test_getitem_arrays_and_ints_2[1]
+array_api_tests/test_array_object.py::test_getitem_arrays_and_ints_2[None]
+array_api_tests/test_has_names.py::test_has_names[indexing-take_along_axis]
+array_api_tests/test_signatures.py::test_func_signature[count_nonzero]
+array_api_tests/test_signatures.py::test_func_signature[take_along_axis]
+
+array_api_tests/test_linalg.py::test_cholesky
+array_api_tests/test_linalg.py::test_linalg_matmul
+array_api_tests/test_linalg.py::test_matmul
+array_api_tests/test_linalg.py::test_matrix_norm
+array_api_tests/test_linalg.py::test_qr
+array_api_tests/test_manipulation_functions.py::test_roll
+
+# Stubs have a comment: (**note**: libraries may return ``NaN`` to match Python behavior.)
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is +infinity and isfinite(x2_i) and x2_i > 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is +infinity and isfinite(x2_i) and x2_i < 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is -infinity and isfinite(x2_i) and x2_i > 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is -infinity and isfinite(x2_i) and x2_i < 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(isfinite(x1_i) and x1_i > 0 and x2_i is -infinity) -> -0]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(isfinite(x1_i) and x1_i < 0 and x2_i is +infinity) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i > 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i < 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i > 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i < 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(isfinite(x1_i) and x1_i > 0 and x2_i is -infinity) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(isfinite(x1_i) and x1_i < 0 and x2_i is +infinity) -> -0]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i > 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i < 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i > 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i < 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(isfinite(x1_i) and x1_i > 0 and x2_i is -infinity) -> -0]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(isfinite(x1_i) and x1_i < 0 and x2_i is +infinity) -> -0]

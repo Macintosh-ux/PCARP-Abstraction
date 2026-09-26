@@ -1,0 +1,15 @@
+callerfilename,callermodule,caller,callee
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/tests/test_numerictypes.py,lib_core.test_numerictypes,test_sibling_class,w1
+/home/dl/.local/lib/python3.10/site-packages/numpy/f2py/rules.py,lif2py.rules,buildapi,r.r
+/home/dl/.local/lib/python3.10/site-packages/numpy/f2py/cb_rules.py,lif2py.cb_rules,buildcallback,r.r
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/tests/test_numerictypes.py,lib_core.test_numerictypes,test_sibling_class,w2
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/tests/test_scalar_methods.py,lib_core.test_scalar_methods,test_simple_fractions,R
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/tests/test_numerictypes.py,lib_core.test_numerictypes,test_same,w2
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/tests/test_numerictypes.py,lib_core.test_numerictypes,test_same,w1
+/home/dl/.local/lib/python3.10/site-packages/numpy/polynomial/tests/test_classes.py,numpy.polynomial.tests.test_classes,test_integ,P
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/tests/test_scalar_methods.py,lib_core.test_scalar_methods,test_against_known_values,R
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/tests/test_ufunc.py,lib_core.test_ufunc,test_axes_argument,mm
+/home/dl/.local/lib/python3.10/site-packages/numpy/polynomial/tests/test_classes.py,numpy.polynomial.tests.test_classes,test_call,P
+/home/dl/.local/lib/python3.10/site-packages/numpy/f2py/rules.py,lif2py.rules,buildmodule,r.r
+/home/dl/.local/lib/python3.10/site-packages/numpy/_core/getlimits.py,lib_core.getlimits,_register_known_types,ld
+/home/dl/.local/lib/python3.10/site-packages/numpy/f2py/capi_maps.py,lif2py.capi_maps,sign2map,il.il

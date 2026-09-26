@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="ASCII"?>
+<type:TypeModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="platform:/resource/Kieker/model/analysismodel.ecore/type">
+  <componentTypes key="++unknown-component++">
+    <value signature="++unknown-component++" name="++unknown-component++" package="">
+      <providedOperations key="++unknown-operation++">
+        <value signature="++unknown-operation++" name="++unknown-operation++" returnType="&lt;NO-RETURN-TYPE>"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.utils.utils">
+    <value signature="uxsim.utils.utils" name="utils" package="uxsim.utils">
+      <providedOperations key="public Object catch_exceptions_and_warn(Object)">
+        <value signature="public Object catch_exceptions_and_warn(Object)" name="catch_exceptions_and_warn" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object get_font_for_matplotlib(Object)">
+        <value signature="public Object get_font_for_matplotlib(Object)" name="get_font_for_matplotlib" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.utils.catch_exceptions_and_warn">
+    <value signature="uxsim.utils.catch_exceptions_and_warn" name="catch_exceptions_and_warn" package="uxsim.utils">
+      <providedOperations key="public Object decorator(Object)">
+        <value signature="public Object decorator(Object)" name="decorator" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object wrapper(Object, Object)">
+        <value signature="public Object wrapper(Object, Object)" name="wrapper" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.scenario_reader_writer.scenario_reader_writer">
+    <value signature="uxsim.scenario_reader_writer.scenario_reader_writer" name="scenario_reader_writer" package="uxsim.scenario_reader_writer">
+      <providedOperations key="public Object demand_info_record(Object)">
+        <value signature="public Object demand_info_record(Object)" name="demand_info_record" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.uxsim.World">
+    <value signature="uxsim.uxsim.World" name="World" package="uxsim.uxsim">
+      <providedOperations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value signature="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object addNode(Object, Object, Object)">
+        <value signature="public Object addNode(Object, Object, Object)" name="addNode" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object addLink(Object, Object, Object)">
+        <value signature="public Object addLink(Object, Object, Object)" name="addLink" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object get_node(Object, Object)">
+        <value signature="public Object get_node(Object, Object)" name="get_node" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void adddemand(Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value signature="public void adddemand(Object, Object, Object, Object, Object, Object, Object, Object, Object)" name="adddemand" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object addVehicle(Object, Object, Object, Object)">
+        <value signature="public Object addVehicle(Object, Object, Object, Object)" name="addVehicle" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object exec_simulation(Object, Object, Object, Object)">
+        <value signature="public Object exec_simulation(Object, Object, Object, Object)" name="exec_simulation" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void finalize_scenario(Object, Object)">
+        <value signature="public void finalize_scenario(Object, Object)" name="finalize_scenario" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void print_scenario_stats(Object)">
+        <value signature="public void print_scenario_stats(Object)" name="print_scenario_stats" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void simulation_terminated(Object)">
+        <value signature="public void simulation_terminated(Object)" name="simulation_terminated" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.uxsim.Node">
+    <value signature="uxsim.uxsim.Node" name="Node" package="uxsim.uxsim">
+      <providedOperations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value signature="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void generate(Object)">
+        <value signature="public void generate(Object)" name="generate" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void update(Object)">
+        <value signature="public void update(Object)" name="update" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void signal_control(Object)">
+        <value signature="public void signal_control(Object)" name="signal_control" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void flow_capacity_update(Object)">
+        <value signature="public void flow_capacity_update(Object)" name="flow_capacity_update" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void transfer(Object)">
+        <value signature="public void transfer(Object)" name="transfer" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.uxsim.Link">
+    <value signature="uxsim.uxsim.Link" name="Link" package="uxsim.uxsim">
+      <providedOperations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value signature="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void init_after_tmax_fix(Object)">
+        <value signature="public void init_after_tmax_fix(Object)" name="init_after_tmax_fix" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object density(Object)">
+        <value signature="public Object density(Object)" name="density" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object num_vehicles(Object)">
+        <value signature="public Object num_vehicles(Object)" name="num_vehicles" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object speed(Object)">
+        <value signature="public Object speed(Object)" name="speed" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void update(Object)">
+        <value signature="public void update(Object)" name="update" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void in_out_flow_constraint(Object)">
+        <value signature="public void in_out_flow_constraint(Object)" name="in_out_flow_constraint" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void set_traveltime_instant(Object)">
+        <value signature="public void set_traveltime_instant(Object)" name="set_traveltime_instant" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.scenario_reader_writer.demand_info_record">
+    <value signature="uxsim.scenario_reader_writer.demand_info_record" name="demand_info_record" package="uxsim.scenario_reader_writer">
+      <providedOperations key="public Object wrapper(Object, Object)">
+        <value signature="public Object wrapper(Object, Object)" name="wrapper" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.uxsim.Vehicle">
+    <value signature="uxsim.uxsim.Vehicle" name="Vehicle" package="uxsim.uxsim">
+      <providedOperations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value signature="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void update(Object)">
+        <value signature="public void update(Object)" name="update" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void record_log(Object, Object)">
+        <value signature="public void record_log(Object, Object)" name="record_log" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void route_pref_update(Object, Object)">
+        <value signature="public void route_pref_update(Object, Object)" name="route_pref_update" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void carfollow(Object)">
+        <value signature="public void carfollow(Object)" name="carfollow" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void route_next_link_choice(Object)">
+        <value signature="public void route_next_link_choice(Object)" name="route_next_link_choice" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void end_trip(Object)">
+        <value signature="public void end_trip(Object)" name="end_trip" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.uxsim.RouteChoice">
+    <value signature="uxsim.uxsim.RouteChoice" name="RouteChoice" package="uxsim.uxsim">
+      <providedOperations key="private void __init__(Object, Object)">
+        <value signature="private void __init__(Object, Object)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void route_search_all(Object, Object, Object)">
+        <value signature="public void route_search_all(Object, Object, Object)" name="route_search_all" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void homogeneous_DUO_update(Object)">
+        <value signature="public void homogeneous_DUO_update(Object)" name="homogeneous_DUO_update" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.analyzer.Analyzer">
+    <value signature="uxsim.analyzer.Analyzer" name="Analyzer" package="uxsim.analyzer">
+      <providedOperations key="private void __init__(Object, Object, Object, Object)">
+        <value signature="private void __init__(Object, Object, Object, Object)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void show_simulation_progress(Object)">
+        <value signature="public void show_simulation_progress(Object)" name="show_simulation_progress" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void basic_analysis(Object)">
+        <value signature="public void basic_analysis(Object)" name="basic_analysis" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object od_to_pandas(Object)">
+        <value signature="public Object od_to_pandas(Object)" name="od_to_pandas" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object od_analysis(Object)">
+        <value signature="public Object od_analysis(Object)" name="od_analysis" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void print_simple_stats(Object, Object)">
+        <value signature="public void print_simple_stats(Object, Object)" name="print_simple_stats" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="uxsim.analyzer.analyzer">
+    <value signature="uxsim.analyzer.analyzer" name="analyzer" package="uxsim.analyzer">
+      <providedOperations key="public Object load_font_data(Object)">
+        <value signature="public Object load_font_data(Object)" name="load_font_data" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+</type:TypeModel>

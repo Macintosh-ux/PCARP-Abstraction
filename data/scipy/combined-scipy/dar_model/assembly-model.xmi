@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="ASCII"?>
+<assembly:AssemblyModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:assembly="platform:/resource/Kieker/model/analysismodel.ecore/assembly">
+  <components key="++unknown-component++">
+    <value signature="++unknown-component++">
+      <operations key="++unknown-operation++">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.0/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.0/@value"/>
+    </value>
+  </components>
+  <components key="PIL.TiffTags.TiffTags">
+    <value signature="PIL.TiffTags.TiffTags">
+      <operations key="protected void _populate(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.1/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.1/@value"/>
+    </value>
+  </components>
+  <components key="PIL.TiffTags.TagInfo">
+    <value signature="PIL.TiffTags.TagInfo">
+      <operations key="private TagInfo __new__(int | None, String, int | None, int | None, dict[str, int] | None, TagInfo)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.2/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.2/@value"/>
+    </value>
+  </components>
+  <components key="PIL.Image.Image">
+    <value signature="PIL.Image.Image">
+      <operations key="protected void _apply_env_variables(dict[str, str] | None, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void register_open(String, Callable[[IO[bytes], str | bytes], ImageFile] | type[ImageFile], Callable[[bytes], bool | str] | None, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public void register_save(String, Callable[[Image, IO[bytes], str | bytes], None], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public void register_save_all(String, Callable[[Image, IO[bytes], str | bytes], None], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public void register_extensions(String, list[str], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="public void register_extension(String, String, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="public void register_mime(String, String, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="public ImageFile open(StrOrBytesPath | IO[bytes], Literal['r'], list[str] | tuple[str, ] | None, ImageFile)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="public void preinit(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="public void register_decoder(String, type[PyDecoder], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __init__(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="public void readonly(int, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="public String mode(String)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="public tuple[int, int] size(tuple[int, int])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="protected void _decompression_bomb_check(tuple[int, int], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="public CapsuleType getim(CapsuleType)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="public PixelAccess | None load(PixelAccess | None)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="public void im(ImagingCore, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="protected ImagingDecoder | PyDecoder _getdecoder(String, String, Any, tuple[Any, ], ImagingDecoder | PyDecoder)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="public ImagingCore im(ImagingCore)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="public int readonly(int)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __enter__()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="public Image convert(str | None, tuple[float, ] | None, Dither | None, Palette, int, Image)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="public Image copy(Image)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Image _new(ImagingCore, Image)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <operations key="public Image resize(tuple[int, int] | list[int] | NumpyArray, int | None, tuple[float, float, float, float] | None, float | None, Image)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.25/@value"/>
+        </value>
+      </operations>
+      <operations key="private dict[str, str | bytes | int | tuple[int, ]] __array_interface__(dict[str, str | bytes | int | tuple[int, ]])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.26/@value"/>
+        </value>
+      </operations>
+      <operations key="public byte[] tobytes(String, Any, byte[])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.27/@value"/>
+        </value>
+      </operations>
+      <operations key="public int width(int)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.28/@value"/>
+        </value>
+      </operations>
+      <operations key="public int height(int)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.29/@value"/>
+        </value>
+      </operations>
+      <operations key="protected ImagingEncoder | PyEncoder _getencoder(String, String, Any, tuple[Any, ], ImagingEncoder | PyEncoder)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.30/@value"/>
+        </value>
+      </operations>
+      <operations key="protected tuple[tuple[int, ], str] _conv_type_shape(Image, tuple[tuple[int, ], str])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.31/@value"/>
+        </value>
+      </operations>
+      <operations key="public Image fromarray(SupportsArrayInterface, str | None, Image)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.32/@value"/>
+        </value>
+      </operations>
+      <operations key="public Image frombuffer(String, tuple[int, int], bytes | SupportsArrayInterface, String, Any, Image)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.33/@value"/>
+        </value>
+      </operations>
+      <operations key="protected void _check_size(Any, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.34/@value"/>
+        </value>
+      </operations>
+      <operations key="public Image new(String, tuple[int, int] | list[int], float | tuple[float, ] | str | None, Image)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.35/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __exit__(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.36/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.3/@value"/>
+    </value>
+  </components>
+  <components key="scipy.linalg.blas.blas">
+    <value signature="scipy.linalg.blas.blas">
+      <operations key="protected Object _memoize_get_funcs(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object get_blas_funcs(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _get_funcs(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object find_best_blas_type(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.4/@value"/>
+    </value>
+  </components>
+  <components key="scipy.linalg.lapack.lapack">
+    <value signature="scipy.linalg.lapack.lapack">
+      <operations key="public Object backtickrepl(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _normalize_lapack_dtype(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object get_lapack_funcs(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.5/@value"/>
+    </value>
+  </components>
+  <components key="scipy._lib.array_api_extra.testing.testing">
+    <value signature="scipy._lib.array_api_extra.testing.testing">
+      <operations key="public Object override(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.6/@value"/>
+    </value>
+  </components>
+  <components key="scipy._lib.deprecation.deprecation">
+    <value signature="scipy._lib.deprecation.deprecation">
+      <operations key="protected Object _deprecate_positional_args(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.7/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.7/@value"/>
+    </value>
+  </components>
+  <components key="scipy._lib.doccer.doccer">
+    <value signature="scipy._lib.doccer.doccer">
+      <operations key="public String docformat(String, Object | Object, String)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public int indentcount_lines(Iterable&lt;T>, int)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object filldoc(Object, boolean, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public Map&lt;K, V> unindent_dict(Object, Map&lt;K, V>)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public String unindent_string(String, String)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object replace_notes_in_docstring(Object, String, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object extend_notes_in_docstring(Object, String, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object inherit_docstring_from(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.8/@value"/>
+    </value>
+  </components>
+  <components key="PIL.ImageTk.PhotoImage">
+    <value signature="PIL.ImageTk.PhotoImage">
+      <operations key="private void __init__(Image | str | None, tuple[int, int] | None, Any, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void paste(Image, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="private String __str__(String)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __del__(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.9/@value"/>
+    </value>
+  </components>
+  <components key="PIL.ImageTk.ImageTk">
+    <value signature="PIL.ImageTk.ImageTk">
+      <operations key="protected ImageFile | None _get_image_from_kw(dict[str, Any], ImageFile | None)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="protected void _pyimagingtkcall(String, PhotoImage | PhotoImage, CapsuleType, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.10/@value"/>
+    </value>
+  </components>
+  <components key="PIL._util._util">
+    <value signature="PIL._util._util">
+      <operations key="public TypeGuard[StrOrBytesPath] is_path(Any, TypeGuard[StrOrBytesPath])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.11/@value"/>
+    </value>
+  </components>
+  <components key="PIL.PngImagePlugin.PngImagePlugin">
+    <value signature="PIL.PngImagePlugin.PngImagePlugin">
+      <operations key="protected boolean _accept(byte[], boolean)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.12/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="protected int _crc32(byte[], int, int)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.12/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.12/@value"/>
+    </value>
+  </components>
+  <components key="PIL.ImageFile.ImageFile">
+    <value signature="PIL.ImageFile.ImageFile">
+      <operations key="private void __init__(StrOrBytesPath | IO[bytes], str | bytes | None, void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="protected byte[] _safe_read(IO[bytes], int, byte[])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public PixelAccess | None load(PixelAccess | None)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public void load_prepare(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="protected int _tilesort(_Tile, int)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="protected void _close_fp()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.13/@value"/>
+    </value>
+  </components>
+  <components key="PIL.PngImagePlugin.PngImageFile">
+    <value signature="PIL.PngImagePlugin.PngImageFile">
+      <operations key="protected void _open(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void load_prepare(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public byte[] load_read(int, byte[])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public void load_end(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.14/@value"/>
+    </value>
+  </components>
+  <components key="PIL.PngImagePlugin.PngStream">
+    <value signature="PIL.PngImagePlugin.PngStream">
+      <operations key="private void __init__(IO[bytes], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public byte[] chunk_IHDR(int, int, byte[])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public byte[] chunk_pHYs(int, int, byte[])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public NoReturn chunk_IDAT(int, int, NoReturn)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.15/@value"/>
+    </value>
+  </components>
+  <components key="PIL.PngImagePlugin.ChunkStream">
+    <value signature="PIL.PngImagePlugin.ChunkStream">
+      <operations key="private void __init__(IO[bytes], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.16/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public tuple[bytes, int, int] read(tuple[bytes, int, int])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.16/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public byte[] call(byte[], int, int, byte[])">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.16/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public void crc(byte[], byte[], void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.16/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="public void close(void)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.16/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.16/@value"/>
+    </value>
+  </components>
+  <components key="PIL._binary._binary">
+    <value signature="PIL._binary._binary">
+      <operations key="public int i32be(byte[], int, int)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.17/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.17/@value"/>
+    </value>
+  </components>
+  <components key="PIL.ImageMode.ImageMode">
+    <value signature="PIL.ImageMode.ImageMode">
+      <operations key="public ModeDescriptor getmode(String, ModeDescriptor)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.18/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.18/@value"/>
+    </value>
+  </components>
+  <components key="PIL._util.DeferredError">
+    <value signature="PIL._util.DeferredError">
+      <operations key="private void __init__(BaseException)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.19/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.19/@value"/>
+    </value>
+  </components>
+  <components key="scipy.fft._pocketfft.basic.basic">
+    <value signature="scipy.fft._pocketfft.basic.basic">
+      <operations key="public Object c2c(Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.20/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.20/@value"/>
+    </value>
+  </components>
+  <components key="scipy.fft._pocketfft.helper.helper">
+    <value signature="scipy.fft._pocketfft.helper.helper">
+      <operations key="protected Object _asfarray(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.21/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _datacopied(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.21/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _normalization(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.21/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _workers(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.21/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.21/@value"/>
+    </value>
+  </components>
+</assembly:AssemblyModel>

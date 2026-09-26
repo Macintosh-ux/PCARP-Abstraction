@@ -1,0 +1,170 @@
+digraph "mab_model" {
+	rankdir="LR"
+	node [fillcolor="white",shape="box",color="#000000",style="filled"]
+	edge [color="#000000",style="solid",arrowhead="open"]
+	"scipy.stats._distribution_infrastructure_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.stats._distribution_infrastructure
+"]
+	"scipy.differentiate.tests.test_differentiate_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.differentiate.tests.test_differentiate
+"]
+	"scipy.s.tests.test_base_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.s.tests.test_base
+"]
+	"scipy.ndimage.tests.test_filters_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.ndimage.tests.test_filters
+"]
+	"scipy.conftest_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.conftest
+"]
+	"scipy.ndimage._measurements_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.ndimage._measurements
+"]
+	"scipy.stats._continued_fraction_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.stats._continued_fraction
+"]
+	"scipy.stats.tests.test_distributions_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.stats.tests.test_distributions
+"]
+	"scipy.stats.tests.test_stats_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.stats.tests.test_stats
+"]
+	"scipy.stats._morestats_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.stats._morestats
+"]
+	"scipy.stats._continuous_distns_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.stats._continuous_distns
+"]
+	"scipy.integrate.tests.test_quadpack_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.integrate.tests.test_quadpack
+"]
+	"scipy.s.tests.test_dok_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.s.tests.test_dok
+"]
+	"PIL.Image.Image_0" [fillcolor="#f0f0f0",color="#1B2632",label="<<assembly component>>
+PIL.Image.Image
+"]
+	"scipy.integrate._ivp.bdf_0" [fillcolor="#fae5e3",color="#9E1000",label="<<assembly component>>
+scipy.integrate._ivp.bdf
+"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="2"]
+	"scipy.s.tests.test_base_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="3"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.conftest_0" [label="0"]
+	"scipy.ndimage._measurements_0" -> "scipy.stats._continued_fraction_0" [label="0"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="4"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="1"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.ndimage._measurements_0" [label="1"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.stats._morestats_0" [label="1"]
+	"scipy.stats._continuous_distns_0" -> "scipy.integrate.tests.test_quadpack_0" [label="0"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.integrate.tests.test_quadpack_0" [label="3"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.integrate.tests.test_quadpack_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.stats._continuous_distns_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.conftest_0" [label="6"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.stats._morestats_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.ndimage.tests.test_filters_0" [label="11"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.stats._morestats_0" -> "scipy.integrate.tests.test_quadpack_0" [label="4"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.ndimage._measurements_0" [label="1"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.integrate.tests.test_quadpack_0" [label="1"]
+	"scipy.stats._continuous_distns_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="1"]
+	"scipy.s.tests.test_dok_0" -> "scipy.s.tests.test_dok_0" [label="1"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.s.tests.test_dok_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.integrate.tests.test_quadpack_0" [label="0"]
+	"PIL.Image.Image_0" -> "PIL.Image.Image_0" [label="21"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.stats._continued_fraction_0" [label="2"]
+	"scipy.stats._morestats_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="0"]
+	"scipy.stats._continuous_distns_0" -> "scipy.ndimage._measurements_0" [label="1"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.ndimage._measurements_0" [label="0"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.conftest_0" [label="1"]
+	"scipy.stats._morestats_0" -> "scipy.integrate._ivp.bdf_0" [label="2"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="0"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.ndimage.tests.test_filters_0" [label="1"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.ndimage._measurements_0" [label="0"]
+	"scipy.stats._morestats_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.conftest_0" -> "scipy.conftest_0" [label="5"]
+	"scipy.s.tests.test_base_0" -> "scipy.ndimage._measurements_0" [label="3"]
+	"scipy.stats._morestats_0" -> "scipy.s.tests.test_dok_0" [label="0"]
+	"scipy.ndimage._measurements_0" -> "scipy.s.tests.test_dok_0" [label="1"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.s.tests.test_dok_0" [label="1"]
+	"scipy.ndimage._measurements_0" -> "scipy.ndimage._measurements_0" [label="0"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.s.tests.test_dok_0" [label="1"]
+	"scipy.stats._morestats_0" -> "scipy.ndimage._measurements_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.s.tests.test_dok_0" [label="1"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.conftest_0" [label="0"]
+	"scipy.stats._continued_fraction_0" -> "scipy.conftest_0" [label="1"]
+	"scipy.conftest_0" -> "scipy.stats._continued_fraction_0" [label="2"]
+	"scipy.stats._morestats_0" -> "scipy.stats._morestats_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.stats._distribution_infrastructure_0" [label="1"]
+	"scipy.stats._continuous_distns_0" -> "scipy.conftest_0" [label="9"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.stats._distribution_infrastructure_0" [label="1"]
+	"scipy.integrate._ivp.bdf_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.conftest_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.conftest_0" [label="0"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.ndimage.tests.test_filters_0" [label="1"]
+	"scipy.s.tests.test_dok_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.stats._continuous_distns_0" -> "scipy.stats._distribution_infrastructure_0" [label="1"]
+	"scipy.stats._continued_fraction_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.s.tests.test_dok_0" [label="3"]
+	"scipy.integrate.tests.test_quadpack_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="1"]
+	"scipy.integrate.tests.test_quadpack_0" -> "scipy.integrate.tests.test_quadpack_0" [label="1"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.integrate._ivp.bdf_0" [label="1"]
+	"scipy.stats._morestats_0" -> "scipy.conftest_0" [label="0"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.ndimage.tests.test_filters_0" [label="0"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.ndimage.tests.test_filters_0" [label="1"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.integrate.tests.test_quadpack_0" [label="0"]
+	"scipy.integrate._ivp.bdf_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="1"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.integrate._ivp.bdf_0" [label="2"]
+	"scipy.stats._continuous_distns_0" -> "scipy.integrate._ivp.bdf_0" [label="1"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="0"]
+	"scipy.stats._continuous_distns_0" -> "scipy.stats._morestats_0" [label="1"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.stats._distribution_infrastructure_0" [label="9"]
+	"scipy.stats._continued_fraction_0" -> "scipy.ndimage.tests.test_filters_0" [label="1"]
+	"scipy.integrate.tests.test_quadpack_0" -> "scipy.conftest_0" [label="4"]
+	"scipy.stats._continuous_distns_0" -> "scipy.s.tests.test_dok_0" [label="0"]
+	"scipy.ndimage._measurements_0" -> "scipy.integrate.tests.test_quadpack_0" [label="2"]
+	"scipy.integrate._ivp.bdf_0" -> "scipy.s.tests.test_dok_0" [label="2"]
+	"scipy.integrate._ivp.bdf_0" -> "scipy.stats._distribution_infrastructure_0" [label="5"]
+	"scipy.s.tests.test_dok_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="1"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.s.tests.test_dok_0" [label="0"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.stats._continued_fraction_0" [label="0"]
+	"scipy.stats._morestats_0" -> "scipy.ndimage.tests.test_filters_0" [label="1"]
+	"scipy.conftest_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="1"]
+	"scipy.conftest_0" -> "scipy.integrate.tests.test_quadpack_0" [label="1"]
+	"scipy.integrate.tests.test_quadpack_0" -> "scipy.stats._continued_fraction_0" [label="1"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.integrate.tests.test_quadpack_0" [label="0"]
+	"scipy.ndimage.tests.test_filters_0" -> "scipy.stats._morestats_0" [label="1"]
+	"scipy.stats._morestats_0" -> "scipy.stats._distribution_infrastructure_0" [label="0"]
+	"scipy.integrate.tests.test_quadpack_0" -> "scipy.stats._morestats_0" [label="1"]
+	"scipy.integrate._ivp.bdf_0" -> "scipy.integrate._ivp.bdf_0" [label="2"]
+	"scipy.integrate._ivp.bdf_0" -> "scipy.integrate.tests.test_quadpack_0" [label="1"]
+	"scipy.stats._continuous_distns_0" -> "scipy.stats._continuous_distns_0" [label="4"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.stats.tests.test_stats_0" [label="1"]
+	"scipy.stats.tests.test_stats_0" -> "scipy.stats._distribution_infrastructure_0" [label="1"]
+	"scipy.s.tests.test_dok_0" -> "scipy.integrate.tests.test_quadpack_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.stats._morestats_0" [label="4"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.ndimage.tests.test_filters_0" [label="0"]
+	"scipy.integrate._ivp.bdf_0" -> "scipy.ndimage._measurements_0" [label="1"]
+	"scipy.stats._continuous_distns_0" -> "scipy.ndimage.tests.test_filters_0" [label="1"]
+	"scipy.stats._continued_fraction_0" -> "scipy.differentiate.tests.test_differentiate_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.integrate._ivp.bdf_0" [label="1"]
+	"scipy.stats._continued_fraction_0" -> "scipy.integrate._ivp.bdf_0" [label="4"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.stats._distribution_infrastructure_0" [label="0"]
+	"scipy.differentiate.tests.test_differentiate_0" -> "scipy.ndimage._measurements_0" [label="0"]
+	"scipy.conftest_0" -> "scipy.s.tests.test_dok_0" [label="8"]
+	"scipy.integrate.tests.test_quadpack_0" -> "scipy.ndimage._measurements_0" [label="4"]
+	"scipy.stats._continued_fraction_0" -> "scipy.integrate.tests.test_quadpack_0" [label="2"]
+	"scipy.conftest_0" -> "scipy.ndimage._measurements_0" [label="1"]
+	"scipy.s.tests.test_dok_0" -> "scipy.integrate._ivp.bdf_0" [label="1"]
+	"scipy.conftest_0" -> "scipy.integrate._ivp.bdf_0" [label="4"]
+	"scipy.ndimage._measurements_0" -> "scipy.integrate._ivp.bdf_0" [label="2"]
+	"scipy.stats._morestats_0" -> "scipy.stats._continuous_distns_0" [label="1"]
+	"scipy.s.tests.test_base_0" -> "scipy.stats._continuous_distns_0" [label="1"]
+	"scipy.stats._morestats_0" -> "scipy.stats.tests.test_stats_0" [label="1"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.stats.tests.test_distributions_0" [label="1"]
+	"scipy.stats.tests.test_distributions_0" -> "scipy.stats.tests.test_stats_0" [label="1"]
+	"scipy.stats._morestats_0" -> "scipy.stats.tests.test_distributions_0" [label="1"]
+	"scipy.stats._distribution_infrastructure_0" -> "scipy.stats.tests.test_distributions_0" [label="1"]
+}

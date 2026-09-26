@@ -1,0 +1,101 @@
+
+[32m============================================================[0m
+[32m                ABSTRACTION-ONLY MODE[0m
+[32m============================================================[0m
+
+[32m▶ Abstracting models with MAB...[0m
+  Input:  bin/scipy/mop_model
+  Output: bin/benchmark-scipy-pta25/mab_model
+  Level:  A
+
+00:40:43.190 [main] DEBUG tools.abstraction.ModelAbstraction:ModelAbstraction-0 -- numOpenedInputPorts (inc): 1
+00:40:43.193 [main] DEBUG org.oceandsl.analysis.architecture.stages.ModelSink:ModelSink-0 -- numOpenedInputPorts (inc): 1
+00:40:43.199 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@4cb2c100 and teetime.framework.InputPort@6fb554cc
+00:40:43.200 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@6be46e8f and teetime.framework.InputPort@3567135c
+00:40:43.204 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Executing runnable stage...
+00:40:43.204 [main] INFO teetime.framework.Execution -- Using scheduler: teetime.framework.scheduling.pushpullmodel.PushPullScheduling@7f560810
+00:40:43.471 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model type-model.xmi
+00:40:43.986 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model assembly-model.xmi
+00:40:44.833 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model deployment-model.xmi
+00:40:45.721 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model execution-model.xmi
+00:40:48.542 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model statistics-model.xmi
+00:40:50.392 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model source-model.xmi
+[32m
+===== ORIGINAL MODEL STATE =====
+ComponentTypes: 1443
+AssemblyComponents: 1443
+Invocations: 95293
+Statistics entries: 79186
+Source entries: 478[0m
+[32mDisplayed edges: 10032[0m
+[35mThreshold: 36926[0m
+Invocations: 95293 -> 5549 (merged 89744)
+Invocation calls preserved: 147706 -> 147706
+[32m
+===== COMPLETE MODEL VALIDATION =====
+ComponentTypes: 33
+AssemblyComponents: 33
+DeployedComponents: 35
+OperationTypes: 3724
+AssemblyOperations: 3724
+DeployedOperations: 3725
+Invocations: 5549
+Invocation call sum: 147706
+Statistics entries: 4969
+Source entries: 24
+Consistency errors: 0[0m
+[32mDisplayed edges: 333[0m
+00:41:02.973 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model type-model.xmi
+00:41:03.023 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model assembly-model.xmi
+00:41:03.158 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model deployment-model.xmi
+00:41:03.257 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model execution-model.xmi
+00:41:03.529 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model statistics-model.xmi
+00:41:03.706 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model source-model.xmi
+00:41:03.708 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Finished runnable stage. (ModelRepositoryProducerStage-0)
+real 20.722
+user 35.408
+sys 4.573
+[32m✔ Abstraction finished.[0m
+[32m▶ Running MVIS...[0m
+00:41:03.899 [main] DEBUG ModelVisualizationMain -- architecture modeler
+00:41:03.948 [main] DEBUG teetime.stage.basic.distributor.Distributor:Distributor-0 -- numOpenedInputPorts (inc): 1
+00:41:03.949 [main] DEBUG teetime.stage.basic.distributor.Distributor:Distributor-1 -- numOpenedInputPorts (inc): 1
+00:41:03.950 [main] DEBUG kieker.analysis.architecture.dependency.DependencyGraphCreatorStage:DependencyGraphCreatorStage-0 -- numOpenedInputPorts (inc): 1
+00:41:04.039 [main] DEBUG kieker.analysis.generic.sink.graph.dot.DotFileWriterStage:DotFileWriterStage-0 -- numOpenedInputPorts (inc): 1
+00:41:04.044 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@3d3fcdb0 and teetime.framework.InputPort@641147d0
+00:41:04.044 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@64d7f7e0 and teetime.framework.InputPort@27c6e487
+00:41:04.044 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@28c4711c and teetime.framework.InputPort@59717824
+00:41:04.044 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@15d9bc04 and teetime.framework.InputPort@473b46c3
+00:41:04.047 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Executing runnable stage...
+00:41:04.047 [main] DEBUG teetime.framework.Execution -- Using scheduler: teetime.framework.scheduling.pushpullmodel.PushPullScheduling
+00:41:04.048 [main] DEBUG ModelVisualizationMain -- Running arch-mod
+00:41:04.208 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model type-model.xmi
+00:41:04.386 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model assembly-model.xmi
+00:41:04.562 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model deployment-model.xmi
+00:41:04.673 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model execution-model.xmi
+00:41:04.908 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model statistics-model.xmi
+00:41:05.119 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model source-model.xmi
+00:41:05.444 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Finished runnable stage. (ModelRepositoryProducerStage-0)
+00:41:05.444 [main] DEBUG ModelVisualizationMain -- Done
+real 1.718
+user 5.687
+sys 0.563
+[32m▶ Visualizing graph...[0m
+▶ Trying visualization with edge bundling...
+real 0.724
+user 1.756
+sys 0.049
+✔ Visualization with edge bundling finished.
+
+[32m============================================================[0m
+[32m          ABSTRACTION + VISUALIZATION DONE[0m
+[32m============================================================[0m
+
+[32mMAB model:[0m      bin/benchmark-scipy-pta25/mab_model
+[32mDOT graph:[0m      bin/benchmark-scipy-pta25/mvis_combined/mab_model-component.dot
+[32mVisualization:[0m bin/benchmark-scipy-pta25/mvis_combined/output.svg
+
+
+BENCH_EXIT_CODE=0
+
+BENCH_RESULT_JSON={"reported_displayed_edges": 333, "exit_code": 0, "original_component_types": 1443, "original_assembly_components": 1443, "original_invocations": 95293, "original_statistics_entries": 79186, "original_source_entries": 478, "final_component_types": 33, "final_assembly_components": 33, "final_deployed_components": 35, "final_operation_types": 3724, "final_assembly_operations": 3724, "final_deployed_operations": 3725, "final_invocations": 5549, "final_invocation_calls": 147706, "final_statistics_entries": 4969, "final_source_entries": 24, "tulip_mode": "requested", "consistency_errors": 0, "mab_attempts": 1, "mab_real_s": 20.722, "mab_user_s": 35.408, "mab_sys_s": 4.573, "mvis_attempts": 1, "mvis_real_s": 1.718, "mvis_user_s": 5.687, "mvis_sys_s": 0.563, "tulip_attempts": 1, "tulip_real_s": 0.724, "tulip_user_s": 1.756, "tulip_sys_s": 0.049, "phases_real_s": 23.164, "warnings": "", "case": "scipy_pta25", "run": 9, "warmup": 0, "status": "ok", "log": "/home/macintosh/PCARP/benchmark-results/20260922-232121-sl2zpu3g/0131.log", "workflow_real_s": 23.172173, "workflow_user_s": 42.854992, "workflow_sys_s": 5.188602, "original_operation_types": 85273, "original_assembly_operations": 85273, "original_deployed_components": 1444, "original_deployed_operations": 85273, "original_operation_dataflows": 66784, "original_storage_dataflows": 3052, "original_model_bytes": 176682586, "model_bytes": 8261075, "final_operation_dataflows": 403, "final_storage_dataflows": 578}

@@ -1,0 +1,3448 @@
+<?xml version="1.0" encoding="ASCII"?>
+<assembly:AssemblyModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:assembly="platform:/resource/Kieker/model/analysismodel.ecore/assembly">
+  <components key="anytree.cachedsearch.cachedsearch">
+    <value signature="anytree.cachedsearch.cachedsearch">
+      <operations key="protected Object _cache(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.0/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.0/@value"/>
+    </value>
+  </components>
+  <components key="anytree.render.render">
+    <value signature="anytree.render.render">
+      <operations key="protected void _is_last(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.1/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.1/@value"/>
+    </value>
+  </components>
+  <components key="anytree.iterators.preorderiter.PreOrderIter">
+    <value signature="anytree.iterators.preorderiter.PreOrderIter">
+      <operations key="protected void _iter(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.2/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="PreOrderIter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.2/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.2/@value"/>
+    </value>
+  </components>
+  <components key="anytree.iterators.abstractiter.AbstractIter">
+    <value signature="anytree.iterators.abstractiter.AbstractIter">
+      <operations key="private void __init__(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __iter__()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __next__()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __init()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _abort_at_level(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _get_children(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __default_stop(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __default_filter(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="self.node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="AbstractIter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="self.stop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="self.filter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="self.maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.3/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.3/@value"/>
+      <storages key="AbstractIter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.3/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.node.node.Node">
+    <value signature="anytree.node.node.Node">
+      <operations key="private void __init__(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.name">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.4/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.4/@value"/>
+      <storages key="Node">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.4/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="++unknown-component++">
+    <value signature="++unknown-component++">
+      <operations key="++unknown-operation++">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.5/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.5/@value"/>
+    </value>
+  </components>
+  <components key="anytree.render.AbstractStyle">
+    <value signature="anytree.render.AbstractStyle">
+      <operations key="private void __init__(Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object empty()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="AbstractStyle">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="self.end">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="self.vertical">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="self.cont">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.6/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.6/@value"/>
+      <storages key="AbstractStyle">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.6/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.cachedsearch._cache">
+    <value signature="anytree.cachedsearch._cache">
+      <operations key="public Object decorator(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.7/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.7/@value"/>
+    </value>
+  </components>
+  <components key="anytree.exporter.dotexporter.DotExporter">
+    <value signature="anytree.exporter.dotexporter.DotExporter">
+      <operations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="public void to_picture(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __iter__()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __iter(Object, Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __iter_options(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __iter_nodes(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _default_filter(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _default_nodenamefunc(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _default_nodeattrfunc(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object esc(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __iter_edges(Object, Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _default_edgeattrfunc(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="protected Object _default_edgetypefunc(Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="self.nodenamefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="self.edgeattrfunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="self.node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="DotExporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="self.nodeattrfunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="self.stop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="self.maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="self.options">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="self.indent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="UniqueDotExporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="self.edgetypefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="self.filter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <operations key="self.graph">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.25/@value"/>
+        </value>
+      </operations>
+      <operations key="self.name">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.8/@value/@providedOperations.26/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.8/@value"/>
+      <storages key="DotExporter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.8/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.render.RenderTree">
+    <value signature="anytree.render.RenderTree">
+      <operations key="private void __init__(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __iter__()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __next(Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __item(Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="self.childiter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="self.node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="RenderTree">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="self.style">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="self.maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.9/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.9/@value"/>
+      <storages key="RenderTree">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.9/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.render.ContStyle">
+    <value signature="anytree.render.ContStyle">
+      <operations key="private void __init__()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="ContStyle">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.10/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.10/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.nodemixin.NodeMixin">
+    <value signature="anytree.node.nodemixin.NodeMixin">
+      <operations key="public void parent(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __check_loop(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="public void iter_path_reverse()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object parent()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __detach(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="private void __attach(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="protected void _pre_attach(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="private Object __children_or_empty()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="protected void _post_attach(Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="public Object children()">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="LightNodeMixin">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="NodeMixin">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.11/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.11/@value"/>
+    </value>
+  </components>
+  <components key="anytree.iterators.levelorderiter.LevelOrderIter">
+    <value signature="anytree.iterators.levelorderiter.LevelOrderIter">
+      <operations key="protected void _iter(Object, Object, Object, Object)">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.12/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.12/@value"/>
+    </value>
+  </components>
+  <components key="math">
+    <value signature="math">
+      <operations key="item.item.startswith">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="next">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__dict__.update">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="isinstance">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="super">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="len">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="sorted">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="tuple">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="hex">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="self.childiter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="seen.add">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="pat.upper">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="name.upper">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="callable">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.13/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.13/@value"/>
+    </value>
+  </components>
+  <components key="anytree.iterators.levelordergroupiter">
+    <value signature="anytree.iterators.levelordergroupiter">
+      <operations key="_iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="_get_grandchildren">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="next_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.14/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.14/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.symlinknode">
+    <value signature="anytree.node.symlinknode">
+      <operations key="__repr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.15/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.15/@value"/>
+    </value>
+  </components>
+  <components key="calendar">
+    <value signature="calendar">
+      <operations key="dict">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.16/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.16/@value"/>
+    </value>
+  </components>
+  <components key="os">
+    <value signature="os">
+      <operations key="remove">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.17/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.17/@value"/>
+    </value>
+  </components>
+  <components key="anytree.walker.WalkError">
+    <value signature="anytree.walker.WalkError">
+      <operations key="WalkError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.18/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.18/@value"/>
+    </value>
+  </components>
+  <components key="platform">
+    <value signature="platform">
+      <operations key="node.__dict__.items">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.19/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.nodecls">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.19/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="itertools.count">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.19/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.19/@value"/>
+    </value>
+  </components>
+  <components key="tkinter">
+    <value signature="tkinter">
+      <operations key="m.group">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.20/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.20/@value"/>
+    </value>
+  </components>
+  <components key="audioop">
+    <value signature="audioop">
+      <operations key="max">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.21/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.21/@value"/>
+    </value>
+  </components>
+  <components key="anytree.resolver">
+    <value signature="anytree.resolver">
+      <operations key="__get">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__cmp">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="glob">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__start">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__glob">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="__start">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="cmp_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="get">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="__glob">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="Resolver.is_wildcard">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="_getattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="__find">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__match">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="__translate">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="__cmp">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="__match">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="Resolver.__translate">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="sep">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="re.compile">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="filename">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="parts">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="node.parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="re_pat">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <operations key="dict">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.25/@value"/>
+        </value>
+      </operations>
+      <operations key="Resolver._match_cache">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.26/@value"/>
+        </value>
+      </operations>
+      <operations key="flags">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.27/@value"/>
+        </value>
+      </operations>
+      <operations key="attrname">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.28/@value"/>
+        </value>
+      </operations>
+      <operations key="node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.29/@value"/>
+        </value>
+      </operations>
+      <operations key="rootpart">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.30/@value"/>
+        </value>
+      </operations>
+      <operations key="matches">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.31/@value"/>
+        </value>
+      </operations>
+      <operations key="nodenamefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.32/@value"/>
+        </value>
+      </operations>
+      <operations key="dotfilename">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.33/@value"/>
+        </value>
+      </operations>
+      <operations key="ignorecase">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.34/@value"/>
+        </value>
+      </operations>
+      <operations key="child">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.35/@value"/>
+        </value>
+      </operations>
+      <operations key="relax">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.36/@value"/>
+        </value>
+      </operations>
+      <operations key="name">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.37/@value"/>
+        </value>
+      </operations>
+      <operations key="k">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.38/@value"/>
+        </value>
+      </operations>
+      <operations key="pat">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.39/@value"/>
+        </value>
+      </operations>
+      <operations key="itertools.count">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.40/@value"/>
+        </value>
+      </operations>
+      <operations key="dotfile.name">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.41/@value"/>
+        </value>
+      </operations>
+      <operations key="Resolver._match_cache.Resolver._match_cache">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.42/@value"/>
+        </value>
+      </operations>
+      <operations key="collections.namedtuple">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.43/@value"/>
+        </value>
+      </operations>
+      <operations key="res">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.44/@value"/>
+        </value>
+      </operations>
+      <operations key="parts.parts">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.45/@value"/>
+        </value>
+      </operations>
+      <operations key="remainder">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.46/@value"/>
+        </value>
+      </operations>
+      <operations key="parent.__children_or_empty">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.47/@value"/>
+        </value>
+      </operations>
+      <operations key="parentnodes.parentnodes">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.48/@value"/>
+        </value>
+      </operations>
+      <operations key="namestr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.49/@value"/>
+        </value>
+      </operations>
+      <operations key="parentchildren">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.50/@value"/>
+        </value>
+      </operations>
+      <operations key="root">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.51/@value"/>
+        </value>
+      </operations>
+      <operations key="node.parent.children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.52/@value"/>
+        </value>
+      </operations>
+      <operations key="node.__class__.__name__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.22/@value/@providedOperations.53/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.22/@value"/>
+      <storages key="resolver.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.22/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.iterators.postorderiter">
+    <value signature="anytree.iterators.postorderiter">
+      <operations key="_iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.23/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="__next">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.23/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="grandchildren">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.23/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.23/@value"/>
+    </value>
+  </components>
+  <components key="asyncio">
+    <value signature="asyncio">
+      <operations key="join">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.24/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.separator.join">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.24/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="set">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.24/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="setattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.24/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.24/@value"/>
+    </value>
+  </components>
+  <components key="anytree.importer.jsonimporter">
+    <value signature="anytree.importer.jsonimporter">
+      <operations key="__import">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.25/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="import_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.25/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="read">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.25/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="dictimporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.25/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.25/@value"/>
+    </value>
+  </components>
+  <components key="anytree.exporter.dotexporter.UniqueDotExporter">
+    <value signature="anytree.exporter.dotexporter.UniqueDotExporter">
+      <operations key="self.__node_counter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.26/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.26/@value"/>
+      <storages key="UniqueDotExporter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.26/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.resolver.RootResolverError">
+    <value signature="anytree.resolver.RootResolverError">
+      <operations key="msg">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.27/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.27/@value"/>
+      <storages key="RootResolverError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.27/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.resolver.ChildResolverError">
+    <value signature="anytree.resolver.ChildResolverError">
+      <operations key="msg">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.28/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="names">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.28/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.28/@value"/>
+      <storages key="ChildResolverError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.28/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.iterators.__init__">
+    <value signature="anytree.iterators.__init__">
+      <componentType href="type-model.xmi#//@componentTypes.29/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.29/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.node.exceptions.TreeError">
+    <value signature="anytree.node.exceptions.TreeError">
+      <operations key="TreeError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.30/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.30/@value"/>
+    </value>
+  </components>
+  <components key="logging">
+    <value signature="logging">
+      <operations key="re.compile">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="collections.namedtuple">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="args.append">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="format">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="dotfile.flush">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="matches.append">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="reversed">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="warnings.warn">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="common.append">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="repr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="repr.splitlines">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="re_pat.match">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="filter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="re.IGNORECASE">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.31/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.31/@value"/>
+    </value>
+  </components>
+  <components key="anytree.config">
+    <value signature="anytree.config">
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.32/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="ASSERTIONS">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.32/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.32/@value"/>
+      <storages key="config.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.32/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.render">
+    <value signature="anytree.render">
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="logging.getLogger">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="logging.getLogger.warning">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="_getattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="edgetypefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__get">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="AbstractIter._get_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="getattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="__next">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="_is_last">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__next">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="LevelOrderGroupIter._get_grandchildren">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="__item">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="os.environ.get">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="super.__getattr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="PostOrderIter.__next">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="childiter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="self.target.__dict__.update">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="get">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="empty">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="__repr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="attrname">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="_format_row_any">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="style">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <operations key="RenderTree.__item">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.25/@value"/>
+        </value>
+      </operations>
+      <operations key="vertical">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.26/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.27/@value"/>
+        </value>
+      </operations>
+      <operations key="cont">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.28/@value"/>
+        </value>
+      </operations>
+      <operations key="end">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.29/@value"/>
+        </value>
+      </operations>
+      <operations key="next_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.30/@value"/>
+        </value>
+      </operations>
+      <operations key="attr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.31/@value"/>
+        </value>
+      </operations>
+      <operations key="pathattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.32/@value"/>
+        </value>
+      </operations>
+      <operations key="items">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.33/@value"/>
+        </value>
+      </operations>
+      <operations key="continues">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.34/@value"/>
+        </value>
+      </operations>
+      <operations key="indent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.35/@value"/>
+        </value>
+      </operations>
+      <operations key="branch">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.36/@value"/>
+        </value>
+      </operations>
+      <operations key="continues.continues">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.37/@value"/>
+        </value>
+      </operations>
+      <operations key="style.cont">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.38/@value"/>
+        </value>
+      </operations>
+      <operations key="args">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.39/@value"/>
+        </value>
+      </operations>
+      <operations key="style.end">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.40/@value"/>
+        </value>
+      </operations>
+      <operations key="pre">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.41/@value"/>
+        </value>
+      </operations>
+      <operations key="Row">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.42/@value"/>
+        </value>
+      </operations>
+      <operations key="lines">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.43/@value"/>
+        </value>
+      </operations>
+      <operations key="fill">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.44/@value"/>
+        </value>
+      </operations>
+      <operations key="str.splitlines">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.45/@value"/>
+        </value>
+      </operations>
+      <operations key="kwargs">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.46/@value"/>
+        </value>
+      </operations>
+      <operations key="iter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.47/@value"/>
+        </value>
+      </operations>
+      <operations key="repr.splitlines">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.48/@value"/>
+        </value>
+      </operations>
+      <operations key="pchildren.index">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.49/@value"/>
+        </value>
+      </operations>
+      <operations key="old_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.50/@value"/>
+        </value>
+      </operations>
+      <operations key="nextitem">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.51/@value"/>
+        </value>
+      </operations>
+      <operations key="target">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.52/@value"/>
+        </value>
+      </operations>
+      <operations key="classname">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.53/@value"/>
+        </value>
+      </operations>
+      <operations key="item">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.54/@value"/>
+        </value>
+      </operations>
+      <operations key="CONT_STYLE">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.33/@value/@providedOperations.55/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.33/@value"/>
+      <storages key="render.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.33/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.iterators.zigzaggroupiter">
+    <value signature="anytree.iterators.zigzaggroupiter">
+      <operations key="_iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.34/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.34/@value"/>
+    </value>
+  </components>
+  <components key="anytree.exporter.mermaidexporter">
+    <value signature="anytree.exporter.mermaidexporter">
+      <operations key="__iter_nodes">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="write">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__iter_options">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__iter_edges">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__iter_nodes">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="nodenamefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="DotExporter.esc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="nodefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter_edges">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="esc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="to_file">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="edgefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="_default_nodenamefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="re.escape">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="_default_nodefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="MermaidExporter.esc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__node_ids">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="num">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="_RE_ESC">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="edgeattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="node_id">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <operations key="graph">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.25/@value"/>
+        </value>
+      </operations>
+      <operations key="stop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.26/@value"/>
+        </value>
+      </operations>
+      <operations key="filter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.27/@value"/>
+        </value>
+      </operations>
+      <operations key="nodename">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.28/@value"/>
+        </value>
+      </operations>
+      <operations key="indent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.29/@value"/>
+        </value>
+      </operations>
+      <operations key="options">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.30/@value"/>
+        </value>
+      </operations>
+      <operations key="maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.31/@value"/>
+        </value>
+      </operations>
+      <operations key="childname">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.32/@value"/>
+        </value>
+      </operations>
+      <operations key="edge">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.35/@value/@providedOperations.33/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.35/@value"/>
+      <storages key="mermaidexporter.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.35/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.resolver.Resolver">
+    <value signature="anytree.resolver.Resolver">
+      <operations key="ChildResolverError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="ResolverError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="RootResolverError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="self.pathattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="Resolver">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="self.ignorecase">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="self.relax">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.36/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.36/@value"/>
+      <storages key="Resolver">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.36/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="pdb">
+    <value signature="pdb">
+      <operations key="encode">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.37/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.37/@value"/>
+    </value>
+  </components>
+  <components key="anytree.__init__">
+    <value signature="anytree.__init__">
+      <operations key="LevelGroupOrderIter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.38/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.38/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.38/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="_pickle">
+    <value signature="_pickle">
+      <operations key="json.loads">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.39/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="json.load">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.39/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="json.dumps">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.39/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="json.dump">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.39/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.39/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.lightnodemixin">
+    <value signature="anytree.node.lightnodemixin">
+      <operations key="_path">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="__detach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="__attach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="__children_or_empty">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="__check_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="size">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="descendants">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="__check_loop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="siblings">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="depth">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="height">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="is_leaf">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="leaves">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="seen">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="childid">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="msg">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="old_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="child.parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="parentchildren">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="parent.__children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="self.children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.40/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.40/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.__init__">
+    <value signature="anytree.node.__init__">
+      <componentType href="type-model.xmi#//@componentTypes.41/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.41/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.walker">
+    <value signature="anytree.walker">
+      <operations key="walk">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="Walker.__calc_common">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="__calc_common">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="startpath">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="endpath">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="msg">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="start">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="upwards">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="common">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="down">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="endpath.endpath">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="len_common">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.42/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.42/@value"/>
+    </value>
+  </components>
+  <components key="anytree.search.CountError">
+    <value signature="anytree.search.CountError">
+      <operations key="CountError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.43/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.43/@value"/>
+    </value>
+  </components>
+  <components key="tokenize">
+    <value signature="tokenize">
+      <operations key="hasattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.44/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="str">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.44/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="any">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.44/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.44/@value"/>
+    </value>
+  </components>
+  <components key="anytree.cachedsearch">
+    <value signature="anytree.cachedsearch">
+      <operations key="find_by_attr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="_cache">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="wrapped">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="func">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="findall">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="findall_by_attr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="find">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="Resolver._match_cache.clear">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.45/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.45/@value"/>
+      <storages key="cachedsearch.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.45/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.exporter.jsonexporter">
+    <value signature="anytree.exporter.jsonexporter">
+      <operations key="file.write">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="dotfile.write">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="export">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="write">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="_export">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="dictexporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="data">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="dictexporter.maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.46/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.46/@value"/>
+    </value>
+  </components>
+  <components key="subprocess">
+    <value signature="subprocess">
+      <operations key="check_call">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.47/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.47/@value"/>
+    </value>
+  </components>
+  <components key="anytree.exporter.__init__">
+    <value signature="anytree.exporter.__init__">
+      <componentType href="type-model.xmi#//@componentTypes.48/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.48/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.node.anynode.AnyNode">
+    <value signature="anytree.node.anynode.AnyNode">
+      <operations key="self.parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.49/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.49/@value"/>
+      <storages key="AnyNode">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.49/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.node.symlinknode.SymlinkNode">
+    <value signature="anytree.node.symlinknode.SymlinkNode">
+      <operations key="self.parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.50/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.target">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.50/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.50/@value"/>
+      <storages key="SymlinkNode">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.50/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="_sqlite3">
+    <value signature="_sqlite3">
+      <operations key="Row">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.51/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.51/@value"/>
+    </value>
+  </components>
+  <components key="anytree.iterators.abstractiter">
+    <value signature="anytree.iterators.abstractiter">
+      <operations key="__next__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__init">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="_get_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="__init">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="AbstractIter._abort_at_level">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="self._iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="PreOrderIter._iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="node.children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="node.separator">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="node.root">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="nodecls">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="nodes">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="nodeattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="stop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="nodefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="filter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="AbstractIter.__default_stop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.52/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.52/@value"/>
+    </value>
+  </components>
+  <components key="ossaudiodev">
+    <value signature="ossaudiodev">
+      <operations key="codecs.open">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.53/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.53/@value"/>
+    </value>
+  </components>
+  <components key="anytree.util.__init__">
+    <value signature="anytree.util.__init__">
+      <operations key="leftsibling">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.54/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="rightsibling">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.54/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="commonancestors">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.54/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="ancestors">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.54/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="parentnode">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.54/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="idx">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.54/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="pchildren">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.54/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.54/@value"/>
+    </value>
+  </components>
+  <components key="re">
+    <value signature="re">
+      <operations key="enumerate">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.55/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="_RE_ESC.sub">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.55/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="str.splitlines">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.55/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.55/@value"/>
+    </value>
+  </components>
+  <components key="tempfile">
+    <value signature="tempfile">
+      <operations key="NamedTemporaryFile">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.56/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.56/@value"/>
+    </value>
+  </components>
+  <components key="anytree.iterators.preorderiter">
+    <value signature="anytree.iterators.preorderiter">
+      <operations key="_iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.57/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="descendantmaxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.57/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.57/@value"/>
+    </value>
+  </components>
+  <components key="anytree.importer.dictimporter">
+    <value signature="anytree.importer.dictimporter">
+      <operations key="import_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__import">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="dictimporter.import_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="__import">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="attrs">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="attrs.pop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.58/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.58/@value"/>
+    </value>
+  </components>
+  <components key="shutil">
+    <value signature="shutil">
+      <operations key="int">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.59/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.59/@value"/>
+    </value>
+  </components>
+  <components key="anytree.exporter.dotexporter">
+    <value signature="anytree.exporter.dotexporter">
+      <operations key="_default_nodenamefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="esc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="to_picture">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter_nodes">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="nodeattrfunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter_edges">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="edgeattrfunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="__iter__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="to_dotfile">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="num">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="filter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__node_ids">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="edgetype">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="edgetypefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="cmd">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="fileformat">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="edgeattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="options">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="nodename">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="dotfilename">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="nodeattr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="_RE_ESC">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <operations key="indent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.25/@value"/>
+        </value>
+      </operations>
+      <operations key="AbstractIter.__default_filter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.26/@value"/>
+        </value>
+      </operations>
+      <operations key="nodenamefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.27/@value"/>
+        </value>
+      </operations>
+      <operations key="childname">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.28/@value"/>
+        </value>
+      </operations>
+      <operations key="node_id">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.60/@value/@providedOperations.29/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.60/@value"/>
+      <storages key="dotexporter.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.60/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.node.symlinknodemixin">
+    <value signature="anytree.node.symlinknodemixin">
+      <operations key="__getattr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.61/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="__setattr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.61/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="super.__setattr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.61/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.61/@value"/>
+    </value>
+  </components>
+  <components key="anytree.iterators.levelorderiter">
+    <value signature="anytree.iterators.levelorderiter">
+      <operations key="_iter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.62/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="next_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.62/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.62/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.62/@value"/>
+    </value>
+  </components>
+  <components key="_weakrefset">
+    <value signature="_weakrefset">
+      <operations key="parts.pop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.63/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="attrs.pop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.63/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.63/@value"/>
+    </value>
+  </components>
+  <components key="anytree.search">
+    <value signature="anytree.search">
+      <operations key="super.__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="stop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="filter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="search.findall">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="search.findall_by_attr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="search.find">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="search.find_by_attr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__find">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="_find">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="_findall">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="findall">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="findall_by_attr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="_filter_by_name">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="find">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="find_by_attr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="items">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="resultlen">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="result">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="value">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="msg">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.64/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.64/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.nodemixin">
+    <value signature="anytree.node.nodemixin">
+      <operations key="height">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="depth">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.iter_path_reverse">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="size">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="pchildren.index">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="path.split">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="path.startswith">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="path.splitext">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="leaves">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="is_leaf">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="__attach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="self._post_attach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <operations key="__children_or_empty">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.13/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.14/@value"/>
+        </value>
+      </operations>
+      <operations key="descendants">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.15/@value"/>
+        </value>
+      </operations>
+      <operations key="_path">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.16/@value"/>
+        </value>
+      </operations>
+      <operations key="__check_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.17/@value"/>
+        </value>
+      </operations>
+      <operations key="anchestors">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.18/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__check_loop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.19/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__detach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.20/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__attach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.21/@value"/>
+        </value>
+      </operations>
+      <operations key="__check_loop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.22/@value"/>
+        </value>
+      </operations>
+      <operations key="node.iter_path_reverse">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.23/@value"/>
+        </value>
+      </operations>
+      <operations key="NodeMixin.__check_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.24/@value"/>
+        </value>
+      </operations>
+      <operations key="__detach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.25/@value"/>
+        </value>
+      </operations>
+      <operations key="self._pre_detach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.26/@value"/>
+        </value>
+      </operations>
+      <operations key="self._pre_attach_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.27/@value"/>
+        </value>
+      </operations>
+      <operations key="self._post_detach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.28/@value"/>
+        </value>
+      </operations>
+      <operations key="self._post_attach_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.29/@value"/>
+        </value>
+      </operations>
+      <operations key="self._pre_attach">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.30/@value"/>
+        </value>
+      </operations>
+      <operations key="parentchildren.append">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.31/@value"/>
+        </value>
+      </operations>
+      <operations key="self._pre_detach_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.32/@value"/>
+        </value>
+      </operations>
+      <operations key="self._post_detach_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.33/@value"/>
+        </value>
+      </operations>
+      <operations key="siblings">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.34/@value"/>
+        </value>
+      </operations>
+      <operations key="LightNodeMixin.__check_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.35/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.36/@value"/>
+        </value>
+      </operations>
+      <operations key="start.path">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.37/@value"/>
+        </value>
+      </operations>
+      <operations key="end.path">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.38/@value"/>
+        </value>
+      </operations>
+      <operations key="node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.39/@value"/>
+        </value>
+      </operations>
+      <operations key="seen">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.40/@value"/>
+        </value>
+      </operations>
+      <operations key="msg">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.41/@value"/>
+        </value>
+      </operations>
+      <operations key="path.splitext.path.splitext.path.splitext.path.splitext">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.42/@value"/>
+        </value>
+      </operations>
+      <operations key="childid">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.43/@value"/>
+        </value>
+      </operations>
+      <operations key="old_children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.44/@value"/>
+        </value>
+      </operations>
+      <operations key="parentchildren">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.45/@value"/>
+        </value>
+      </operations>
+      <operations key="parent.__children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.46/@value"/>
+        </value>
+      </operations>
+      <operations key="child.parent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.47/@value"/>
+        </value>
+      </operations>
+      <operations key="self.children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.65/@value/@providedOperations.48/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.65/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.node">
+    <value signature="anytree.node.node">
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.66/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="__repr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.66/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.66/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="args">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.66/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.66/@value"/>
+    </value>
+  </components>
+  <components key="functools">
+    <value signature="functools">
+      <operations key="wraps">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.67/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.67/@value"/>
+    </value>
+  </components>
+  <components key="pydoc">
+    <value signature="pydoc">
+      <operations key="list">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.68/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.68/@value"/>
+    </value>
+  </components>
+  <components key="anytree.dotexport">
+    <value signature="anytree.dotexport">
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.69/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.69/@value"/>
+    </value>
+  </components>
+  <components key="anytree.resolver.ResolverError">
+    <value signature="anytree.resolver.ResolverError">
+      <operations key="self.child">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.70/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.70/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.70/@value"/>
+      <storages key="ResolverError">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.70/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="builtins">
+    <value signature="builtins">
+      <operations key="bool">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.71/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="all">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.71/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="zip">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.71/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.71/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.exceptions.LoopError">
+    <value signature="anytree.node.exceptions.LoopError">
+      <operations key="LoopError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.72/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.72/@value"/>
+    </value>
+  </components>
+  <components key="anytree.node.util">
+    <value signature="anytree.node.util">
+      <operations key="_repr">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.73/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="args">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.73/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="classname">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.73/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="nameblacklist">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.73/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.73/@value"/>
+    </value>
+  </components>
+  <components key="anytree.exporter.dictexporter">
+    <value signature="anytree.exporter.dictexporter">
+      <operations key="export">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__export">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self._export">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="_iter_attr_values">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="__export">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="attriter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="self._iter_attr_values">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="dictcls">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="dictexporter.export">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="attr_values">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="data">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.74/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.74/@value"/>
+    </value>
+  </components>
+  <components key="ftplib">
+    <value signature="ftplib">
+      <operations key="AttributeError">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.75/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.75/@value"/>
+    </value>
+  </components>
+  <components key="anytree.exporter.dictexporter.DictExporter">
+    <value signature="anytree.exporter.dictexporter.DictExporter">
+      <operations key="DictExporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.76/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.76/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.attriter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.76/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="self.dictcls">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.76/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="self.childiter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.76/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.76/@value"/>
+      <storages key="DictExporter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.76/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.exporter.jsonexporter.JsonExporter">
+    <value signature="anytree.exporter.jsonexporter.JsonExporter">
+      <operations key="self.maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.77/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.dictexporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.77/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="JsonExporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.77/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="self.kwargs">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.77/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.77/@value"/>
+      <storages key="JsonExporter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.77/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.node.anynode">
+    <value signature="anytree.node.anynode">
+      <operations key="__init__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.78/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="__repr__">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.78/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.children">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.78/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.78/@value"/>
+    </value>
+  </components>
+  <components key="anytree.importer.dictimporter.DictImporter">
+    <value signature="anytree.importer.dictimporter.DictImporter">
+      <operations key="DictImporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.79/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.nodecls">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.79/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.79/@value"/>
+      <storages key="DictImporter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.79/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.importer.jsonimporter.JsonImporter">
+    <value signature="anytree.importer.jsonimporter.JsonImporter">
+      <operations key="JsonImporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.80/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.dictimporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.80/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.kwargs">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.80/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.80/@value"/>
+      <storages key="JsonImporter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.80/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="unittest">
+    <value signature="unittest">
+      <operations key="id">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.81/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.81/@value"/>
+    </value>
+  </components>
+  <components key="anytree.importer.__init__">
+    <value signature="anytree.importer.__init__">
+      <componentType href="type-model.xmi#//@componentTypes.82/@value"/>
+      <storages key="__init__.py">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.82/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.exporter.mermaidexporter.MermaidExporter">
+    <value signature="anytree.exporter.mermaidexporter.MermaidExporter">
+      <operations key="MermaidExporter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <operations key="self.node">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.1/@value"/>
+        </value>
+      </operations>
+      <operations key="self.graph">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.2/@value"/>
+        </value>
+      </operations>
+      <operations key="self.name">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.3/@value"/>
+        </value>
+      </operations>
+      <operations key="self.options">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.4/@value"/>
+        </value>
+      </operations>
+      <operations key="self.indent">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.5/@value"/>
+        </value>
+      </operations>
+      <operations key="self.nodenamefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.6/@value"/>
+        </value>
+      </operations>
+      <operations key="self.stop">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.7/@value"/>
+        </value>
+      </operations>
+      <operations key="self.nodefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.8/@value"/>
+        </value>
+      </operations>
+      <operations key="self.filter_">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.9/@value"/>
+        </value>
+      </operations>
+      <operations key="self.edgefunc">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.10/@value"/>
+        </value>
+      </operations>
+      <operations key="self.maxlevel">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.11/@value"/>
+        </value>
+      </operations>
+      <operations key="self.__node_counter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.83/@value/@providedOperations.12/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.83/@value"/>
+      <storages key="MermaidExporter">
+        <value>
+          <storageType href="type-model.xmi#//@componentTypes.83/@value/@providedStorages.0/@value"/>
+        </value>
+      </storages>
+    </value>
+  </components>
+  <components key="anytree.iterators.levelordergroupiter.LevelOrderGroupIter">
+    <value signature="anytree.iterators.levelordergroupiter.LevelOrderGroupIter">
+      <operations key="LevelOrderGroupIter">
+        <value>
+          <operationType href="type-model.xmi#//@componentTypes.84/@value/@providedOperations.0/@value"/>
+        </value>
+      </operations>
+      <componentType href="type-model.xmi#//@componentTypes.84/@value"/>
+    </value>
+  </components>
+</assembly:AssemblyModel>

@@ -1,0 +1,86 @@
+name: CI
+
+permissions:
+  contents: read
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Many color libraries just need this to be set to any value, but at least
+  # one distinguishes color depth, where "3" -> "256-bit color".
+  FORCE_COLOR: 3
+
+jobs:
+  pre-commit-and-lint:
+    name: Format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.13.3"
+      - uses: pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd # v3.0.1
+        with:
+          extra_args: --hook-stage manual --all-files
+      - uses: prefix-dev/setup-pixi@19eac09b398e3d0c747adc7921926a6d802df4da # v0.8.8
+        with:
+          pixi-version: v0.42.1
+          cache: true
+          environments: lint
+      - name: Run Pylint, Mypy & Pyright
+        run: |
+          pixi run -e lint pylint
+          pixi run -e lint mypy
+          pixi run -e lint pyright
+
+  checks:
+    name: Test ${{ matrix.environment }}
+    runs-on: ${{ matrix.runs-on }}
+    needs: [pre-commit-and-lint]
+    strategy:
+      fail-fast: false
+      matrix:
+        environment:
+          - tests-py310
+          - tests-py313
+          - tests-numpy1
+          - tests-backends
+          - tests-nogil
+        runs-on: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - uses: prefix-dev/setup-pixi@19eac09b398e3d0c747adc7921926a6d802df4da # v0.8.8
+        with:
+          pixi-version: v0.42.1
+          cache: true
+          environments: ${{ matrix.environment }}
+
+      - name: Test package
+        # Save some time; also at the moment of writing coverage crashes on python 3.13t
+        if: ${{ matrix.environment != 'tests-nogil' }}
+        run: pixi run -e ${{ matrix.environment }} tests-ci
+
+      - name: Test free-threading
+        if: ${{ matrix.environment == 'tests-nogil' }}
+        run: pixi run -e tests-nogil tests --parallel-threads=4
+
+      - name: Upload coverage report
+        if: ${{ matrix.environment != 'tests-nogil' }}
+        uses: codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24 # v5.4.3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}

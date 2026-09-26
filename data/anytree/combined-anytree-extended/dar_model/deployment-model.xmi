@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="ASCII"?>
+<deployment:DeploymentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:deployment="platform:/resource/Kieker/model/analysismodel.ecore/deployment">
+  <contexts key="external">
+    <value name="external">
+      <components key="++unknown-component++">
+        <value signature="++unknown-component++">
+          <assemblyComponent href="assembly-model.xmi#//@components.0/@value"/>
+          <operations key="++unknown-operation++">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.0/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+    </value>
+  </contexts>
+  <contexts key="localhost">
+    <value name="localhost">
+      <components key="anytree.cachedsearch.cachedsearch">
+        <value signature="anytree.cachedsearch.cachedsearch">
+          <assemblyComponent href="assembly-model.xmi#//@components.1/@value"/>
+          <operations key="protected Object _cache(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.1/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.cachedsearch._cache">
+        <value signature="anytree.cachedsearch._cache">
+          <assemblyComponent href="assembly-model.xmi#//@components.2/@value"/>
+          <operations key="public Object decorator(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.2/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.render.ContStyle">
+        <value signature="anytree.render.ContStyle">
+          <assemblyComponent href="assembly-model.xmi#//@components.3/@value"/>
+          <operations key="private void __init__()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.3/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.render.AbstractStyle">
+        <value signature="anytree.render.AbstractStyle">
+          <assemblyComponent href="assembly-model.xmi#//@components.4/@value"/>
+          <operations key="private void __init__(Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.4/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+          <operations key="public Object empty()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.4/@value/@operations.1/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.node.node.Node">
+        <value signature="anytree.node.node.Node">
+          <assemblyComponent href="assembly-model.xmi#//@components.5/@value"/>
+          <operations key="private void __init__(Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.5/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.node.nodemixin.NodeMixin">
+        <value signature="anytree.node.nodemixin.NodeMixin">
+          <assemblyComponent href="assembly-model.xmi#//@components.6/@value"/>
+          <operations key="public void parent(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __check_loop(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.1/@value"/>
+            </value>
+          </operations>
+          <operations key="public void iter_path_reverse()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.2/@value"/>
+            </value>
+          </operations>
+          <operations key="public Object parent()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.3/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __detach(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.4/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __attach(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.5/@value"/>
+            </value>
+          </operations>
+          <operations key="protected void _pre_attach(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.6/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __children_or_empty()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.7/@value"/>
+            </value>
+          </operations>
+          <operations key="protected void _post_attach(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.8/@value"/>
+            </value>
+          </operations>
+          <operations key="public Object children()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.6/@value/@operations.9/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.render.RenderTree">
+        <value signature="anytree.render.RenderTree">
+          <assemblyComponent href="assembly-model.xmi#//@components.7/@value"/>
+          <operations key="private void __init__(Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.7/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __iter__()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.7/@value/@operations.1/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __next(Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.7/@value/@operations.2/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __item(Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.7/@value/@operations.3/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.render.render">
+        <value signature="anytree.render.render">
+          <assemblyComponent href="assembly-model.xmi#//@components.8/@value"/>
+          <operations key="protected void _is_last(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.8/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.iterators.abstractiter.AbstractIter">
+        <value signature="anytree.iterators.abstractiter.AbstractIter">
+          <assemblyComponent href="assembly-model.xmi#//@components.9/@value"/>
+          <operations key="private void __init__(Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __iter__()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.1/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __next__()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.2/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __init()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.3/@value"/>
+            </value>
+          </operations>
+          <operations key="protected Object _abort_at_level(Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.4/@value"/>
+            </value>
+          </operations>
+          <operations key="protected Object _get_children(Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.5/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __default_stop(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.6/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __default_filter(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.9/@value/@operations.7/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.iterators.preorderiter.PreOrderIter">
+        <value signature="anytree.iterators.preorderiter.PreOrderIter">
+          <assemblyComponent href="assembly-model.xmi#//@components.10/@value"/>
+          <operations key="protected void _iter(Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.10/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.iterators.levelorderiter.LevelOrderIter">
+        <value signature="anytree.iterators.levelorderiter.LevelOrderIter">
+          <assemblyComponent href="assembly-model.xmi#//@components.11/@value"/>
+          <operations key="protected void _iter(Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.11/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+      <components key="anytree.exporter.dotexporter.DotExporter">
+        <value signature="anytree.exporter.dotexporter.DotExporter">
+          <assemblyComponent href="assembly-model.xmi#//@components.12/@value"/>
+          <operations key="private void __init__(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.0/@value"/>
+            </value>
+          </operations>
+          <operations key="public void to_picture(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.1/@value"/>
+            </value>
+          </operations>
+          <operations key="private Object __iter__()">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.2/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __iter(Object, Object, Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.3/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __iter_options(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.4/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __iter_nodes(Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.5/@value"/>
+            </value>
+          </operations>
+          <operations key="protected Object _default_filter(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.6/@value"/>
+            </value>
+          </operations>
+          <operations key="protected Object _default_nodenamefunc(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.7/@value"/>
+            </value>
+          </operations>
+          <operations key="protected Object _default_nodeattrfunc(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.8/@value"/>
+            </value>
+          </operations>
+          <operations key="public Object esc(Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.9/@value"/>
+            </value>
+          </operations>
+          <operations key="private void __iter_edges(Object, Object, Object, Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.10/@value"/>
+            </value>
+          </operations>
+          <operations key="protected Object _default_edgeattrfunc(Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.11/@value"/>
+            </value>
+          </operations>
+          <operations key="protected Object _default_edgetypefunc(Object, Object)">
+            <value>
+              <assemblyOperation href="assembly-model.xmi#//@components.12/@value/@operations.12/@value"/>
+            </value>
+          </operations>
+        </value>
+      </components>
+    </value>
+  </contexts>
+</deployment:DeploymentModel>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/Pillow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/Pillow/wheels/multibuild" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/UXsim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/anytree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/matplotlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy/doc/source/_static/scipy-mathjax" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy/numpy/_core/src/common/pythoncapi-compat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy/numpy/_core/src/highway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy/numpy/_core/src/npysort/x86-simd-sort" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy/numpy/_core/src/umath/svml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy/numpy/fft/pocketfft" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/numpy/vendored-meson/meson" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/doc/source/_static/scipy-mathjax" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/scipy/_lib/array_api_compat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/scipy/_lib/array_api_extra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/scipy/_lib/cobyqa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/scipy/_lib/pocketfft" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/scipy/_lib/unuran" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/scipy/sparse/linalg/_propack/PROPACK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/subprojects/boost_math/math" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/subprojects/highs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/scipy/subprojects/xsf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/Otkt-Instrument" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/grouped-graph-visualizer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/pyparse" vcs="Git" />
+  </component>
+</project>

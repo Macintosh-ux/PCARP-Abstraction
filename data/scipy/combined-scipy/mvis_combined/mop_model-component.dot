@@ -1,0 +1,102 @@
+digraph "mop_model" {
+	rankdir="LR"
+	node [fillcolor="white",shape="box",color="#000000",style="filled"]
+	edge [color="#000000",style="solid",arrowhead="open"]
+	"PIL.PngImagePlugin.ChunkStream_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.PngImagePlugin.ChunkStream
+"]
+	"PIL._binary._binary_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL._binary._binary
+"]
+	"scipy.fft._pocketfft.basic.basic_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+scipy.fft._pocketfft.basic.basic
+"]
+	"scipy.fft._pocketfft.helper.helper_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+scipy.fft._pocketfft.helper.helper
+"]
+	"PIL.Image.Image_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.Image.Image
+"]
+	"PIL.PngImagePlugin.PngImagePlugin_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.PngImagePlugin.PngImagePlugin
+"]
+	"PIL.ImageTk.PhotoImage_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageTk.PhotoImage
+"]
+	"++unknown-component++_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+.++unknown-component++
+"]
+	"PIL.ImageFile.ImageFile_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageFile.ImageFile
+"]
+	"PIL.PngImagePlugin.PngStream_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.PngImagePlugin.PngStream
+"]
+	"PIL.PngImagePlugin.PngImageFile_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.PngImagePlugin.PngImageFile
+"]
+	"scipy.linalg.blas.blas_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+scipy.linalg.blas.blas
+"]
+	"PIL.ImageTk.ImageTk_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageTk.ImageTk
+"]
+	"PIL.ImageMode.ImageMode_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.ImageMode.ImageMode
+"]
+	"scipy._lib.doccer.doccer_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+scipy._lib.doccer.doccer
+"]
+	"PIL.TiffTags.TiffTags_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.TiffTags.TiffTags
+"]
+	"PIL.TiffTags.TagInfo_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL.TiffTags.TagInfo
+"]
+	"PIL._util.DeferredError_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL._util.DeferredError
+"]
+	"PIL._util._util_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+PIL._util._util
+"]
+	"scipy.linalg.lapack.lapack_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+scipy.linalg.lapack.lapack
+"]
+	"PIL.PngImagePlugin.ChunkStream_0" -> "PIL._binary._binary_0" [label="81"]
+	"scipy.fft._pocketfft.basic.basic_0" -> "scipy.fft._pocketfft.helper.helper_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL.Image.Image_0" [label="3"]
+	"PIL.PngImagePlugin.ChunkStream_0" -> "PIL.PngImagePlugin.PngImagePlugin_0" [label="162"]
+	"PIL.ImageTk.PhotoImage_0" -> "PIL.Image.Image_0" [label="48"]
+	"++unknown-component++_0" -> "PIL.Image.Image_0" [label="21"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL.Image.Image_0" [label="27"]
+	"PIL.ImageTk.PhotoImage_0" -> "PIL.ImageTk.PhotoImage_0" [label="48"]
+	"PIL.PngImagePlugin.PngStream_0" -> "PIL.ImageFile.ImageFile_0" [label="27"]
+	"PIL.Image.Image_0" -> "PIL.ImageFile.ImageFile_0" [label="6"]
+	"PIL.PngImagePlugin.PngImageFile_0" -> "PIL.PngImagePlugin.ChunkStream_0" [label="81"]
+	"++unknown-component++_0" -> "scipy.linalg.blas.blas_0" [label="3"]
+	"PIL.PngImagePlugin.PngImageFile_0" -> "PIL.ImageFile.ImageFile_0" [label="27"]
+	"PIL.ImageTk.PhotoImage_0" -> "PIL.ImageTk.ImageTk_0" [label="48"]
+	"++unknown-component++_0" -> "scipy.fft._pocketfft.basic.basic_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL.ImageMode.ImageMode_0" [label="1"]
+	"scipy._lib.doccer.doccer_0" -> "scipy._lib.doccer.doccer_0" [label="15"]
+	"PIL.TiffTags.TiffTags_0" -> "PIL.TiffTags.TagInfo_0" [label="147"]
+	"PIL.ImageTk.ImageTk_0" -> "PIL.Image.Image_0" [label="6"]
+	"PIL.PngImagePlugin.PngStream_0" -> "PIL._binary._binary_0" [label="54"]
+	"PIL.PngImagePlugin.ChunkStream_0" -> "PIL.PngImagePlugin.PngStream_0" [label="27"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL.PngImagePlugin.PngImageFile_0" [label="27"]
+	"PIL.Image.Image_0" -> "PIL.ImageTk.PhotoImage_0" [label="14"]
+	"PIL.PngImagePlugin.PngStream_0" -> "PIL.PngImagePlugin.ChunkStream_0" [label="27"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL._util.DeferredError_0" [label="21"]
+	"++unknown-component++_0" -> "PIL.TiffTags.TiffTags_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL.PngImagePlugin.PngImagePlugin_0" [label="27"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL._util._util_0" [label="27"]
+	"++unknown-component++_0" -> "scipy._lib.doccer.doccer_0" [label="1"]
+	"PIL.Image.Image_0" -> "PIL._util._util_0" [label="27"]
+	"PIL.PngImagePlugin.PngImageFile_0" -> "PIL.PngImagePlugin.PngImagePlugin_0" [label="27"]
+	"++unknown-component++_0" -> "PIL.ImageTk.PhotoImage_0" [label="48"]
+	"scipy.linalg.blas.blas_0" -> "scipy.linalg.blas.blas_0" [label="4"]
+	"scipy.linalg.lapack.lapack_0" -> "scipy.linalg.blas.blas_0" [label="1"]
+	"PIL.ImageFile.ImageFile_0" -> "PIL.ImageFile.ImageFile_0" [label="27"]
+	"++unknown-component++_0" -> "scipy.linalg.lapack.lapack_0" [label="1"]
+	"PIL.PngImagePlugin.PngImageFile_0" -> "PIL.PngImagePlugin.PngStream_0" [label="27"]
+}

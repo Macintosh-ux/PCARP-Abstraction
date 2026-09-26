@@ -1,0 +1,207 @@
+
+[32m============================================================[0m
+[32m                ABSTRACTION-ONLY MODE[0m
+[32m============================================================[0m
+
+[32m▶ Abstracting models with MAB...[0m
+  Input:  bin/anytree/mop_model
+  Output: bin/benchmark-anytree-cluster/mab_model
+  Level:  C
+
+00:35:26.797 [main] DEBUG tools.abstraction.ModelAbstraction:ModelAbstraction-0 -- numOpenedInputPorts (inc): 1
+00:35:26.801 [main] DEBUG org.oceandsl.analysis.architecture.stages.ModelSink:ModelSink-0 -- numOpenedInputPorts (inc): 1
+00:35:26.807 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@4cb2c100 and teetime.framework.InputPort@6fb554cc
+00:35:26.808 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@6be46e8f and teetime.framework.InputPort@3567135c
+00:35:26.813 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Executing runnable stage...
+00:35:26.813 [main] INFO teetime.framework.Execution -- Using scheduler: teetime.framework.scheduling.pushpullmodel.PushPullScheduling@7f560810
+00:35:27.097 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model type-model.xmi
+00:35:27.245 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model assembly-model.xmi
+00:35:27.337 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model deployment-model.xmi
+00:35:27.397 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model execution-model.xmi
+00:35:27.509 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model statistics-model.xmi
+00:35:27.644 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model source-model.xmi
+[32m
+===== ORIGINAL MODEL STATE =====
+ComponentTypes: 85
+AssemblyComponents: 85
+Invocations: 387
+Statistics entries: 388
+Source entries: 224[0m
+[32mDisplayed edges: 172[0m
+
+Component communication edges: 154
+Components participating in communication: 68
+[35m
+===== AUTOMATIC RESOLUTION SELECTION =====[0m
+Resolution  Clusters  Modularity   Largest      Singletons   Valid   
+0.25        2         0.232384     86.76%       0.00%        no      
+0.50        3         0.390553     58.82%       0.00%        no      
+0.75        4         0.464486     41.18%       0.00%        yes     
+1.00        5         0.471049     25.00%       0.00%        yes     
+1.25        7         0.464533     22.06%       0.00%        yes     
+1.50        8         0.461587     20.59%       0.00%        yes     
+2.00        11        0.430922     19.12%       0.00%        no      
+3.00        12        0.413200     13.24%       1.47%        no      
+[32mSelected resolution: 1.00
+[0m[35m
+===== LEIDEN CLUSTERING =====[0m
+Quality function: modularity
+Resolution: 1.0000
+Seed: 0
+Nodes: 68
+Edges: 154
+Clusters: 5
+Modularity quality: 0.471049
+Internal raw-call share: 70.90%
+
+CLUSTER:1
+  _pickle._pickle
+  anytree.exporter.dictexporter
+  anytree.exporter.dictexporter.DictExporter
+  anytree.exporter.dotexporter
+  anytree.exporter.jsonexporter
+  anytree.exporter.mermaidexporter
+  anytree.importer.dictimporter
+  anytree.importer.dictimporter.DictImporter
+  anytree.importer.jsonimporter
+  calendar.calendar
+  os.os
+  ossaudiodev.ossaudiodev
+  pdb.pdb
+  platform.platform
+  subprocess.subprocess
+  tempfile.tempfile
+  tkinter.tkinter
+
+CLUSTER:2
+  _sqlite3._sqlite3
+  _weakrefset._weakrefset
+  anytree.cachedsearch
+  anytree.iterators.abstractiter
+  anytree.iterators.levelordergroupiter
+  anytree.iterators.levelorderiter
+  anytree.iterators.postorderiter
+  anytree.iterators.preorderiter
+  anytree.node.symlinknodemixin
+  anytree.render
+  anytree.resolver
+  anytree.resolver.Resolver
+  anytree.search
+  anytree.search.CountError
+  asyncio.asyncio
+  ftplib.ftplib
+  functools.functools
+
+CLUSTER:3
+  anytree.config
+  anytree.dotexport
+  anytree.iterators.levelordergroupiter.LevelOrderGroupIter
+  anytree.iterators.zigzaggroupiter
+  anytree.node.anynode
+  anytree.node.node
+  anytree.node.symlinknode
+  anytree.node.util
+  anytree.util.__init__
+  anytree.walker
+  anytree.walker.WalkError
+  builtins.builtins
+  logging.logging
+  math.math
+  shutil.shutil
+
+CLUSTER:4
+  ++unknown-component++
+  anytree.exporter.dotexporter.DotExporter
+  anytree.iterators.abstractiter.AbstractIter
+  anytree.iterators.levelorderiter.LevelOrderIter
+  anytree.iterators.preorderiter.PreOrderIter
+  anytree.node.node.Node
+  anytree.node.nodemixin.NodeMixin
+  anytree.render.AbstractStyle
+  anytree.render.ContStyle
+  anytree.render.RenderTree
+
+CLUSTER:5
+  anytree.node.exceptions.LoopError
+  anytree.node.exceptions.TreeError
+  anytree.node.lightnodemixin
+  anytree.node.nodemixin
+  audioop.audioop
+  pydoc.pydoc
+  re.re
+  tokenize.tokenize
+  unittest.unittest
+
+===== CLUSTER TRANSFORMATION =====
+Clustered components: 68
+Residual components: 17
+[32m
+Leiden clustering completed.[0m
+[32m
+===== COMPLETE MODEL VALIDATION =====
+ComponentTypes: 85
+AssemblyComponents: 85
+DeployedComponents: 93
+OperationTypes: 576
+AssemblyOperations: 576
+DeployedOperations: 576
+Invocations: 387
+Invocation call sum: 727
+Statistics entries: 388
+Source entries: 224
+Consistency errors: 0[0m
+[32mDisplayed edges: 172[0m
+00:35:28.108 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model type-model.xmi
+00:35:28.162 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model assembly-model.xmi
+00:35:28.257 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model deployment-model.xmi
+00:35:28.338 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model execution-model.xmi
+00:35:28.609 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model statistics-model.xmi
+00:35:28.713 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Saving model source-model.xmi
+00:35:28.741 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Finished runnable stage. (ModelRepositoryProducerStage-0)
+real 2.167
+user 7.841
+sys 0.678
+[32m✔ Abstraction finished.[0m
+[32m▶ Running MVIS...[0m
+00:35:29.051 [main] DEBUG ModelVisualizationMain -- architecture modeler
+00:35:29.112 [main] DEBUG teetime.stage.basic.distributor.Distributor:Distributor-0 -- numOpenedInputPorts (inc): 1
+00:35:29.113 [main] DEBUG teetime.stage.basic.distributor.Distributor:Distributor-1 -- numOpenedInputPorts (inc): 1
+00:35:29.114 [main] DEBUG kieker.analysis.architecture.dependency.DependencyGraphCreatorStage:DependencyGraphCreatorStage-0 -- numOpenedInputPorts (inc): 1
+00:35:29.229 [main] DEBUG kieker.analysis.generic.sink.graph.dot.DotFileWriterStage:DotFileWriterStage-0 -- numOpenedInputPorts (inc): 1
+00:35:29.234 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@3d3fcdb0 and teetime.framework.InputPort@641147d0
+00:35:29.235 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@64d7f7e0 and teetime.framework.InputPort@27c6e487
+00:35:29.235 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@28c4711c and teetime.framework.InputPort@59717824
+00:35:29.235 [main] DEBUG teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation -- Connected (unsynch) teetime.framework.OutputPort@15d9bc04 and teetime.framework.InputPort@473b46c3
+00:35:29.239 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Executing runnable stage...
+00:35:29.239 [main] DEBUG teetime.framework.Execution -- Using scheduler: teetime.framework.scheduling.pushpullmodel.PushPullScheduling
+00:35:29.240 [main] DEBUG ModelVisualizationMain -- Running arch-mod
+00:35:29.406 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model type-model.xmi
+00:35:29.505 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model assembly-model.xmi
+00:35:29.561 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model deployment-model.xmi
+00:35:29.600 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model execution-model.xmi
+00:35:29.674 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model statistics-model.xmi
+00:35:29.746 [Thread for ModelRepositoryProducerStage-0] INFO org.oceandsl.analysis.architecture.ArchitectureModelManagementUtils -- Loading model source-model.xmi
+00:35:29.897 [Thread for ModelRepositoryProducerStage-0] DEBUG org.oceandsl.analysis.architecture.stages.ModelRepositoryProducerStage -- Finished runnable stage. (ModelRepositoryProducerStage-0)
+00:35:29.898 [main] DEBUG ModelVisualizationMain -- Done
+real 1.106
+user 3.182
+sys 0.260
+[32m▶ Visualizing graph...[0m
+▶ Trying visualization with edge bundling...
+real 0.638
+user 1.035
+sys 0.110
+✔ Visualization with edge bundling finished.
+
+[32m============================================================[0m
+[32m          ABSTRACTION + VISUALIZATION DONE[0m
+[32m============================================================[0m
+
+[32mMAB model:[0m      bin/benchmark-anytree-cluster/mab_model
+[32mDOT graph:[0m      bin/benchmark-anytree-cluster/mvis_combined/mab_model-component.dot
+[32mVisualization:[0m bin/benchmark-anytree-cluster/mvis_combined/output.svg
+
+
+BENCH_EXIT_CODE=0
+
+BENCH_RESULT_JSON={"reported_displayed_edges": 172, "exit_code": 0, "original_component_types": 85, "original_assembly_components": 85, "original_invocations": 387, "original_statistics_entries": 388, "original_source_entries": 224, "final_component_types": 85, "final_assembly_components": 85, "final_deployed_components": 93, "final_operation_types": 576, "final_assembly_operations": 576, "final_deployed_operations": 576, "final_invocations": 387, "final_invocation_calls": 727, "final_statistics_entries": 388, "final_source_entries": 224, "tulip_mode": "requested", "consistency_errors": 0, "mab_attempts": 1, "mab_real_s": 2.167, "mab_user_s": 7.841, "mab_sys_s": 0.678, "mvis_attempts": 1, "mvis_real_s": 1.106, "mvis_user_s": 3.182, "mvis_sys_s": 0.26, "tulip_attempts": 1, "tulip_real_s": 0.638, "tulip_user_s": 1.035, "tulip_sys_s": 0.11, "phases_real_s": 3.911, "warnings": "", "case": "anytree_cluster", "run": 9, "warmup": 0, "status": "ok", "log": "/home/macintosh/PCARP/benchmark-results/20260922-232121-sl2zpu3g/0123.log", "workflow_real_s": 3.917448, "workflow_user_s": 12.063252, "workflow_sys_s": 1.049504, "original_operation_types": 576, "original_assembly_operations": 576, "original_deployed_components": 93, "original_deployed_operations": 576, "original_operation_dataflows": 202, "original_storage_dataflows": 53, "original_model_bytes": 937572, "model_bytes": 939499, "final_operation_dataflows": 202, "final_storage_dataflows": 53}

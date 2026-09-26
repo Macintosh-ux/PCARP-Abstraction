@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ASCII"?>
+<source:SourceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:source="platform:/resource/Kieker/model/analysismodel.ecore/source">
+  <sources>
+    <key href="type-model.xmi#//@componentTypes.17/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="type-model.xmi#//@componentTypes.17/@value/@providedOperations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="assembly-model.xmi#//@components.1/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="assembly-model.xmi#//@components.1/@value/@operations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.0/@value/@components.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.0/@value/@components.0/@value/@operations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="type-model.xmi#//@componentTypes.18/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="type-model.xmi#//@componentTypes.18/@value/@providedOperations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="assembly-model.xmi#//@components.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="assembly-model.xmi#//@components.0/@value/@operations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.1/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.1/@value/@components.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.1/@value/@components.0/@value/@operations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="execution-model.xmi#//@invocations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="execution-model.xmi#//@invocations.5411/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="type-model.xmi#//@componentTypes.12/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="type-model.xmi#//@componentTypes.12/@value/@providedOperations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="assembly-model.xmi#//@components.2/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="assembly-model.xmi#//@components.2/@value/@operations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.1/@value/@components.1/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="deployment-model.xmi#//@contexts.1/@value/@components.1/@value/@operations.0/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="execution-model.xmi#//@invocations.1/@value"/>
+    <value>dynamic</value>
+  </sources>
+  <sources>
+    <key href="execution-model.xmi#//@invocations.2964/@value"/>
+    <value>dynamic</value>
+  </sources>
+</source:SourceModel>

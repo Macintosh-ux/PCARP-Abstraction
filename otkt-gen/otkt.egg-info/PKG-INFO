@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: otkt
+Version: 1.0.0
+Summary: Opentelemetry to Kieker translator for Python
+Home-page: https://github.com/kieker-monitoring/OtktDSL
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: opentelemetry-api==1.18.0
+Requires-Dist: opentelemetry-sdk==1.18.0
+Requires-Dist: opentelemetry-exporter-otlp==1.18.0
+Requires-Dist: opentelemetry-instrumentation==0.40b0
+Requires-Dist: kiekerforpython
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary

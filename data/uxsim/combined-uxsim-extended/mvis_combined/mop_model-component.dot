@@ -1,0 +1,1176 @@
+digraph "mop_model" {
+	rankdir="LR"
+	node [fillcolor="white",shape="box",color="#000000",style="filled"]
+	edge [color="#000000",style="solid",arrowhead="open"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer
+"]
+	"calendar_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+calendar.calendar
+"]
+	"test_verification_straight_road_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_straight_road.test_verification_straight_road
+"]
+	"uxsim.analyzer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.analyzer
+"]
+	"collections.abc_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+collections.abc
+"]
+	"test_verification_node_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_node.test_verification_node
+"]
+	"uxsim.uxsim_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.uxsim
+"]
+	"uxsim.OSMImporter2.OSMImporter2_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.OSMImporter2.OSMImporter2
+"]
+	"turtle_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+turtle.turtle
+"]
+	"test_verification_sioux_falls_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_sioux_falls.test_verification_sioux_falls
+"]
+	"test_verification_multilane_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_multilane.test_verification_multilane
+"]
+	"getopt_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+getopt.getopt
+"]
+	"test_verification_route_choice_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_route_choice.test_verification_route_choice
+"]
+	"matplotlib.pyplot_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+matplotlib.pyplot
+"]
+	"collections_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+collections.collections
+"]
+	"operator_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+operator.operator
+"]
+	"pytest_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+pytest.pytest
+"]
+	"uxsim.uxsim.World_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.World
+"]
+	"uxsim.uxsim.Vehicle_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.Vehicle
+"]
+	"uxsim.OSMImporter.OSMImporter_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.OSMImporter.OSMImporter
+"]
+	"example_04jp_automatic_network_generation_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_04jp_automatic_network_generation.example_04jp_automatic_network_generation
+"]
+	"test_other_functions_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_other_functions.test_other_functions
+"]
+	"uxsim.DTAsolvers.DTAsolvers_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.DTAsolvers.DTAsolvers
+"]
+	"uxsim_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.uxsim
+"]
+	"example_10en_signal_4legged_intersection_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_10en_signal_4legged_intersection.example_10en_signal_4legged_intersection
+"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_26en_dynamic_traffic_assignment_DUO_DUE_DSO.example_26en_dynamic_traffic_assignment_DUO_DUE_DSO
+"]
+	"example_03jp_data_loading_sioux_falls_network_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_03jp_data_loading_sioux_falls_network.example_03jp_data_loading_sioux_falls_network
+"]
+	"example_09en_congestion_pricing_highway_toll_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_09en_congestion_pricing_highway_toll.example_09en_congestion_pricing_highway_toll
+"]
+	"example_08jp_signal_reactive_control_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_08jp_signal_reactive_control.example_08jp_signal_reactive_control
+"]
+	"uxsim.Utilities.Utilities_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.Utilities.Utilities
+"]
+	"builtins_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+builtins.builtins
+"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch
+"]
+	"test_notebook_demos_extra_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_notebook_demos_extra.test_notebook_demos_extra
+"]
+	"cmath_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+cmath.cmath
+"]
+	"dbm_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+dbm.dbm
+"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control
+"]
+	"test_notebook_demos_extra.CellExecuter_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_notebook_demos_extra.CellExecuter
+"]
+	"test_verification_exceptional_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_exceptional.test_verification_exceptional
+"]
+	"example_00en_simple_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_00en_simple.example_00en_simple
+"]
+	"example_27en_interactive_simulation_by_streamlit_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_27en_interactive_simulation_by_streamlit.example_27en_interactive_simulation_by_streamlit
+"]
+	"example_13en_multiple_signals_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_13en_multiple_signals.example_13en_multiple_signals
+"]
+	"test_optional_functions_python313_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_optional_functions_python313.test_optional_functions_python313
+"]
+	"test_verification_taxi_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_taxi.test_verification_taxi
+"]
+	"uxsim.TaxiHandler.TaxiHandler_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.TaxiHandler.TaxiHandler
+"]
+	"plistlib_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+plistlib.plistlib
+"]
+	"IPython.display_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+IPython.display
+"]
+	"math_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+math.math
+"]
+	"test_notebook_demos_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_notebook_demos.test_notebook_demos
+"]
+	"uxsim.utils_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.utils
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer
+"]
+	"scipy.sparse_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+scipy.sparse
+"]
+	"example_01jp_basic_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_01jp_basic.example_01jp_basic
+"]
+	"tokenize_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+tokenize.tokenize
+"]
+	"example_06en_dynamic_parameter_change_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_06en_dynamic_parameter_change.example_06en_dynamic_parameter_change
+"]
+	"uxsim.analyzer.Analyzer_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.analyzer.Analyzer
+"]
+	"uxsim.analyzer.analyzer_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.analyzer.analyzer
+"]
+	"networkx_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+networkx.networkx
+"]
+	"example_08en_signal_reactive_control_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_08en_signal_reactive_control.example_08en_signal_reactive_control
+"]
+	"example_16en_import_from_OpenStreetMap_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_16en_import_from_OpenStreetMap.example_16en_import_from_OpenStreetMap
+"]
+	"uxsim.scenario_reader_writer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.scenario_reader_writer
+"]
+	"numpy_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+numpy.numpy
+"]
+	"example_24en_user_defined_functions_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_24en_user_defined_functions.example_24en_user_defined_functions
+"]
+	"uxsim.uxsim.RouteChoice_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.RouteChoice
+"]
+	"example_05jp_gridlock_and_prevention_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_05jp_gridlock_and_prevention.example_05jp_gridlock_and_prevention
+"]
+	"example_20en_taxi_or_shared_mobility_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_20en_taxi_or_shared_mobility.example_20en_taxi_or_shared_mobility
+"]
+	"example_05en_gridlock_and_prevention_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_05en_gridlock_and_prevention.example_05en_gridlock_and_prevention
+"]
+	"time_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+time.time
+"]
+	"test_verification_dta_solvers_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_verification_dta_solvers.test_verification_dta_solvers
+"]
+	"mailcap_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+mailcap.mailcap
+"]
+	"importlib.resources_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+importlib.resources
+"]
+	"curses_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+curses.curses
+"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_11en_signal_4legged_intersection_reactive_control.example_11en_signal_4legged_intersection_reactive_control
+"]
+	"example_19en_multilane_link_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_19en_multilane_link.example_19en_multilane_link
+"]
+	"example_07en_signal_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_07en_signal.example_07en_signal
+"]
+	"example_01en_basic_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_01en_basic.example_01en_basic
+"]
+	"example_18en_result_GUI_viewer_grid_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_18en_result_GUI_viewer_grid.example_18en_result_GUI_viewer_grid
+"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.DQN_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.DQN
+"]
+	"example_07jp_signal_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_07jp_signal.example_07jp_signal
+"]
+	"example_27jp_interactive_simulation_by_streamlit_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_27jp_interactive_simulation_by_streamlit.example_27jp_interactive_simulation_by_streamlit
+"]
+	"example_04en_automatic_network_generation_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_04en_automatic_network_generation.example_04en_automatic_network_generation
+"]
+	"uxsim.utils.catch_exceptions_and_warn_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.utils.catch_exceptions_and_warn
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.PandasModel_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.PandasModel
+"]
+	"PyQt5.QtWidgets_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+PyQt5.QtWidgets
+"]
+	"matplotlib_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+matplotlib.matplotlib
+"]
+	"example_15jp_4phase_signal_japanese_style_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_15jp_4phase_signal_japanese_style.example_15jp_4phase_signal_japanese_style
+"]
+	"example_21en_modal_share_private_car_and_carsharing_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_21en_modal_share_private_car_and_carsharing.example_21en_modal_share_private_car_and_carsharing
+"]
+	"uxsim.utils.utils_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.utils.utils
+"]
+	"example_02jp_bottleneck_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_02jp_bottleneck.example_02jp_bottleneck
+"]
+	"example_06jp_dynamic_parameter_change_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_06jp_dynamic_parameter_change.example_06jp_dynamic_parameter_change
+"]
+	"example_02en_bottleneck_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_02en_bottleneck.example_02en_bottleneck
+"]
+	"scipy.sparse.csgraph_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+scipy.sparse.csgraph
+"]
+	"uxsim.DTAsolvers.DTAsolvers.SolverDSO_GA_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.DTAsolvers.DTAsolvers.SolverDSO_GA
+"]
+	"uxsim.TaxiHandler.TaxiHandler.TaxiHandler_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.TaxiHandler.TaxiHandler.TaxiHandler
+"]
+	"uxsim.uxsim.Node_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.Node
+"]
+	"example_27jp_interactive_simulation_by_streamlit.UXsim_model_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_27jp_interactive_simulation_by_streamlit.UXsim_model
+"]
+	"example_23en_huge_scale_simlation_at_Chicago_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_23en_huge_scale_simlation_at_Chicago.example_23en_huge_scale_simlation_at_Chicago
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.GraphWidget_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.GraphWidget
+"]
+	"uxsim.DTAsolvers.DTAsolvers.SolverDUE_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.DTAsolvers.DTAsolvers.SolverDUE
+"]
+	"example_03en_data_loading_sioux_falls_network_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_03en_data_loading_sioux_falls_network.example_03en_data_loading_sioux_falls_network
+"]
+	"uxsim.uxsim.Link_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.uxsim.Link
+"]
+	"test_examples_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_examples.test_examples
+"]
+	"test_result_gui_viewer_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_result_gui_viewer.test_result_gui_viewer
+"]
+	"example_17en_result_GUI_viewer_sioux_falls_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_17en_result_GUI_viewer_sioux_falls.example_17en_result_GUI_viewer_sioux_falls
+"]
+	"++unknown-component++_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+.++unknown-component++
+"]
+	"pathlib_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+pathlib.pathlib
+"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.TaxiHandler.TaxiHandler.TripRequest
+"]
+	"uxsim.uxsim.Route_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.uxsim.Route
+"]
+	"sys_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+sys.sys
+"]
+	"locale_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+locale.locale
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow
+"]
+	"PyQt5.QtCore_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+PyQt5.QtCore
+"]
+	"test_notebook_demos.SkipCellsPreprocessor_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+test_notebook_demos.SkipCellsPreprocessor
+"]
+	"itertools_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+itertools.itertools
+"]
+	"crypt_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+crypt.crypt
+"]
+	"shapely.geometry_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+shapely.geometry
+"]
+	"matplotlib.lines_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+matplotlib.lines
+"]
+	"uxsim.scenario_reader_writer.demand_info_record_0" [fillcolor="#ffffff",color="#000000",label="<<assembly component>>
+uxsim.scenario_reader_writer.demand_info_record
+"]
+	"tqdm.auto_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+tqdm.auto
+"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.TrafficSim_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.TrafficSim
+"]
+	"_ast_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+_ast._ast
+"]
+	"PyQt5.QtGui_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+PyQt5.QtGui
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem
+"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.ReplayMemory_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.ReplayMemory
+"]
+	"scipy.interpolate_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+scipy.interpolate
+"]
+	"modulefinder_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+modulefinder.modulefinder
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.NodeItem_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+uxsim.ResultGUIViewer.ResultGUIViewer.NodeItem
+"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.TrafficSim_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.TrafficSim
+"]
+	"example_27en_interactive_simulation_by_streamlit.UXsim_model_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_27en_interactive_simulation_by_streamlit.UXsim_model
+"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.DQN_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.DQN
+"]
+	"typing_0" [fillcolor="#ffc0ff",color="#ff00ff",label="<<assembly component>>
+typing.typing
+"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "calendar_0" [label="1"]
+	"test_verification_straight_road_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "collections.abc_0" [label="1"]
+	"test_verification_node_0" -> "uxsim.uxsim_0" [label="4"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "turtle_0" [label="2"]
+	"test_verification_sioux_falls_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_multilane_0" -> "getopt_0" [label="1"]
+	"test_verification_route_choice_0" -> "uxsim.uxsim_0" [label="4"]
+	"uxsim.analyzer_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "collections_0" [label="2"]
+	"test_verification_multilane_0" -> "operator_0" [label="1"]
+	"uxsim.analyzer_0" -> "pytest_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_multilane_0" -> "pytest_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.Vehicle_0" [label="5413"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "operator_0" [label="2"]
+	"test_verification_node_0" -> "getopt_0" [label="1"]
+	"example_04jp_automatic_network_generation_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_other_functions_0" -> "uxsim.uxsim_0" [label="4"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim_0" [label="8"]
+	"example_10en_signal_4legged_intersection_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"test_verification_sioux_falls_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_verification_straight_road_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_multilane_0" -> "collections.abc_0" [label="1"]
+	"example_08jp_signal_reactive_control_0" -> "uxsim_0" [label="1"]
+	"test_verification_node_0" -> "collections.abc_0" [label="1"]
+	"uxsim.uxsim_0" -> "collections.abc_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_route_choice_0" -> "operator_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "builtins_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "matplotlib.pyplot_0" [label="3"]
+	"test_verification_multilane_0" -> "test_verification_node_0" [label="9"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "uxsim.uxsim_0" [label="6"]
+	"test_notebook_demos_extra_0" -> "cmath_0" [label="1"]
+	"test_other_functions_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "operator_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "dbm_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "pytest_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim_0" [label="3"]
+	"test_notebook_demos_extra_0" -> "test_notebook_demos_extra.CellExecuter_0" [label="1"]
+	"test_verification_exceptional_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_00en_simple_0" -> "uxsim.uxsim_0" [label="4"]
+	"uxsim.uxsim_0" -> "builtins_0" [label="1"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_13en_multiple_signals_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_other_functions_0" -> "operator_0" [label="1"]
+	"test_verification_multilane_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_node_0" -> "matplotlib.pyplot_0" [label="16"]
+	"test_verification_multilane_0" -> "matplotlib.pyplot_0" [label="7"]
+	"test_optional_functions_python313_0" -> "test_verification_node_0" [label="1"]
+	"test_other_functions_0" -> "calendar_0" [label="1"]
+	"test_verification_straight_road_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_verification_node_0" -> "test_verification_node_0" [label="5"]
+	"test_verification_taxi_0" -> "uxsim.uxsim_0" [label="2"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "operator_0" [label="1"]
+	"test_verification_route_choice_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_other_functions_0" -> "uxsim_0" [label="9"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "operator_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "uxsim_0" [label="1"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "plistlib_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.analyzer_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.uxsim.Vehicle_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "IPython.display_0" [label="1"]
+	"test_other_functions_0" -> "uxsim.uxsim.World_0" [label="2"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "pytest_0" [label="7"]
+	"test_verification_route_choice_0" -> "collections.abc_0" [label="1"]
+	"uxsim.analyzer_0" -> "calendar_0" [label="2"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "turtle_0" [label="1"]
+	"uxsim.analyzer_0" -> "turtle_0" [label="1"]
+	"uxsim.uxsim_0" -> "calendar_0" [label="1"]
+	"test_verification_multilane_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_verification_taxi_0" -> "math_0" [label="10"]
+	"test_notebook_demos_extra_0" -> "test_notebook_demos_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.utils_0" [label="2"]
+	"test_verification_route_choice_0" -> "pytest_0" [label="1"]
+	"test_verification_node_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "calendar_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "pytest_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "operator_0" [label="3"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.analyzer_0" -> "operator_0" [label="2"]
+	"test_verification_straight_road_0" -> "test_verification_straight_road_0" [label="1"]
+	"test_other_functions_0" -> "collections.abc_0" [label="2"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "collections.abc_0" [label="3"]
+	"example_13en_multiple_signals_0" -> "turtle_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "calendar_0" [label="1"]
+	"test_other_functions_0" -> "pytest_0" [label="1"]
+	"test_verification_route_choice_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "uxsim_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim_0" [label="7"]
+	"test_verification_multilane_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_13en_multiple_signals_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "scipy.sparse_0" [label="1"]
+	"example_01jp_basic_0" -> "tokenize_0" [label="2"]
+	"example_06en_dynamic_parameter_change_0" -> "uxsim.uxsim_0" [label="3"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.analyzer.analyzer_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "calendar_0" [label="2"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.utils_0" -> "pytest_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "networkx_0" [label="1"]
+	"example_08en_signal_reactive_control_0" -> "uxsim.uxsim_0" [label="4"]
+	"example_16en_import_from_OpenStreetMap_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_node_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_06en_dynamic_parameter_change_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "plistlib_0" [label="4"]
+	"uxsim.scenario_reader_writer_0" -> "turtle_0" [label="1"]
+	"test_notebook_demos_0" -> "pytest_0" [label="1"]
+	"uxsim.analyzer_0" -> "collections.abc_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "tokenize_0" [label="1"]
+	"test_other_functions_0" -> "tokenize_0" [label="2"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" [label="1"]
+	"uxsim.utils_0" -> "numpy_0" [label="2"]
+	"example_24en_user_defined_functions_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.utils_0" -> "IPython.display_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "collections.abc_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "calendar_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "turtle_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.RouteChoice_0" [label="2"]
+	"example_05jp_gridlock_and_prevention_0" -> "uxsim.analyzer_0" [label="2"]
+	"uxsim.analyzer_0" -> "tokenize_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_other_functions_0" -> "test_verification_node_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "tokenize_0" [label="2"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "collections.abc_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "pytest_0" [label="1"]
+	"uxsim.uxsim_0" -> "tokenize_0" [label="1"]
+	"test_verification_straight_road_0" -> "tokenize_0" [label="1"]
+	"test_verification_multilane_0" -> "numpy_0" [label="12"]
+	"example_05en_gridlock_and_prevention_0" -> "uxsim.analyzer_0" [label="2"]
+	"uxsim.uxsim_0" -> "time_0" [label="3"]
+	"test_verification_sioux_falls_0" -> "time_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.analyzer.Analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "math_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "uxsim.uxsim_0" [label="2"]
+	"test_notebook_demos_extra_0" -> "mailcap_0" [label="1"]
+	"example_01jp_basic_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_notebook_demos_0" -> "cmath_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "tokenize_0" [label="4"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "turtle_0" [label="1"]
+	"test_notebook_demos_0" -> "numpy_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "networkx_0" [label="1"]
+	"example_16en_import_from_OpenStreetMap_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "matplotlib.pyplot_0" [label="2"]
+	"test_notebook_demos_0" -> "uxsim_0" [label="4"]
+	"uxsim.uxsim_0" -> "dbm_0" [label="1"]
+	"test_verification_sioux_falls_0" -> "calendar_0" [label="1"]
+	"test_verification_straight_road_0" -> "test_verification_node_0" [label="11"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "matplotlib.pyplot_0" [label="1"]
+	"test_verification_taxi_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.analyzer_0" -> "IPython.display_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_verification_route_choice_0" -> "math_0" [label="4"]
+	"uxsim.analyzer_0" -> "importlib.resources_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "collections.abc_0" [label="1"]
+	"example_08en_signal_reactive_control_0" -> "curses_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "tokenize_0" [label="1"]
+	"test_verification_node_0" -> "operator_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_verification_straight_road_0" -> "uxsim_0" [label="10"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.RouteChoice_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"test_verification_route_choice_0" -> "matplotlib.pyplot_0" [label="14"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "uxsim.uxsim_0" [label="4"]
+	"test_verification_sioux_falls_0" -> "turtle_0" [label="1"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "uxsim_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "matplotlib.pyplot_0" [label="2"]
+	"example_19en_multilane_link_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "turtle_0" [label="1"]
+	"test_verification_route_choice_0" -> "uxsim_0" [label="4"]
+	"example_07en_signal_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_01en_basic_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "time_0" [label="3"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "pytest_0" [label="1"]
+	"uxsim.analyzer_0" -> "dbm_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "collections.abc_0" [label="1"]
+	"uxsim.uxsim_0" -> "pytest_0" [label="1"]
+	"example_18en_result_GUI_viewer_grid_0" -> "uxsim.uxsim_0" [label="4"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim_0" [label="8"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "getopt_0" [label="1"]
+	"test_verification_exceptional_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_notebook_demos_0" -> "calendar_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_24en_user_defined_functions_0" -> "collections.abc_0" [label="1"]
+	"test_verification_node_0" -> "numpy_0" [label="12"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.DQN_0" [label="2"]
+	"test_verification_dta_solvers_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"test_verification_taxi_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="6"]
+	"example_07jp_signal_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "collections_0" [label="2"]
+	"test_other_functions_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"test_optional_functions_python313_0" -> "operator_0" [label="1"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "plistlib_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.OSMImporter2.OSMImporter2_0" [label="1"]
+	"test_verification_node_0" -> "uxsim_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_04en_automatic_network_generation_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "collections.abc_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.utils.catch_exceptions_and_warn_0" [label="3"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "cmath_0" [label="1"]
+	"uxsim.uxsim_0" -> "turtle_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.PandasModel_0" [label="1"]
+	"test_notebook_demos_0" -> "turtle_0" [label="1"]
+	"test_verification_sioux_falls_0" -> "pytest_0" [label="1"]
+	"test_verification_node_0" -> "pytest_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "PyQt5.QtWidgets_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "time_0" [label="1"]
+	"example_16en_import_from_OpenStreetMap_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "pytest_0" [label="1"]
+	"test_other_functions_0" -> "turtle_0" [label="2"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "cmath_0" [label="2"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "example_27jp_interactive_simulation_by_streamlit_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "numpy_0" [label="1"]
+	"uxsim.utils_0" -> "matplotlib_0" [label="1"]
+	"example_24en_user_defined_functions_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_13en_multiple_signals_0" -> "cmath_0" [label="1"]
+	"example_15jp_4phase_signal_japanese_style_0" -> "uxsim.uxsim_0" [label="12"]
+	"test_verification_taxi_0" -> "pytest_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "calendar_0" [label="1"]
+	"uxsim.analyzer_0" -> "math_0" [label="4"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "uxsim.uxsim_0" [label="2"]
+	"test_verification_sioux_falls_0" -> "operator_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.uxsim.Vehicle_0" [label="312"]
+	"test_other_functions_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "collections.abc_0" [label="2"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "operator_0" [label="4"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "calendar_0" [label="1"]
+	"example_07jp_signal_0" -> "uxsim.uxsim_0" [label="4"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "turtle_0" [label="2"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_01en_basic_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.utils.utils_0" [label="1"]
+	"example_02jp_bottleneck_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "operator_0" [label="13"]
+	"test_verification_multilane_0" -> "calendar_0" [label="4"]
+	"test_verification_sioux_falls_0" -> "uxsim_0" [label="3"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "collections.abc_0" [label="1"]
+	"example_06jp_dynamic_parameter_change_0" -> "uxsim.uxsim_0" [label="2"]
+	"example_02en_bottleneck_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_08jp_signal_reactive_control_0" -> "uxsim.uxsim_0" [label="3"]
+	"test_verification_route_choice_0" -> "getopt_0" [label="2"]
+	"uxsim.uxsim_0" -> "cmath_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "scipy.sparse.csgraph_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "uxsim.DTAsolvers.DTAsolvers.SolverDSO_GA_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "calendar_0" [label="4"]
+	"uxsim.uxsim_0" -> "getopt_0" [label="1"]
+	"test_verification_taxi_0" -> "uxsim.TaxiHandler.TaxiHandler.TaxiHandler_0" [label="1"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.Node_0" [label="960"]
+	"test_verification_sioux_falls_0" -> "collections.abc_0" [label="1"]
+	"test_optional_functions_python313_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_straight_road_0" -> "getopt_0" [label="4"]
+	"uxsim.utils_0" -> "plistlib_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "operator_0" [label="3"]
+	"test_verification_straight_road_0" -> "uxsim.utils_0" [label="1"]
+	"example_16en_import_from_OpenStreetMap_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_16en_import_from_OpenStreetMap_0" -> "turtle_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "uxsim_0" [label="6"]
+	"test_notebook_demos_0" -> "mailcap_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "dbm_0" [label="1"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "test_verification_dta_solvers_0" [label="1"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim_0" [label="6"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "example_27jp_interactive_simulation_by_streamlit.UXsim_model_0" [label="2"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_23en_huge_scale_simlation_at_Chicago_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "tokenize_0" [label="1"]
+	"test_verification_sioux_falls_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.utils_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.uxsim.World_0" [label="324"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.GraphWidget_0" [label="1"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "matplotlib.pyplot_0" [label="2"]
+	"example_24en_user_defined_functions_0" -> "operator_0" [label="3"]
+	"example_10en_signal_4legged_intersection_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_08en_signal_reactive_control_0" -> "operator_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "uxsim.DTAsolvers.DTAsolvers.SolverDUE_0" [label="1"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "operator_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim_0" [label="11"]
+	"example_05en_gridlock_and_prevention_0" -> "uxsim.uxsim_0" [label="2"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"uxsim.analyzer_0" -> "getopt_0" [label="1"]
+	"example_13en_multiple_signals_0" -> "numpy_0" [label="1"]
+	"example_01jp_basic_0" -> "uxsim_0" [label="6"]
+	"uxsim.uxsim_0" -> "uxsim.analyzer_0" [label="4"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "operator_0" [label="2"]
+	"test_verification_sioux_falls_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "turtle_0" [label="7"]
+	"example_20en_taxi_or_shared_mobility_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "dbm_0" [label="1"]
+	"uxsim.analyzer_0" -> "numpy_0" [label="3"]
+	"example_06jp_dynamic_parameter_change_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "tokenize_0" [label="5"]
+	"test_verification_exceptional_0" -> "collections.abc_0" [label="2"]
+	"test_verification_straight_road_0" -> "operator_0" [label="1"]
+	"example_05jp_gridlock_and_prevention_0" -> "uxsim.scenario_reader_writer_0" [label="2"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim_0" [label="2"]
+	"uxsim.uxsim.Link_0" -> "uxsim.uxsim.World_0" [label="6"]
+	"test_notebook_demos_0" -> "dbm_0" [label="1"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "curses_0" [label="2"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "calendar_0" [label="2"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"test_examples_0" -> "cmath_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.uxsim.Node_0" [label="960"]
+	"test_verification_taxi_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_other_functions_0" -> "uxsim.Utilities.Utilities_0" [label="9"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "uxsim_0" [label="2"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "turtle_0" [label="5"]
+	"test_result_gui_viewer_0" -> "time_0" [label="1"]
+	"example_04jp_automatic_network_generation_0" -> "uxsim.uxsim_0" [label="4"]
+	"uxsim.Utilities.Utilities_0" -> "getopt_0" [label="6"]
+	"uxsim.analyzer_0" -> "time_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "test_verification_dta_solvers_0" [label="62"]
+	"uxsim.scenario_reader_writer_0" -> "pytest_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "collections_0" [label="1"]
+	"example_00en_simple_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.analyzer_0" -> "scipy.sparse.csgraph_0" [label="2"]
+	"example_17en_result_GUI_viewer_sioux_falls_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Link_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.analyzer_0" -> "plistlib_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_08en_signal_reactive_control_0" -> "uxsim_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "math_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "dbm_0" [label="1"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "calendar_0" [label="1"]
+	"example_06jp_dynamic_parameter_change_0" -> "uxsim_0" [label="8"]
+	"example_07jp_signal_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_examples_0" -> "calendar_0" [label="2"]
+	"example_01jp_basic_0" -> "uxsim.uxsim_0" [label="3"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "time_0" [label="1"]
+	"++unknown-component++_0" -> "uxsim.uxsim.World_0" [label="4"]
+	"test_verification_multilane_0" -> "uxsim_0" [label="4"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "matplotlib.pyplot_0" [label="1"]
+	"test_result_gui_viewer_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "pathlib_0" [label="1"]
+	"uxsim.utils.catch_exceptions_and_warn_0" -> "uxsim.analyzer.Analyzer_0" [label="3"]
+	"uxsim.analyzer_0" -> "matplotlib_0" [label="9"]
+	"example_04en_automatic_network_generation_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "numpy_0" [label="1"]
+	"test_verification_exceptional_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "operator_0" [label="1"]
+	"example_13en_multiple_signals_0" -> "matplotlib.pyplot_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "mailcap_0" [label="1"]
+	"uxsim.utils_0" -> "operator_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.uxsim.World_0" [label="2"]
+	"uxsim.scenario_reader_writer_0" -> "getopt_0" [label="1"]
+	"example_17en_result_GUI_viewer_sioux_falls_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "numpy_0" [label="4"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "numpy_0" [label="4"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"test_other_functions_0" -> "matplotlib.pyplot_0" [label="1"]
+	"test_verification_taxi_0" -> "turtle_0" [label="7"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_verification_multilane_0" -> "math_0" [label="8"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "tokenize_0" [label="1"]
+	"test_result_gui_viewer_0" -> "pytest_0" [label="1"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "calendar_0" [label="1"]
+	"test_verification_straight_road_0" -> "numpy_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "builtins_0" [label="1"]
+	"example_15jp_4phase_signal_japanese_style_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_verification_exceptional_0" -> "test_verification_node_0" [label="3"]
+	"test_verification_route_choice_0" -> "test_verification_node_0" [label="5"]
+	"uxsim.analyzer_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.utils_0" -> "calendar_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.DQN_0" [label="2"]
+	"test_verification_straight_road_0" -> "pytest_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "mailcap_0" [label="4"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "uxsim_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.analyzer.Analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "operator_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.analyzer_0" [label="3"]
+	"uxsim.analyzer_0" -> "collections_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"example_07en_signal_0" -> "uxsim.uxsim_0" [label="2"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.TaxiHandler.TaxiHandler.TripRequest_0" [label="1"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "calendar_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "mailcap_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "turtle_0" [label="1"]
+	"example_17en_result_GUI_viewer_sioux_falls_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "uxsim_0" [label="4"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "pytest_0" [label="1"]
+	"example_19en_multilane_link_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_08en_signal_reactive_control_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_02en_bottleneck_0" -> "uxsim.uxsim_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "tokenize_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Route_0" [label="1"]
+	"example_08jp_signal_reactive_control_0" -> "operator_0" [label="1"]
+	"example_23en_huge_scale_simlation_at_Chicago_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"example_08jp_signal_reactive_control_0" -> "curses_0" [label="1"]
+	"example_16en_import_from_OpenStreetMap_0" -> "operator_0" [label="1"]
+	"uxsim.utils_0" -> "dbm_0" [label="1"]
+	"test_verification_exceptional_0" -> "numpy_0" [label="1"]
+	"test_result_gui_viewer_0" -> "calendar_0" [label="1"]
+	"test_verification_exceptional_0" -> "uxsim_0" [label="1"]
+	"example_08jp_signal_reactive_control_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "math_0" [label="2"]
+	"uxsim.uxsim.Link_0" -> "uxsim.uxsim.Link_0" [label="720"]
+	"example_06en_dynamic_parameter_change_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_08en_signal_reactive_control_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_verification_route_choice_0" -> "collections_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "sys_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "locale_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "getopt_0" [label="1"]
+	"example_13en_multiple_signals_0" -> "tokenize_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" [label="1"]
+	"++unknown-component++_0" -> "uxsim.utils.catch_exceptions_and_warn_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim.Link_0" [label="3"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "curses_0" [label="1"]
+	"test_verification_taxi_0" -> "test_verification_node_0" [label="12"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "cmath_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "operator_0" [label="3"]
+	"uxsim.utils_0" -> "turtle_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "PyQt5.QtCore_0" [label="2"]
+	"uxsim.analyzer_0" -> "mailcap_0" [label="1"]
+	"test_notebook_demos_0" -> "test_notebook_demos.SkipCellsPreprocessor_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "numpy_0" [label="1"]
+	"example_07en_signal_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_result_gui_viewer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "plistlib_0" [label="1"]
+	"test_verification_sioux_falls_0" -> "matplotlib.pyplot_0" [label="7"]
+	"example_13en_multiple_signals_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_01en_basic_0" -> "operator_0" [label="2"]
+	"example_04jp_automatic_network_generation_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_other_functions_0" -> "uxsim.utils_0" [label="2"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "tokenize_0" [label="2"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "calendar_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="6"]
+	"example_17en_result_GUI_viewer_sioux_falls_0" -> "uxsim.analyzer_0" [label="1"]
+	"test_result_gui_viewer_0" -> "uxsim.uxsim_0" [label="2"]
+	"example_18en_result_GUI_viewer_grid_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"example_06en_dynamic_parameter_change_0" -> "uxsim_0" [label="8"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.uxsim.Link_0" [label="18"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "itertools_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "collections_0" [label="2"]
+	"example_02jp_bottleneck_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "math_0" [label="1"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "operator_0" [label="1"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "matplotlib.pyplot_0" [label="1"]
+	"example_27en_interactive_simulation_by_streamlit_0" -> "turtle_0" [label="5"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.analyzer.Analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="3"]
+	"uxsim.uxsim_0" -> "uxsim.utils_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "math_0" [label="1"]
+	"example_10en_signal_4legged_intersection_0" -> "numpy_0" [label="4"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "cmath_0" [label="1"]
+	"example_05en_gridlock_and_prevention_0" -> "uxsim.scenario_reader_writer_0" [label="2"]
+	"example_15jp_4phase_signal_japanese_style_0" -> "turtle_0" [label="1"]
+	"test_verification_route_choice_0" -> "calendar_0" [label="4"]
+	"example_05en_gridlock_and_prevention_0" -> "uxsim.uxsim.World_0" [label="2"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "math_0" [label="1"]
+	"example_04jp_automatic_network_generation_0" -> "operator_0" [label="9"]
+	"example_02jp_bottleneck_0" -> "uxsim_0" [label="4"]
+	"example_15jp_4phase_signal_japanese_style_0" -> "uxsim_0" [label="3"]
+	"uxsim.uxsim_0" -> "plistlib_0" [label="2"]
+	"test_optional_functions_python313_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim_0" [label="6"]
+	"example_24en_user_defined_functions_0" -> "uxsim_0" [label="2"]
+	"uxsim.scenario_reader_writer_0" -> "operator_0" [label="8"]
+	"test_verification_taxi_0" -> "calendar_0" [label="7"]
+	"uxsim.uxsim_0" -> "crypt_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "curses_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "operator_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "time_0" [label="1"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "turtle_0" [label="1"]
+	"test_examples_0" -> "mailcap_0" [label="1"]
+	"example_02en_bottleneck_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.uxsim.Node_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "shapely.geometry_0" [label="2"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"uxsim.analyzer_0" -> "matplotlib.lines_0" [label="13"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "collections.abc_0" [label="7"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "builtins_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "math_0" [label="1"]
+	"example_00en_simple_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "turtle_0" [label="4"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "cmath_0" [label="1"]
+	"example_05jp_gridlock_and_prevention_0" -> "uxsim.uxsim_0" [label="2"]
+	"example_19en_multilane_link_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.analyzer_0" -> "pathlib_0" [label="1"]
+	"example_13en_multiple_signals_0" -> "operator_0" [label="2"]
+	"example_04en_automatic_network_generation_0" -> "uxsim_0" [label="4"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim.uxsim_0" [label="2"]
+	"uxsim.analyzer_0" -> "cmath_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "turtle_0" [label="1"]
+	"example_15jp_4phase_signal_japanese_style_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_05jp_gridlock_and_prevention_0" -> "uxsim.uxsim.World_0" [label="2"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim.DTAsolvers.DTAsolvers.SolverDSO_GA_0" [label="1"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "tokenize_0" [label="3"]
+	"example_17en_result_GUI_viewer_sioux_falls_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.uxsim_0" -> "scipy.sparse_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "math_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "collections.abc_0" [label="4"]
+	"test_verification_sioux_falls_0" -> "cmath_0" [label="1"]
+	"example_10en_signal_4legged_intersection_0" -> "turtle_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "collections_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "turtle_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "math_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "cmath_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "numpy_0" [label="1"]
+	"++unknown-component++_0" -> "uxsim.scenario_reader_writer.demand_info_record_0" [label="2"]
+	"example_20en_taxi_or_shared_mobility_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.analyzer_0" -> "tqdm.auto_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.TrafficSim_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "pytest_0" [label="1"]
+	"uxsim.uxsim_0" -> "curses_0" [label="1"]
+	"example_18en_result_GUI_viewer_grid_0" -> "tokenize_0" [label="8"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.scenario_reader_writer_0" [label="2"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "turtle_0" [label="1"]
+	"example_10en_signal_4legged_intersection_0" -> "cmath_0" [label="1"]
+	"example_05en_gridlock_and_prevention_0" -> "uxsim_0" [label="14"]
+	"example_01en_basic_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_18en_result_GUI_viewer_grid_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "example_27jp_interactive_simulation_by_streamlit_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "operator_0" [label="6"]
+	"example_01en_basic_0" -> "tokenize_0" [label="2"]
+	"example_10en_signal_4legged_intersection_0" -> "operator_0" [label="2"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "mailcap_0" [label="1"]
+	"example_24en_user_defined_functions_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_verification_straight_road_0" -> "turtle_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "collections_0" [label="1"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim.DTAsolvers.DTAsolvers.SolverDUE_0" [label="1"]
+	"test_verification_exceptional_0" -> "operator_0" [label="5"]
+	"test_result_gui_viewer_0" -> "PyQt5.QtCore_0" [label="1"]
+	"uxsim.utils_0" -> "_ast_0" [label="1"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "operator_0" [label="7"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "numpy_0" [label="1"]
+	"test_verification_taxi_0" -> "operator_0" [label="2"]
+	"example_04en_automatic_network_generation_0" -> "operator_0" [label="9"]
+	"uxsim.Utilities.Utilities_0" -> "matplotlib.pyplot_0" [label="1"]
+	"example_04jp_automatic_network_generation_0" -> "uxsim_0" [label="4"]
+	"test_verification_route_choice_0" -> "numpy_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "tokenize_0" [label="3"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.utils_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "PyQt5.QtGui_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "networkx_0" [label="1"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "uxsim.scenario_reader_writer_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Vehicle_0" [label="1"]
+	"test_verification_straight_road_0" -> "itertools_0" [label="3"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "builtins_0" [label="1"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "operator_0" [label="2"]
+	"uxsim.uxsim_0" -> "numpy_0" [label="3"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "itertools_0" [label="1"]
+	"test_verification_sioux_falls_0" -> "test_verification_node_0" [label="7"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "matplotlib_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "getopt_0" [label="2"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "uxsim.TaxiHandler.TaxiHandler.TaxiHandler_0" [label="1"]
+	"example_15jp_4phase_signal_japanese_style_0" -> "operator_0" [label="1"]
+	"example_10en_signal_4legged_intersection_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_06jp_dynamic_parameter_change_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"test_optional_functions_python313_0" -> "pytest_0" [label="1"]
+	"example_18en_result_GUI_viewer_grid_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.utils_0" [label="1"]
+	"test_verification_exceptional_0" -> "pytest_0" [label="1"]
+	"example_10en_signal_4legged_intersection_0" -> "tokenize_0" [label="1"]
+	"example_01en_basic_0" -> "uxsim_0" [label="6"]
+	"test_notebook_demos_0" -> "test_notebook_demos_0" [label="1"]
+	"test_verification_taxi_0" -> "collections.abc_0" [label="7"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "plistlib_0" [label="2"]
+	"example_15jp_4phase_signal_japanese_style_0" -> "tokenize_0" [label="1"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.ReplayMemory_0" [label="1"]
+	"example_16en_import_from_OpenStreetMap_0" -> "tokenize_0" [label="1"]
+	"uxsim.analyzer_0" -> "scipy.interpolate_0" [label="1"]
+	"example_23en_huge_scale_simlation_at_Chicago_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_11en_signal_4legged_intersection_reactive_control_0" -> "cmath_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "getopt_0" [label="1"]
+	"example_02en_bottleneck_0" -> "uxsim_0" [label="4"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "uxsim_0" [label="4"]
+	"example_23en_huge_scale_simlation_at_Chicago_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_result_gui_viewer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.TrafficSim_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.ReplayMemory_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_18en_result_GUI_viewer_grid_0" -> "operator_0" [label="8"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "turtle_0" [label="1"]
+	"example_02jp_bottleneck_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_27jp_interactive_simulation_by_streamlit_0" -> "example_27jp_interactive_simulation_by_streamlit.UXsim_model_0" [label="2"]
+	"test_notebook_demos_extra_0" -> "numpy_0" [label="1"]
+	"example_01jp_basic_0" -> "turtle_0" [label="2"]
+	"example_08jp_signal_reactive_control_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "itertools_0" [label="1"]
+	"uxsim.uxsim_0" -> "mailcap_0" [label="1"]
+	"example_01en_basic_0" -> "turtle_0" [label="2"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "cmath_0" [label="1"]
+	"test_optional_functions_python313_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="0"]
+	"test_verification_taxi_0" -> "tokenize_0" [label="3"]
+	"example_01jp_basic_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_01jp_basic_0" -> "operator_0" [label="2"]
+	"example_03en_data_loading_sioux_falls_network_0" -> "tokenize_0" [label="1"]
+	"example_20en_taxi_or_shared_mobility_0" -> "uxsim.TaxiHandler.TaxiHandler.TaxiHandler_0" [label="1"]
+	"example_05jp_gridlock_and_prevention_0" -> "uxsim_0" [label="14"]
+	"uxsim.analyzer_0" -> "modulefinder_0" [label="1"]
+	"uxsim.scenario_reader_writer.demand_info_record_0" -> "uxsim.uxsim.World_0" [label="2"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "curses_0" [label="1"]
+	"example_04en_automatic_network_generation_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "uxsim.uxsim.World_0" [label="1"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "calendar_0" [label="7"]
+	"uxsim.uxsim_0" -> "uxsim.uxsim.Node_0" [label="1"]
+	"example_24en_user_defined_functions_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "scipy.sparse.csgraph_0" [label="1"]
+	"test_notebook_demos_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "builtins_0" [label="1"]
+	"test_other_functions_0" -> "math_0" [label="1"]
+	"example_03jp_data_loading_sioux_falls_network_0" -> "tokenize_0" [label="1"]
+	"test_verification_exceptional_0" -> "example_09en_congestion_pricing_highway_toll_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "test_other_functions_0" [label="1"]
+	"uxsim.analyzer_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"uxsim.analyzer_0" -> "example_19en_multilane_link_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_27jp_interactive_simulation_by_streamlit.UXsim_model_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"uxsim.analyzer_0" -> "test_other_functions_0" [label="1"]
+	"test_verification_route_choice_0" -> "example_19en_multilane_link_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.TrafficSim_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.TrafficSim_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.uxsim_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "example_07jp_signal_0" [label="1"]
+	"test_verification_node_0" -> "example_06jp_dynamic_parameter_change_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.analyzer_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim_0" -> "test_other_functions_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "example_07jp_signal_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"test_verification_route_choice_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"test_verification_node_0" -> "example_19en_multilane_link_0" [label="1"]
+	"test_verification_straight_road_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.uxsim_0" [label="1"]
+	"example_06jp_dynamic_parameter_change_0" -> "example_06jp_dynamic_parameter_change_0" [label="1"]
+	"uxsim.utils_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.EdgeItem_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "example_19en_multilane_link_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_09en_congestion_pricing_highway_toll_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"test_verification_exceptional_0" -> "example_19en_multilane_link_0" [label="1"]
+	"uxsim.analyzer_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"test_other_functions_0" -> "example_09en_congestion_pricing_highway_toll_0" [label="1"]
+	"test_verification_node_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "test_other_functions_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim.RouteChoice_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim_0" -> "example_09en_congestion_pricing_highway_toll_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.TrafficSim_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"test_other_functions_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"test_other_functions_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "example_09en_congestion_pricing_highway_toll_0" [label="1"]
+	"test_examples_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim.Route_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "example_13en_multiple_signals_0" [label="1"]
+	"test_verification_multilane_0" -> "example_19en_multilane_link_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.NodeItem_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "example_09en_congestion_pricing_highway_toll_0" [label="1"]
+	"test_examples_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"example_27en_interactive_simulation_by_streamlit.UXsim_model_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_26en_dynamic_traffic_assignment_DUO_DUE_DSO_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "test_other_functions_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.OSMImporter.OSMImporter_0" -> "test_other_functions_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"test_verification_dta_solvers_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "test_other_functions_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "uxsim.uxsim_0" [label="1"]
+	"test_verification_straight_road_0" -> "example_19en_multilane_link_0" [label="1"]
+	"test_verification_taxi_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"example_21en_modal_share_private_car_and_carsharing_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.uxsim_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "test_other_functions_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.TrafficSim_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"test_verification_straight_road_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "example_07jp_signal_0" [label="1"]
+	"test_verification_route_choice_0" -> "test_verification_route_choice_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer_0" -> "uxsim.DTAsolvers.DTAsolvers_0" [label="1"]
+	"uxsim.DTAsolvers.DTAsolvers_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.Utilities.Utilities_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.scenario_reader_writer_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.uxsim_0" -> "test_result_gui_viewer_0" [label="1"]
+	"test_notebook_demos_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.MainWindow_0" -> "uxsim.uxsim_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"test_verification_multilane_0" -> "test_verification_route_choice_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "uxsim.OSMImporter.OSMImporter_0" [label="1"]
+	"uxsim.uxsim.Vehicle_0" -> "example_07jp_signal_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control.DQN_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" -> "typing_0" [label="1"]
+	"uxsim.ResultGUIViewer.ResultGUIViewer.DataFrameViewer_0" -> "uxsim.analyzer_0" [label="1"]
+	"uxsim.TaxiHandler.TaxiHandler.TripRequest_0" -> "uxsim.TaxiHandler.TaxiHandler_0" [label="1"]
+	"uxsim.utils_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"example_24en_user_defined_functions_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"uxsim.uxsim.World_0" -> "example_12en_signal_4legged_intersection_Deep_Reinforcement_Learning_pytorch_control_0" [label="1"]
+	"uxsim.OSMImporter2.OSMImporter2_0" -> "example_09en_congestion_pricing_highway_toll_0" [label="1"]
+	"uxsim.uxsim.Route_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "test_result_gui_viewer_0" [label="1"]
+	"test_verification_multilane_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"example_06en_dynamic_parameter_change_0" -> "example_06jp_dynamic_parameter_change_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch.DQN_0" -> "uxsim.analyzer_0" [label="1"]
+	"example_14en_multiple_signals_Deep_Reinforcement_Learning_pytorch_0" -> "typing_0" [label="1"]
+	"uxsim.uxsim.Link_0" -> "test_other_functions_0" [label="1"]
+	"test_notebook_demos_extra_0" -> "uxsim.ResultGUIViewer.ResultGUIViewer_0" [label="1"]
+	"uxsim.analyzer.Analyzer_0" -> "example_07jp_signal_0" [label="1"]
+	"uxsim.uxsim.Node_0" -> "uxsim.Utilities.Utilities_0" [label="1"]
+}

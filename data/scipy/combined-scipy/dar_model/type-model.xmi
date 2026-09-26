@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="ASCII"?>
+<type:TypeModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="platform:/resource/Kieker/model/analysismodel.ecore/type">
+  <componentTypes key="++unknown-component++">
+    <value signature="++unknown-component++" name="++unknown-component++" package="">
+      <providedOperations key="++unknown-operation++">
+        <value signature="++unknown-operation++" name="++unknown-operation++" returnType="&lt;NO-RETURN-TYPE>"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.TiffTags.TiffTags">
+    <value signature="PIL.TiffTags.TiffTags" name="TiffTags" package="PIL.TiffTags">
+      <providedOperations key="protected void _populate(void)">
+        <value signature="protected void _populate(void)" name="_populate" returnType="void">
+          <modifiers>protected</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.TiffTags.TagInfo">
+    <value signature="PIL.TiffTags.TagInfo" name="TagInfo" package="PIL.TiffTags">
+      <providedOperations key="private TagInfo __new__(int | None, String, int | None, int | None, dict[str, int] | None, TagInfo)">
+        <value signature="private TagInfo __new__(int | None, String, int | None, int | None, dict[str, int] | None, TagInfo)" name="__new__" returnType="TagInfo">
+          <modifiers>private</modifiers>
+          <parameterTypes>int | None</parameterTypes>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>dict[str</parameterTypes>
+          <parameterTypes>int] | None</parameterTypes>
+          <parameterTypes>TagInfo</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.Image.Image">
+    <value signature="PIL.Image.Image" name="Image" package="PIL.Image">
+      <providedOperations key="protected void _apply_env_variables(dict[str, str] | None, void)">
+        <value signature="protected void _apply_env_variables(dict[str, str] | None, void)" name="_apply_env_variables" returnType="void">
+          <modifiers>protected</modifiers>
+          <parameterTypes>dict[str</parameterTypes>
+          <parameterTypes>str] | None</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void register_open(String, Callable[[IO[bytes], str | bytes], ImageFile] | type[ImageFile], Callable[[bytes], bool | str] | None, void)">
+        <value signature="public void register_open(String, Callable[[IO[bytes], str | bytes], ImageFile] | type[ImageFile], Callable[[bytes], bool | str] | None, void)" name="register_open" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>Callable[[IO[bytes]</parameterTypes>
+          <parameterTypes>str | bytes]</parameterTypes>
+          <parameterTypes>ImageFile] | type[ImageFile]</parameterTypes>
+          <parameterTypes>Callable[[bytes]</parameterTypes>
+          <parameterTypes>bool | str] | None</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void register_save(String, Callable[[Image, IO[bytes], str | bytes], None], void)">
+        <value signature="public void register_save(String, Callable[[Image, IO[bytes], str | bytes], None], void)" name="register_save" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>Callable[[Image</parameterTypes>
+          <parameterTypes>IO[bytes]</parameterTypes>
+          <parameterTypes>str | bytes]</parameterTypes>
+          <parameterTypes>None]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void register_save_all(String, Callable[[Image, IO[bytes], str | bytes], None], void)">
+        <value signature="public void register_save_all(String, Callable[[Image, IO[bytes], str | bytes], None], void)" name="register_save_all" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>Callable[[Image</parameterTypes>
+          <parameterTypes>IO[bytes]</parameterTypes>
+          <parameterTypes>str | bytes]</parameterTypes>
+          <parameterTypes>None]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void register_extensions(String, list[str], void)">
+        <value signature="public void register_extensions(String, list[str], void)" name="register_extensions" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>list[str]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void register_extension(String, String, void)">
+        <value signature="public void register_extension(String, String, void)" name="register_extension" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void register_mime(String, String, void)">
+        <value signature="public void register_mime(String, String, void)" name="register_mime" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public ImageFile open(StrOrBytesPath | IO[bytes], Literal['r'], list[str] | tuple[str, ] | None, ImageFile)">
+        <value signature="public ImageFile open(StrOrBytesPath | IO[bytes], Literal['r'], list[str] | tuple[str, ] | None, ImageFile)" name="open" returnType="ImageFile">
+          <modifiers>public</modifiers>
+          <parameterTypes>StrOrBytesPath | IO[bytes]</parameterTypes>
+          <parameterTypes>Literal['r']</parameterTypes>
+          <parameterTypes>list[str] | tuple[str</parameterTypes>
+          <parameterTypes>] | None</parameterTypes>
+          <parameterTypes>ImageFile</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void preinit(void)">
+        <value signature="public void preinit(void)" name="preinit" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void register_decoder(String, type[PyDecoder], void)">
+        <value signature="public void register_decoder(String, type[PyDecoder], void)" name="register_decoder" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>type[PyDecoder]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="private void __init__(void)">
+        <value signature="private void __init__(void)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void readonly(int, void)">
+        <value signature="public void readonly(int, void)" name="readonly" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public String mode(String)">
+        <value signature="public String mode(String)" name="mode" returnType="String">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public tuple[int, int] size(tuple[int, int])">
+        <value signature="public tuple[int, int] size(tuple[int, int])" name="size" returnType="int]">
+          <modifiers>public</modifiers>
+          <modifiers>tuple[int,</modifiers>
+          <parameterTypes>tuple[int</parameterTypes>
+          <parameterTypes>int]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected void _decompression_bomb_check(tuple[int, int], void)">
+        <value signature="protected void _decompression_bomb_check(tuple[int, int], void)" name="_decompression_bomb_check" returnType="void">
+          <modifiers>protected</modifiers>
+          <parameterTypes>tuple[int</parameterTypes>
+          <parameterTypes>int]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public CapsuleType getim(CapsuleType)">
+        <value signature="public CapsuleType getim(CapsuleType)" name="getim" returnType="CapsuleType">
+          <modifiers>public</modifiers>
+          <parameterTypes>CapsuleType</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public PixelAccess | None load(PixelAccess | None)">
+        <value signature="public PixelAccess | None load(PixelAccess | None)" name="load" returnType="None">
+          <modifiers>public</modifiers>
+          <modifiers>PixelAccess</modifiers>
+          <modifiers>|</modifiers>
+          <parameterTypes>PixelAccess | None</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void im(ImagingCore, void)">
+        <value signature="public void im(ImagingCore, void)" name="im" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>ImagingCore</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected ImagingDecoder | PyDecoder _getdecoder(String, String, Any, tuple[Any, ], ImagingDecoder | PyDecoder)">
+        <value signature="protected ImagingDecoder | PyDecoder _getdecoder(String, String, Any, tuple[Any, ], ImagingDecoder | PyDecoder)" name="_getdecoder" returnType="PyDecoder">
+          <modifiers>protected</modifiers>
+          <modifiers>ImagingDecoder</modifiers>
+          <modifiers>|</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>Any</parameterTypes>
+          <parameterTypes>tuple[Any</parameterTypes>
+          <parameterTypes>]</parameterTypes>
+          <parameterTypes>ImagingDecoder | PyDecoder</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public ImagingCore im(ImagingCore)">
+        <value signature="public ImagingCore im(ImagingCore)" name="im" returnType="ImagingCore">
+          <modifiers>public</modifiers>
+          <parameterTypes>ImagingCore</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public int readonly(int)">
+        <value signature="public int readonly(int)" name="readonly" returnType="int">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="private Object __enter__()">
+        <value signature="private Object __enter__()" name="__enter__" returnType="Object">
+          <modifiers>private</modifiers>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Image convert(str | None, tuple[float, ] | None, Dither | None, Palette, int, Image)">
+        <value signature="public Image convert(str | None, tuple[float, ] | None, Dither | None, Palette, int, Image)" name="convert" returnType="Image">
+          <modifiers>public</modifiers>
+          <parameterTypes>str | None</parameterTypes>
+          <parameterTypes>tuple[float</parameterTypes>
+          <parameterTypes>] | None</parameterTypes>
+          <parameterTypes>Dither | None</parameterTypes>
+          <parameterTypes>Palette</parameterTypes>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>Image</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Image copy(Image)">
+        <value signature="public Image copy(Image)" name="copy" returnType="Image">
+          <modifiers>public</modifiers>
+          <parameterTypes>Image</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected Image _new(ImagingCore, Image)">
+        <value signature="protected Image _new(ImagingCore, Image)" name="_new" returnType="Image">
+          <modifiers>protected</modifiers>
+          <parameterTypes>ImagingCore</parameterTypes>
+          <parameterTypes>Image</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Image resize(tuple[int, int] | list[int] | NumpyArray, int | None, tuple[float, float, float, float] | None, float | None, Image)">
+        <value signature="public Image resize(tuple[int, int] | list[int] | NumpyArray, int | None, tuple[float, float, float, float] | None, float | None, Image)" name="resize" returnType="Image">
+          <modifiers>public</modifiers>
+          <parameterTypes>tuple[int</parameterTypes>
+          <parameterTypes>int] | list[int] | NumpyArray</parameterTypes>
+          <parameterTypes>int | None</parameterTypes>
+          <parameterTypes>tuple[float</parameterTypes>
+          <parameterTypes>float</parameterTypes>
+          <parameterTypes>float] | None</parameterTypes>
+          <parameterTypes>float | None</parameterTypes>
+          <parameterTypes>Image</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="private dict[str, str | bytes | int | tuple[int, ]] __array_interface__(dict[str, str | bytes | int | tuple[int, ]])">
+        <value signature="private dict[str, str | bytes | int | tuple[int, ]] __array_interface__(dict[str, str | bytes | int | tuple[int, ]])" name="__array_interface__" returnType="]]">
+          <modifiers>private</modifiers>
+          <modifiers>dict[str,</modifiers>
+          <modifiers>str</modifiers>
+          <modifiers>|</modifiers>
+          <modifiers>bytes</modifiers>
+          <modifiers>int</modifiers>
+          <modifiers>tuple[int,</modifiers>
+          <parameterTypes>dict[str</parameterTypes>
+          <parameterTypes>str | bytes | int | tuple[int</parameterTypes>
+          <parameterTypes>]]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public byte[] tobytes(String, Any, byte[])">
+        <value signature="public byte[] tobytes(String, Any, byte[])" name="tobytes" returnType="byte[]">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>Any</parameterTypes>
+          <parameterTypes>byte[]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public int width(int)">
+        <value signature="public int width(int)" name="width" returnType="int">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public int height(int)">
+        <value signature="public int height(int)" name="height" returnType="int">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected ImagingEncoder | PyEncoder _getencoder(String, String, Any, tuple[Any, ], ImagingEncoder | PyEncoder)">
+        <value signature="protected ImagingEncoder | PyEncoder _getencoder(String, String, Any, tuple[Any, ], ImagingEncoder | PyEncoder)" name="_getencoder" returnType="PyEncoder">
+          <modifiers>protected</modifiers>
+          <modifiers>ImagingEncoder</modifiers>
+          <modifiers>|</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>Any</parameterTypes>
+          <parameterTypes>tuple[Any</parameterTypes>
+          <parameterTypes>]</parameterTypes>
+          <parameterTypes>ImagingEncoder | PyEncoder</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected tuple[tuple[int, ], str] _conv_type_shape(Image, tuple[tuple[int, ], str])">
+        <value signature="protected tuple[tuple[int, ], str] _conv_type_shape(Image, tuple[tuple[int, ], str])" name="_conv_type_shape" returnType="str]">
+          <modifiers>protected</modifiers>
+          <modifiers>tuple[tuple[int,</modifiers>
+          <modifiers>],</modifiers>
+          <parameterTypes>Image</parameterTypes>
+          <parameterTypes>tuple[tuple[int</parameterTypes>
+          <parameterTypes>]</parameterTypes>
+          <parameterTypes>str]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Image fromarray(SupportsArrayInterface, str | None, Image)">
+        <value signature="public Image fromarray(SupportsArrayInterface, str | None, Image)" name="fromarray" returnType="Image">
+          <modifiers>public</modifiers>
+          <parameterTypes>SupportsArrayInterface</parameterTypes>
+          <parameterTypes>str | None</parameterTypes>
+          <parameterTypes>Image</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Image frombuffer(String, tuple[int, int], bytes | SupportsArrayInterface, String, Any, Image)">
+        <value signature="public Image frombuffer(String, tuple[int, int], bytes | SupportsArrayInterface, String, Any, Image)" name="frombuffer" returnType="Image">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>tuple[int</parameterTypes>
+          <parameterTypes>int]</parameterTypes>
+          <parameterTypes>bytes | SupportsArrayInterface</parameterTypes>
+          <parameterTypes>Any</parameterTypes>
+          <parameterTypes>Image</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected void _check_size(Any, void)">
+        <value signature="protected void _check_size(Any, void)" name="_check_size" returnType="void">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Any</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Image new(String, tuple[int, int] | list[int], float | tuple[float, ] | str | None, Image)">
+        <value signature="public Image new(String, tuple[int, int] | list[int], float | tuple[float, ] | str | None, Image)" name="new" returnType="Image">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>tuple[int</parameterTypes>
+          <parameterTypes>int] | list[int]</parameterTypes>
+          <parameterTypes>float | tuple[float</parameterTypes>
+          <parameterTypes>] | str | None</parameterTypes>
+          <parameterTypes>Image</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="private void __exit__(Object)">
+        <value signature="private void __exit__(Object)" name="__exit__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="scipy.linalg.blas.blas">
+    <value signature="scipy.linalg.blas.blas" name="blas" package="scipy.linalg.blas">
+      <providedOperations key="protected Object _memoize_get_funcs(Object)">
+        <value signature="protected Object _memoize_get_funcs(Object)" name="_memoize_get_funcs" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object get_blas_funcs(Object, Object, Object, Object)">
+        <value signature="public Object get_blas_funcs(Object, Object, Object, Object)" name="get_blas_funcs" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected Object _get_funcs(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value signature="protected Object _get_funcs(Object, Object, Object, Object, Object, Object, Object, Object, Object, Object)" name="_get_funcs" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object find_best_blas_type(Object, Object)">
+        <value signature="public Object find_best_blas_type(Object, Object)" name="find_best_blas_type" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="scipy.linalg.lapack.lapack">
+    <value signature="scipy.linalg.lapack.lapack" name="lapack" package="scipy.linalg.lapack">
+      <providedOperations key="public Object backtickrepl(Object)">
+        <value signature="public Object backtickrepl(Object)" name="backtickrepl" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected Object _normalize_lapack_dtype(Object, Object)">
+        <value signature="protected Object _normalize_lapack_dtype(Object, Object)" name="_normalize_lapack_dtype" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object get_lapack_funcs(Object, Object, Object, Object)">
+        <value signature="public Object get_lapack_funcs(Object, Object, Object, Object)" name="get_lapack_funcs" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="scipy._lib.array_api_extra.testing.testing">
+    <value signature="scipy._lib.array_api_extra.testing.testing" name="testing" package="scipy._lib.array_api_extra.testing">
+      <providedOperations key="public Object override(Object)">
+        <value signature="public Object override(Object)" name="override" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="scipy._lib.deprecation.deprecation">
+    <value signature="scipy._lib.deprecation.deprecation" name="deprecation" package="scipy._lib.deprecation">
+      <providedOperations key="protected Object _deprecate_positional_args(Object, Object, Object, Object)">
+        <value signature="protected Object _deprecate_positional_args(Object, Object, Object, Object)" name="_deprecate_positional_args" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="scipy._lib.doccer.doccer">
+    <value signature="scipy._lib.doccer.doccer" name="doccer" package="scipy._lib.doccer">
+      <providedOperations key="public String docformat(String, Object | Object, String)">
+        <value signature="public String docformat(String, Object | Object, String)" name="docformat" returnType="String">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>Object | Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public int indentcount_lines(Iterable&lt;T>, int)">
+        <value signature="public int indentcount_lines(Iterable&lt;T>, int)" name="indentcount_lines" returnType="int">
+          <modifiers>public</modifiers>
+          <parameterTypes>Iterable&lt;T></parameterTypes>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object filldoc(Object, boolean, Object)">
+        <value signature="public Object filldoc(Object, boolean, Object)" name="filldoc" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+          <parameterTypes>boolean</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Map&lt;K, V> unindent_dict(Object, Map&lt;K, V>)">
+        <value signature="public Map&lt;K, V> unindent_dict(Object, Map&lt;K, V>)" name="unindent_dict" returnType="V>">
+          <modifiers>public</modifiers>
+          <modifiers>Map&lt;K,</modifiers>
+          <parameterTypes>Object</parameterTypes>
+          <parameterTypes>Map&lt;K</parameterTypes>
+          <parameterTypes>V></parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public String unindent_string(String, String)">
+        <value signature="public String unindent_string(String, String)" name="unindent_string" returnType="String">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object replace_notes_in_docstring(Object, String, Object)">
+        <value signature="public Object replace_notes_in_docstring(Object, String, Object)" name="replace_notes_in_docstring" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+          <parameterTypes>String</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object extend_notes_in_docstring(Object, String, Object)">
+        <value signature="public Object extend_notes_in_docstring(Object, String, Object)" name="extend_notes_in_docstring" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+          <parameterTypes>String</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public Object inherit_docstring_from(Object, Object)">
+        <value signature="public Object inherit_docstring_from(Object, Object)" name="inherit_docstring_from" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.ImageTk.PhotoImage">
+    <value signature="PIL.ImageTk.PhotoImage" name="PhotoImage" package="PIL.ImageTk">
+      <providedOperations key="private void __init__(Image | str | None, tuple[int, int] | None, Any, void)">
+        <value signature="private void __init__(Image | str | None, tuple[int, int] | None, Any, void)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>Image | str | None</parameterTypes>
+          <parameterTypes>tuple[int</parameterTypes>
+          <parameterTypes>int] | None</parameterTypes>
+          <parameterTypes>Any</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void paste(Image, void)">
+        <value signature="public void paste(Image, void)" name="paste" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>Image</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="private String __str__(String)">
+        <value signature="private String __str__(String)" name="__str__" returnType="String">
+          <modifiers>private</modifiers>
+          <parameterTypes>String</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="private void __del__(void)">
+        <value signature="private void __del__(void)" name="__del__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.ImageTk.ImageTk">
+    <value signature="PIL.ImageTk.ImageTk" name="ImageTk" package="PIL.ImageTk">
+      <providedOperations key="protected ImageFile | None _get_image_from_kw(dict[str, Any], ImageFile | None)">
+        <value signature="protected ImageFile | None _get_image_from_kw(dict[str, Any], ImageFile | None)" name="_get_image_from_kw" returnType="None">
+          <modifiers>protected</modifiers>
+          <modifiers>ImageFile</modifiers>
+          <modifiers>|</modifiers>
+          <parameterTypes>dict[str</parameterTypes>
+          <parameterTypes>Any]</parameterTypes>
+          <parameterTypes>ImageFile | None</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected void _pyimagingtkcall(String, PhotoImage | PhotoImage, CapsuleType, void)">
+        <value signature="protected void _pyimagingtkcall(String, PhotoImage | PhotoImage, CapsuleType, void)" name="_pyimagingtkcall" returnType="void">
+          <modifiers>protected</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>PhotoImage | PhotoImage</parameterTypes>
+          <parameterTypes>CapsuleType</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL._util._util">
+    <value signature="PIL._util._util" name="_util" package="PIL._util">
+      <providedOperations key="public TypeGuard[StrOrBytesPath] is_path(Any, TypeGuard[StrOrBytesPath])">
+        <value signature="public TypeGuard[StrOrBytesPath] is_path(Any, TypeGuard[StrOrBytesPath])" name="is_path" returnType="TypeGuard[StrOrBytesPath]">
+          <modifiers>public</modifiers>
+          <parameterTypes>Any</parameterTypes>
+          <parameterTypes>TypeGuard[StrOrBytesPath]</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.PngImagePlugin.PngImagePlugin">
+    <value signature="PIL.PngImagePlugin.PngImagePlugin" name="PngImagePlugin" package="PIL.PngImagePlugin">
+      <providedOperations key="protected boolean _accept(byte[], boolean)">
+        <value signature="protected boolean _accept(byte[], boolean)" name="_accept" returnType="boolean">
+          <modifiers>protected</modifiers>
+          <parameterTypes>byte[]</parameterTypes>
+          <parameterTypes>boolean</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected int _crc32(byte[], int, int)">
+        <value signature="protected int _crc32(byte[], int, int)" name="_crc32" returnType="int">
+          <modifiers>protected</modifiers>
+          <parameterTypes>byte[]</parameterTypes>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.ImageFile.ImageFile">
+    <value signature="PIL.ImageFile.ImageFile" name="ImageFile" package="PIL.ImageFile">
+      <providedOperations key="private void __init__(StrOrBytesPath | IO[bytes], str | bytes | None, void)">
+        <value signature="private void __init__(StrOrBytesPath | IO[bytes], str | bytes | None, void)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>StrOrBytesPath | IO[bytes]</parameterTypes>
+          <parameterTypes>str | bytes | None</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected byte[] _safe_read(IO[bytes], int, byte[])">
+        <value signature="protected byte[] _safe_read(IO[bytes], int, byte[])" name="_safe_read" returnType="byte[]">
+          <modifiers>protected</modifiers>
+          <parameterTypes>IO[bytes]</parameterTypes>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>byte[]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public PixelAccess | None load(PixelAccess | None)">
+        <value signature="public PixelAccess | None load(PixelAccess | None)" name="load" returnType="None">
+          <modifiers>public</modifiers>
+          <modifiers>PixelAccess</modifiers>
+          <modifiers>|</modifiers>
+          <parameterTypes>PixelAccess | None</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void load_prepare(void)">
+        <value signature="public void load_prepare(void)" name="load_prepare" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected int _tilesort(_Tile, int)">
+        <value signature="protected int _tilesort(_Tile, int)" name="_tilesort" returnType="int">
+          <modifiers>protected</modifiers>
+          <parameterTypes>_Tile</parameterTypes>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected void _close_fp()">
+        <value signature="protected void _close_fp()" name="_close_fp" returnType="void">
+          <modifiers>protected</modifiers>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.PngImagePlugin.PngImageFile">
+    <value signature="PIL.PngImagePlugin.PngImageFile" name="PngImageFile" package="PIL.PngImagePlugin">
+      <providedOperations key="protected void _open(void)">
+        <value signature="protected void _open(void)" name="_open" returnType="void">
+          <modifiers>protected</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void load_prepare(void)">
+        <value signature="public void load_prepare(void)" name="load_prepare" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public byte[] load_read(int, byte[])">
+        <value signature="public byte[] load_read(int, byte[])" name="load_read" returnType="byte[]">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>byte[]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void load_end(void)">
+        <value signature="public void load_end(void)" name="load_end" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.PngImagePlugin.PngStream">
+    <value signature="PIL.PngImagePlugin.PngStream" name="PngStream" package="PIL.PngImagePlugin">
+      <providedOperations key="private void __init__(IO[bytes], void)">
+        <value signature="private void __init__(IO[bytes], void)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>IO[bytes]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public byte[] chunk_IHDR(int, int, byte[])">
+        <value signature="public byte[] chunk_IHDR(int, int, byte[])" name="chunk_IHDR" returnType="byte[]">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>byte[]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public byte[] chunk_pHYs(int, int, byte[])">
+        <value signature="public byte[] chunk_pHYs(int, int, byte[])" name="chunk_pHYs" returnType="byte[]">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>byte[]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public NoReturn chunk_IDAT(int, int, NoReturn)">
+        <value signature="public NoReturn chunk_IDAT(int, int, NoReturn)" name="chunk_IDAT" returnType="NoReturn">
+          <modifiers>public</modifiers>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>NoReturn</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.PngImagePlugin.ChunkStream">
+    <value signature="PIL.PngImagePlugin.ChunkStream" name="ChunkStream" package="PIL.PngImagePlugin">
+      <providedOperations key="private void __init__(IO[bytes], void)">
+        <value signature="private void __init__(IO[bytes], void)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>IO[bytes]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public tuple[bytes, int, int] read(tuple[bytes, int, int])">
+        <value signature="public tuple[bytes, int, int] read(tuple[bytes, int, int])" name="read" returnType="int]">
+          <modifiers>public</modifiers>
+          <modifiers>tuple[bytes,</modifiers>
+          <modifiers>int,</modifiers>
+          <parameterTypes>tuple[bytes</parameterTypes>
+          <parameterTypes>int</parameterTypes>
+          <parameterTypes>int]</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public byte[] call(byte[], int, int, byte[])">
+        <value signature="public byte[] call(byte[], int, int, byte[])" name="call" returnType="byte[]">
+          <modifiers>public</modifiers>
+          <parameterTypes>byte[]</parameterTypes>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void crc(byte[], byte[], void)">
+        <value signature="public void crc(byte[], byte[], void)" name="crc" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>byte[]</parameterTypes>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="public void close(void)">
+        <value signature="public void close(void)" name="close" returnType="void">
+          <modifiers>public</modifiers>
+          <parameterTypes>void</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL._binary._binary">
+    <value signature="PIL._binary._binary" name="_binary" package="PIL._binary">
+      <providedOperations key="public int i32be(byte[], int, int)">
+        <value signature="public int i32be(byte[], int, int)" name="i32be" returnType="int">
+          <modifiers>public</modifiers>
+          <parameterTypes>byte[]</parameterTypes>
+          <parameterTypes>int</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL.ImageMode.ImageMode">
+    <value signature="PIL.ImageMode.ImageMode" name="ImageMode" package="PIL.ImageMode">
+      <providedOperations key="public ModeDescriptor getmode(String, ModeDescriptor)">
+        <value signature="public ModeDescriptor getmode(String, ModeDescriptor)" name="getmode" returnType="ModeDescriptor">
+          <modifiers>public</modifiers>
+          <parameterTypes>String</parameterTypes>
+          <parameterTypes>ModeDescriptor</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="PIL._util.DeferredError">
+    <value signature="PIL._util.DeferredError" name="DeferredError" package="PIL._util">
+      <providedOperations key="private void __init__(BaseException)">
+        <value signature="private void __init__(BaseException)" name="__init__" returnType="void">
+          <modifiers>private</modifiers>
+          <parameterTypes>BaseException</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="scipy.fft._pocketfft.basic.basic">
+    <value signature="scipy.fft._pocketfft.basic.basic" name="basic" package="scipy.fft._pocketfft.basic">
+      <providedOperations key="public Object c2c(Object, Object, Object, Object, Object, Object, Object, Object)">
+        <value signature="public Object c2c(Object, Object, Object, Object, Object, Object, Object, Object)" name="c2c" returnType="Object">
+          <modifiers>public</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="scipy.fft._pocketfft.helper.helper">
+    <value signature="scipy.fft._pocketfft.helper.helper" name="helper" package="scipy.fft._pocketfft.helper">
+      <providedOperations key="protected Object _asfarray(Object)">
+        <value signature="protected Object _asfarray(Object)" name="_asfarray" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected Object _datacopied(Object, Object)">
+        <value signature="protected Object _datacopied(Object, Object)" name="_datacopied" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected Object _normalization(Object, Object)">
+        <value signature="protected Object _normalization(Object, Object)" name="_normalization" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+      <providedOperations key="protected Object _workers(Object)">
+        <value signature="protected Object _workers(Object)" name="_workers" returnType="Object">
+          <modifiers>protected</modifiers>
+          <parameterTypes>Object</parameterTypes>
+        </value>
+      </providedOperations>
+    </value>
+  </componentTypes>
+</type:TypeModel>

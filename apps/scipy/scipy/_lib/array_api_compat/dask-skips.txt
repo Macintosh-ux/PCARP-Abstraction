@@ -1,0 +1,9 @@
+# NOTE: dask tests run on a very small number of examples in CI due to
+# slowness. This causes very high flakiness in the tests.
+# Before changing this file, please run with at least 200 examples.
+
+# Passes, but extremely slow
+array_api_tests/test_linalg.py::test_outer
+
+# Hangs
+array_api_tests/test_creation_functions.py::test_eye

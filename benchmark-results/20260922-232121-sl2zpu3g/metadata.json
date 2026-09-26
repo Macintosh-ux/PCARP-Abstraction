@@ -1,0 +1,75 @@
+{
+  "created": "2026-09-22T21:21:21.357085+00:00",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "cwd": "/home/macintosh/PCARP",
+  "cases": {
+    "numpy_identity": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/numpy/mop_model benchmark-numpy-identity I 0 0 0 0",
+      "input_dir": "bin/numpy/mop_model",
+      "model_dir": "bin/benchmark-numpy-identity/mab_model"
+    },
+    "numpy_pd0": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/numpy/mop_model benchmark-numpy-pd0 A PD 0 0 0",
+      "input_dir": "bin/numpy/mop_model",
+      "model_dir": "bin/benchmark-numpy-pd0/mab_model"
+    },
+    "numpy_cf_qta85_qtf85": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/numpy/mop_model benchmark-numpy-cf-qta85-qtf85 CF QTA 85 QTF 85",
+      "input_dir": "bin/numpy/mop_model",
+      "model_dir": "bin/benchmark-numpy-cf-qta85-qtf85/mab_model"
+    },
+    "uxsim_identity": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/uxsim/mop_model benchmark-uxsim-identity I 0 0 0 0",
+      "input_dir": "bin/uxsim/mop_model",
+      "model_dir": "bin/benchmark-uxsim-identity/mab_model"
+    },
+    "uxsim_pd1": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/uxsim/mop_model benchmark-uxsim-pd1 A PD 1 0 0",
+      "input_dir": "bin/uxsim/mop_model",
+      "model_dir": "bin/benchmark-uxsim-pd1/mab_model"
+    },
+    "scipy_identity": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/scipy/mop_model benchmark-scipy-identity I 0 0 0 0",
+      "input_dir": "bin/scipy/mop_model",
+      "model_dir": "bin/benchmark-scipy-identity/mab_model"
+    },
+    "scipy_pta25": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/scipy/mop_model benchmark-scipy-pta25 A PT 25 0 0",
+      "input_dir": "bin/scipy/mop_model",
+      "model_dir": "bin/benchmark-scipy-pta25/mab_model"
+    },
+    "scipy_qta99": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/scipy/mop_model benchmark-scipy-qta99 A QT 99 0 0",
+      "input_dir": "bin/scipy/mop_model",
+      "model_dir": "bin/benchmark-scipy-qta99/mab_model"
+    },
+    "scipy_ptf1": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/scipy/mop_model benchmark-scipy-ptf1 F PT 1 0 0",
+      "input_dir": "bin/scipy/mop_model",
+      "model_dir": "bin/benchmark-scipy-ptf1/mab_model"
+    },
+    "scipy_qtf99": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/scipy/mop_model benchmark-scipy-qtf99 F QT 99 0 0",
+      "input_dir": "bin/scipy/mop_model",
+      "model_dir": "bin/benchmark-scipy-qtf99/mab_model"
+    },
+    "anytree_identity": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/anytree/mop_model benchmark-anytree-identity I 0 0 0 0",
+      "input_dir": "bin/anytree/mop_model",
+      "model_dir": "bin/benchmark-anytree-identity/mab_model"
+    },
+    "anytree_cluster": {
+      "command": "./scripts/pipeline.sh --abstraction-only bin/anytree/mop_model benchmark-anytree-cluster C 0 0 0 0",
+      "input_dir": "bin/anytree/mop_model",
+      "model_dir": "bin/benchmark-anytree-cluster/mab_model"
+    }
+  },
+  "runs": 10,
+  "warmups": 2,
+  "timeout": 1800,
+  "order_seed": 42,
+  "imported_logs": false,
+  "assume_success": false,
+  "measurement": "Fresh processes, CLI wall/CPU time; logs included; analysis outside timed interval"
+}

@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="ASCII"?>
+<type:TypeModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="platform:/resource/Kieker/model/analysismodel.ecore/type">
+  <componentTypes key="testing_private.AGGREGATED::aggregated">
+    <value signature="testing_private.AGGREGATED::aggregated" name="AGGREGATED" package="testing_private">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="testing_private.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="clear_and_catch_warnings">
+        <value name="clear_and_catch_warnings" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="suppress_warnings">
+        <value name="suppress_warnings" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="extbuild.py">
+        <value name="extbuild.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="utils.py">
+        <value name="utils.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="distutilscommand.AGGREGATED::aggregated">
+    <value signature="distutilscommand.AGGREGATED::aggregated" name="AGGREGATED" package="distutilscommand">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="distutilscommand.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="build_clib.py">
+        <value name="build_clib.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="GrabStdout">
+        <value name="GrabStdout" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="install_data.py">
+        <value name="install_data.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="config.py">
+        <value name="config.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="build_src.py">
+        <value name="build_src.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="install.py">
+        <value name="install.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="fractions.AGGREGATED::aggregated">
+    <value signature="fractions.AGGREGATED::aggregated" name="AGGREGATED" package="fractions">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="fractions.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="py_utils.AGGREGATED::aggregated">
+    <value signature="py_utils.AGGREGATED::aggregated" name="AGGREGATED" package="py_utils">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="py_utils.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="_inspect.py">
+        <value name="_inspect.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_convertions.py">
+        <value name="_convertions.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="LegacyVersion">
+        <value name="LegacyVersion" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_pep440.py">
+        <value name="_pep440.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Version">
+        <value name="Version" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="hashlib.AGGREGATED::aggregated">
+    <value signature="hashlib.AGGREGATED::aggregated" name="AGGREGATED" package="hashlib">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="hashlib.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="omtests.AGGREGATED::aggregated">
+    <value signature="omtests.AGGREGATED::aggregated" name="AGGREGATED" package="omtests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="omtests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="WrappedArray">
+        <value name="WrappedArray" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="FindFuncs">
+        <value name="FindFuncs" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_numpy_config.py">
+        <value name="test_numpy_config.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_subclassing.py">
+        <value name="test_subclassing.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_old_ma.py">
+        <value name="test_old_ma.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_public_api.py">
+        <value name="test_public_api.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_scripts.py">
+        <value name="test_scripts.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="CSAIterator">
+        <value name="CSAIterator" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ParseCall">
+        <value name="ParseCall" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_configtool.py">
+        <value name="test_configtool.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_core.py">
+        <value name="test_core.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_arrayobject.py">
+        <value name="test_arrayobject.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ArrayNoInheritance">
+        <value name="ArrayNoInheritance" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="_csv.AGGREGATED::aggregated">
+    <value signature="_csv.AGGREGATED::aggregated" name="AGGREGATED" package="_csv">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="_csv.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="terandom.AGGREGATED::aggregated">
+    <value signature="terandom.AGGREGATED::aggregated" name="AGGREGATED" package="terandom">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="terandom.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_pickle.py">
+        <value name="_pickle.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="numpy.AGGREGATED::aggregated">
+    <value signature="numpy.AGGREGATED::aggregated" name="AGGREGATED" package="numpy">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="numpy.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="ctypeslib.py">
+        <value name="ctypeslib.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_laguerre.py">
+        <value name="test_laguerre.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__config__.py">
+        <value name="__config__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_polybase.py">
+        <value name="_polybase.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="matlib.py">
+        <value name="matlib.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="polynomial.py">
+        <value name="polynomial.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="legendre.py">
+        <value name="legendre.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="polyutils.py">
+        <value name="polyutils.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="PytestTester">
+        <value name="PytestTester" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_printing.py">
+        <value name="test_printing.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="laguerre.py">
+        <value name="laguerre.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_globals.py">
+        <value name="_globals.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_polynomial.py">
+        <value name="test_polynomial.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_classes.py">
+        <value name="test_classes.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_hermite_e.py">
+        <value name="test_hermite_e.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_pytesttester.py">
+        <value name="_pytesttester.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_chebyshev.py">
+        <value name="test_chebyshev.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="version.py">
+        <value name="version.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ABCPolyBase">
+        <value name="ABCPolyBase" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="hermite.py">
+        <value name="hermite.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="dtypes.py">
+        <value name="dtypes.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="exceptions.py">
+        <value name="exceptions.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_hermite.py">
+        <value name="test_hermite.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_legendre.py">
+        <value name="test_legendre.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="conftest.py">
+        <value name="conftest.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="hermite_e.py">
+        <value name="hermite_e.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_expired_attrs_2_0.py">
+        <value name="_expired_attrs_2_0.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="chebyshev.py">
+        <value name="chebyshev.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="inspect.AGGREGATED::aggregated">
+    <value signature="inspect.AGGREGATED::aggregated" name="AGGREGATED" package="inspect">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="inspect.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="distutilsfcompiler.AGGREGATED::aggregated">
+    <value signature="distutilsfcompiler.AGGREGATED::aggregated" name="AGGREGATED" package="distutilsfcompiler">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="distutilsfcompiler.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="nag.py">
+        <value name="nag.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="gnu.py">
+        <value name="gnu.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="hpux.py">
+        <value name="hpux.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="FCompiler">
+        <value name="FCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="pathf95.py">
+        <value name="pathf95.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="none.py">
+        <value name="none.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="intel.py">
+        <value name="intel.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="sun.py">
+        <value name="sun.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ibm.py">
+        <value name="ibm.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="EnvironmentConfig">
+        <value name="EnvironmentConfig" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="absoft.py">
+        <value name="absoft.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="mips.py">
+        <value name="mips.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="vast.py">
+        <value name="vast.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="lahey.py">
+        <value name="lahey.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="fujitsu.py">
+        <value name="fujitsu.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="arm.py">
+        <value name="arm.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="compaq.py">
+        <value name="compaq.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="g95.py">
+        <value name="g95.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="nv.py">
+        <value name="nv.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="environment.py">
+        <value name="environment.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="pg.py">
+        <value name="pg.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="testingtests.AGGREGATED::aggregated">
+    <value signature="testingtests.AGGREGATED::aggregated" name="AGGREGATED" package="testingtests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="testingtests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="mod">
+        <value name="mod" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ReferenceCycleInDel">
+        <value name="ReferenceCycleInDel" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="builtins.AGGREGATED::aggregated">
+    <value signature="builtins.AGGREGATED::aggregated" name="AGGREGATED" package="builtins">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="builtins.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="liblinalg.AGGREGATED::aggregated">
+    <value signature="liblinalg.AGGREGATED::aggregated" name="AGGREGATED" package="liblinalg">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="liblinalg.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="_linalg.py">
+        <value name="_linalg.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="distutils.AGGREGATED::aggregated">
+    <value signature="distutils.AGGREGATED::aggregated" name="AGGREGATED" package="distutils">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="distutils.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="typingtests.AGGREGATED::aggregated">
+    <value signature="typingtests.AGGREGATED::aggregated" name="AGGREGATED" package="typingtests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="typingtests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="scalars.py">
+        <value name="scalars.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="simple_py3.py">
+        <value name="simple_py3.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="index_tricks.py">
+        <value name="index_tricks.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ufunc_config.py">
+        <value name="ufunc_config.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ufunclike.py">
+        <value name="ufunclike.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="array_constructors.py">
+        <value name="array_constructors.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="multiarray.py">
+        <value name="multiarray.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="numeric.py">
+        <value name="numeric.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="arrayprint.py">
+        <value name="arrayprint.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="literal.py">
+        <value name="literal.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ndarray_misc.py">
+        <value name="ndarray_misc.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="mod.py">
+        <value name="mod.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="random.py">
+        <value name="random.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="shape.py">
+        <value name="shape.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="lib_version.py">
+        <value name="lib_version.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="dtype.py">
+        <value name="dtype.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_runtime.py">
+        <value name="test_runtime.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="lib_utils.py">
+        <value name="lib_utils.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="arrayterator.py">
+        <value name="arrayterator.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="einsumfunc.py">
+        <value name="einsumfunc.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="fromnumeric.py">
+        <value name="fromnumeric.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="arithmetic.py">
+        <value name="arithmetic.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ndarray_conversion.py">
+        <value name="ndarray_conversion.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="simple.py">
+        <value name="simple.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="flatiter.py">
+        <value name="flatiter.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_isfile.py">
+        <value name="test_isfile.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="comparisons.py">
+        <value name="comparisons.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ndarray_shape_manipulation.py">
+        <value name="ndarray_shape_manipulation.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="array_like.py">
+        <value name="array_like.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="bitwise_ops.py">
+        <value name="bitwise_ops.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_typing.py">
+        <value name="test_typing.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ma.py">
+        <value name="ma.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="lib_core.AGGREGATED::aggregated">
+    <value signature="lib_core.AGGREGATED::aggregated" name="AGGREGATED" package="lib_core">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="lib_core.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="numeric.py">
+        <value name="numeric.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_errstate.py">
+        <value name="test_errstate.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_methods.py">
+        <value name="_methods.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="MyArray2">
+        <value name="MyArray2" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ArrayRandom">
+        <value name="ArrayRandom" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_UFuncNoLoopError">
+        <value name="_UFuncNoLoopError" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_strings.py">
+        <value name="test_strings.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ThrowsAfter">
+        <value name="ThrowsAfter" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_numerictypes.py">
+        <value name="test_numerictypes.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="printoptions.py">
+        <value name="printoptions.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_asarray.py">
+        <value name="_asarray.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="SubArrayFormat">
+        <value name="SubArrayFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_ctypes">
+        <value name="_ctypes" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="setup.py">
+        <value name="setup.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="shape_base.py">
+        <value name="shape_base.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_ArrayMemoryError">
+        <value name="_ArrayMemoryError" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="iinfo">
+        <value name="iinfo" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_internal.py">
+        <value name="_internal.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="memmap.py">
+        <value name="memmap.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="c_void_p">
+        <value name="c_void_p" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_cython.py">
+        <value name="test_cython.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_array_api_info.py">
+        <value name="test_array_api_info.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="getlimits.py">
+        <value name="getlimits.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="overrides.py">
+        <value name="overrides.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="multiarray.py">
+        <value name="multiarray.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ArrayStruct">
+        <value name="ArrayStruct" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_cpu_features.py">
+        <value name="test_cpu_features.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="arrayprint.py">
+        <value name="arrayprint.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="MachArLike">
+        <value name="MachArLike" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ArrayProxy">
+        <value name="ArrayProxy" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_Stream">
+        <value name="_Stream" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_umath.py">
+        <value name="test_umath.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_TimelikeFormat">
+        <value name="_TimelikeFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_custom_dtypes.py">
+        <value name="test_custom_dtypes.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Vec">
+        <value name="Vec" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="errstate">
+        <value name="errstate" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ArrayDunder">
+        <value name="ArrayDunder" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="IntegerFormat">
+        <value name="IntegerFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_natype.py">
+        <value name="_natype.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="fromnumeric.py">
+        <value name="fromnumeric.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_add_newdocs_scalars.py">
+        <value name="_add_newdocs_scalars.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test__exceptions.py">
+        <value name="test__exceptions.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_limited_api.py">
+        <value name="test_limited_api.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_simd_module.py">
+        <value name="test_simd_module.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_casting_unittests.py">
+        <value name="test_casting_unittests.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_longdouble.py">
+        <value name="test_longdouble.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="DatetimeFormat">
+        <value name="DatetimeFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="StructuredVoidFormat">
+        <value name="StructuredVoidFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="records.py">
+        <value name="records.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_machar.py">
+        <value name="_machar.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Arrayish">
+        <value name="Arrayish" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_locales.py">
+        <value name="_locales.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_einsum.py">
+        <value name="test_einsum.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="einsumfunc.py">
+        <value name="einsumfunc.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_multiarray.py">
+        <value name="test_multiarray.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="FloatingFormat">
+        <value name="FloatingFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_dtype.py">
+        <value name="_dtype.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_umath_accuracy.py">
+        <value name="test_umath_accuracy.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_deprecations.py">
+        <value name="test_deprecations.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="function_base.py">
+        <value name="function_base.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_scalarmath.py">
+        <value name="test_scalarmath.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="defchararray.py">
+        <value name="defchararray.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_stringdtype.py">
+        <value name="test_stringdtype.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="data_source">
+        <value name="data_source" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ComplexFloatingFormat">
+        <value name="ComplexFloatingFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="frominterface">
+        <value name="frominterface" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_arrayobject.py">
+        <value name="test_arrayobject.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="DestructoBox">
+        <value name="DestructoBox" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="UFuncTypeError">
+        <value name="UFuncTypeError" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="umath.py">
+        <value name="umath.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_unicode.py">
+        <value name="test_unicode.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="MyThing">
+        <value name="MyThing" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="dummy_ctype">
+        <value name="dummy_ctype" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="MyNoArrayFunctionArray">
+        <value name="MyNoArrayFunctionArray" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_UFuncOutputCastingError">
+        <value name="_UFuncOutputCastingError" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="strings.py">
+        <value name="strings.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_extint128.py">
+        <value name="test_extint128.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_string_helpers.py">
+        <value name="_string_helpers.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_UFuncInputCastingError">
+        <value name="_UFuncInputCastingError" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_print.py">
+        <value name="test_print.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ArrayInterface">
+        <value name="ArrayInterface" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="numerictypes.py">
+        <value name="numerictypes.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_simd.py">
+        <value name="test_simd.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_scalar_ctors.py">
+        <value name="test_scalar_ctors.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_ufunc_config.py">
+        <value name="_ufunc_config.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="BoolFormat">
+        <value name="BoolFormat" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_umath_complex.py">
+        <value name="test_umath_complex.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_defchararray.py">
+        <value name="test_defchararray.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_mem_overlap.py">
+        <value name="test_mem_overlap.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_ufunc.py">
+        <value name="test_ufunc.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="SomeClass">
+        <value name="SomeClass" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_scalarbuffer.py">
+        <value name="test_scalarbuffer.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_type_aliases.py">
+        <value name="_type_aliases.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_UFuncCastingError">
+        <value name="_UFuncCastingError" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="randomdata.AGGREGATED::aggregated">
+    <value signature="randomdata.AGGREGATED::aggregated" name="AGGREGATED" package="randomdata">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="randomdata.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="extending.py">
+        <value name="extending.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="extending_distributions.py">
+        <value name="extending_distributions.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="acktesting.AGGREGATED::aggregated">
+    <value signature="acktesting.AGGREGATED::aggregated" name="AGGREGATED" package="acktesting">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="acktesting.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="GenericObject">
+        <value name="GenericObject" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="ffttests.AGGREGATED::aggregated">
+    <value signature="ffttests.AGGREGATED::aggregated" name="AGGREGATED" package="ffttests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="ffttests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="++unknown-component++.AGGREGATED::aggregated">
+    <value signature="++unknown-component++.AGGREGATED::aggregated" name="AGGREGATED" package="++unknown-component++">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="++unknown-component++.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="randomtests.AGGREGATED::aggregated">
+    <value signature="randomtests.AGGREGATED::aggregated" name="AGGREGATED" package="randomtests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="randomtests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="test_generator_mt19937.py">
+        <value name="test_generator_mt19937.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_direct.py">
+        <value name="test_direct.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_randomstate.py">
+        <value name="test_randomstate.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="omfft.AGGREGATED::aggregated">
+    <value signature="omfft.AGGREGATED::aggregated" name="AGGREGATED" package="omfft">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="omfft.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="_pocketfft.py">
+        <value name="_pocketfft.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_helper.py">
+        <value name="_helper.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="calendar.AGGREGATED::aggregated">
+    <value signature="calendar.AGGREGATED::aggregated" name="AGGREGATED" package="calendar">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="calendar.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="_pyinstallertests.AGGREGATED::aggregated">
+    <value signature="_pyinstallertests.AGGREGATED::aggregated" name="AGGREGATED" package="_pyinstallertests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="_pyinstallertests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="pyinstaller-smoke.py">
+        <value name="pyinstaller-smoke.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="distutilstests.AGGREGATED::aggregated">
+    <value signature="distutilstests.AGGREGATED::aggregated" name="AGGREGATED" package="distutilstests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="distutilstests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="test_fcompiler_intel.py">
+        <value name="test_fcompiler_intel.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_misc_util.py">
+        <value name="test_misc_util.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="redirect_stdout">
+        <value name="redirect_stdout" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="utilities.py">
+        <value name="utilities.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_npy_pkg_config.py">
+        <value name="test_npy_pkg_config.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_ccompiler_opt_conf.py">
+        <value name="test_ccompiler_opt_conf.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_system_info.py">
+        <value name="test_system_info.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_system_info">
+        <value name="_system_info" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="FakeCCompilerOpt">
+        <value name="FakeCCompilerOpt" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="redirect_stderr">
+        <value name="redirect_stderr" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="emulate_nonposix">
+        <value name="emulate_nonposix" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_from_template.py">
+        <value name="test_from_template.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_log.py">
+        <value name="test_log.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_ccompiler_opt.py">
+        <value name="test_ccompiler_opt.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_fcompiler_nagfor.py">
+        <value name="test_fcompiler_nagfor.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_shell_utils.py">
+        <value name="test_shell_utils.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_fcompiler_gnu.py">
+        <value name="test_fcompiler_gnu.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_fcompiler.py">
+        <value name="test_fcompiler.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="f2py_backends.AGGREGATED::aggregated">
+    <value signature="f2py_backends.AGGREGATED::aggregated" name="AGGREGATED" package="f2py_backends">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="f2py_backends.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="MesonBackend">
+        <value name="MesonBackend" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="MesonTemplate">
+        <value name="MesonTemplate" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Backend">
+        <value name="Backend" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="tedistutils.AGGREGATED::aggregated">
+    <value signature="tedistutils.AGGREGATED::aggregated" name="AGGREGATED" package="tedistutils">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="tedistutils.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="system_info">
+        <value name="system_info" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ArmCCompiler">
+        <value name="ArmCCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="PkgNotFound">
+        <value name="PkgNotFound" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="lib2def.py">
+        <value name="lib2def.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="InstallableLib">
+        <value name="InstallableLib" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Mingw32CCompiler">
+        <value name="Mingw32CCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="log.py">
+        <value name="log.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_shell_utils.py">
+        <value name="_shell_utils.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Configuration">
+        <value name="Configuration" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="LinuxCPUInfo">
+        <value name="LinuxCPUInfo" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_Cache">
+        <value name="_Cache" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Win32CPUInfo">
+        <value name="Win32CPUInfo" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="IntelCCompilerW">
+        <value name="IntelCCompilerW" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="DarwinCPUInfo">
+        <value name="DarwinCPUInfo" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_Parse">
+        <value name="_Parse" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="from_template.py">
+        <value name="from_template.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="misc_util.py">
+        <value name="misc_util.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="VariableSet">
+        <value name="VariableSet" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="core.py">
+        <value name="core.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ccompiler_opt.py">
+        <value name="ccompiler_opt.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="mingw32ccompiler.py">
+        <value name="mingw32ccompiler.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="SunOSCPUInfo">
+        <value name="SunOSCPUInfo" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="conv_template.py">
+        <value name="conv_template.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="npy_pkg_config.py">
+        <value name="npy_pkg_config.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ccompiler.py">
+        <value name="ccompiler.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_CCompiler">
+        <value name="_CCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_numpy_info">
+        <value name="_numpy_info" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ssl2_info">
+        <value name="ssl2_info" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="FujitsuCCompiler">
+        <value name="FujitsuCCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="system_info.py">
+        <value name="system_info.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_Distutils">
+        <value name="_Distutils" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="IntelEM64TCCompiler">
+        <value name="IntelEM64TCCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="extension.py">
+        <value name="extension.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="mkl_info">
+        <value name="mkl_info" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="LibraryInfo">
+        <value name="LibraryInfo" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="cpuinfo.py">
+        <value name="cpuinfo.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="IRIXCPUInfo">
+        <value name="IRIXCPUInfo" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="FormatError">
+        <value name="FormatError" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="IntelCCompiler">
+        <value name="IntelCCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_Feature">
+        <value name="_Feature" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="NumpyDistribution">
+        <value name="NumpyDistribution" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="CCompilerOpt">
+        <value name="CCompilerOpt" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="PathScaleCCompiler">
+        <value name="PathScaleCCompiler" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="IntelEM64TCCompilerW">
+        <value name="IntelEM64TCCompilerW" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="exec_command.py">
+        <value name="exec_command.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Extension">
+        <value name="Extension" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="linalgtests.AGGREGATED::aggregated">
+    <value signature="linalgtests.AGGREGATED::aggregated" name="AGGREGATED" package="linalgtests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="linalgtests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="test_linalg.py">
+        <value name="test_linalg.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="LinalgCase">
+        <value name="LinalgCase" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="om_typing.AGGREGATED::aggregated">
+    <value signature="om_typing.AGGREGATED::aggregated" name="AGGREGATED" package="om_typing">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="om_typing.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="_nested_sequence.py">
+        <value name="_nested_sequence.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_array_like.py">
+        <value name="_array_like.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_scalars.py">
+        <value name="_scalars.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_nbit.py">
+        <value name="_nbit.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_char_codes.py">
+        <value name="_char_codes.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_dtype_like.py">
+        <value name="_dtype_like.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_shape.py">
+        <value name="_shape.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_add_docstring.py">
+        <value name="_add_docstring.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_extended_precision.py">
+        <value name="_extended_precision.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="omma.AGGREGATED::aggregated">
+    <value signature="omma.AGGREGATED::aggregated" name="AGGREGATED" package="omma">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="omma.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="_DomainSafeDivide">
+        <value name="_DomainSafeDivide" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_DomainGreaterEqual">
+        <value name="_DomainGreaterEqual" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ModuleTester">
+        <value name="ModuleTester" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_MaskedUnaryOperation">
+        <value name="_MaskedUnaryOperation" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="timer_comparison.py">
+        <value name="timer_comparison.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_DomainTan">
+        <value name="_DomainTan" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_DomainCheckInterval">
+        <value name="_DomainCheckInterval" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="mrecords.py">
+        <value name="mrecords.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_frommethod">
+        <value name="_frommethod" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_MaskedPrintOption">
+        <value name="_MaskedPrintOption" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="core.py">
+        <value name="core.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_DomainedBinaryOperation">
+        <value name="_DomainedBinaryOperation" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_MaskedBinaryOperation">
+        <value name="_MaskedBinaryOperation" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_extrema_operation">
+        <value name="_extrema_operation" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_convert2ma">
+        <value name="_convert2ma" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_MaskedUFunc">
+        <value name="_MaskedUFunc" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_DomainGreater">
+        <value name="_DomainGreater" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="testutils.py">
+        <value name="testutils.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="extras.py">
+        <value name="extras.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_fromnxfunction">
+        <value name="_fromnxfunction" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="MaskedIterator">
+        <value name="MaskedIterator" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="gzip.AGGREGATED::aggregated">
+    <value signature="gzip.AGGREGATED::aggregated" name="AGGREGATED" package="gzip">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="gzip.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="_core.AGGREGATED::aggregated">
+    <value signature="_core.AGGREGATED::aggregated" name="AGGREGATED" package="_core">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="_core.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="-- none --.AGGREGATED::aggregated">
+    <value signature="-- none --.AGGREGATED::aggregated" name="AGGREGATED" package="-- none --">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="-- none --.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="pycompat.AGGREGATED::aggregated">
+    <value signature="pycompat.AGGREGATED::aggregated" name="AGGREGATED" package="pycompat">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="pycompat.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="py3k.py">
+        <value name="py3k.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="contextlib_nullcontext">
+        <value name="contextlib_nullcontext" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="pycore.AGGREGATED::aggregated">
+    <value signature="pycore.AGGREGATED::aggregated" name="AGGREGATED" package="pycore">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="pycore.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="_internal.py">
+        <value name="_internal.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="multiarray.py">
+        <value name="multiarray.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="urllib.AGGREGATED::aggregated">
+    <value signature="urllib.AGGREGATED::aggregated" name="AGGREGATED" package="urllib">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="urllib.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="lif2py.AGGREGATED::aggregated">
+    <value signature="lif2py.AGGREGATED::aggregated" name="AGGREGATED" package="lif2py">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="lif2py.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_isocbind.py">
+        <value name="_isocbind.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="use_rules.py">
+        <value name="use_rules.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="common_rules.py">
+        <value name="common_rules.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Expr">
+        <value name="Expr" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_FromStringWorker">
+        <value name="_FromStringWorker" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="f2py2e.py">
+        <value name="f2py2e.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="capi_maps.py">
+        <value name="capi_maps.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="auxfuncs.py">
+        <value name="auxfuncs.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_src_pyf.py">
+        <value name="_src_pyf.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="cb_rules.py">
+        <value name="cb_rules.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="throw_error">
+        <value name="throw_error" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="crackfortran.py">
+        <value name="crackfortran.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_Pair">
+        <value name="_Pair" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="symbolic.py">
+        <value name="symbolic.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="rules.py">
+        <value name="rules.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="f90mod_rules.py">
+        <value name="f90mod_rules.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="cfuncs.py">
+        <value name="cfuncs.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="libtests.AGGREGATED::aggregated">
+    <value signature="libtests.AGGREGATED::aggregated" name="AGGREGATED" package="libtests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="libtests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="test_polynomial.py">
+        <value name="test_polynomial.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="JustReader">
+        <value name="JustReader" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_nanfunctions.py">
+        <value name="test_nanfunctions.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test__datasource.py">
+        <value name="test__datasource.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_format.py">
+        <value name="test_format.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_shape_base.py">
+        <value name="test_shape_base.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_function_base.py">
+        <value name="test_function_base.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_recfunctions.py">
+        <value name="test_recfunctions.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_arraypad.py">
+        <value name="test_arraypad.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="JustWriter">
+        <value name="JustWriter" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_mixins.py">
+        <value name="test_mixins.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_io.py">
+        <value name="test_io.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="matrixlibtests.AGGREGATED::aggregated">
+    <value signature="matrixlibtests.AGGREGATED::aggregated" name="AGGREGATED" package="matrixlibtests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="matrixlibtests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="test_matrix_linalg.py">
+        <value name="test_matrix_linalg.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="omlib.AGGREGATED::aggregated">
+    <value signature="omlib.AGGREGATED::aggregated" name="AGGREGATED" package="omlib">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="omlib.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="AxisConcatenator">
+        <value name="AxisConcatenator" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Repository">
+        <value name="Repository" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_type_check_impl.py">
+        <value name="_type_check_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_scimath_impl.py">
+        <value name="_scimath_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="nd_grid">
+        <value name="nd_grid" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="NumpyVersion">
+        <value name="NumpyVersion" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_arraypad_impl.py">
+        <value name="_arraypad_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="BagObj">
+        <value name="BagObj" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_version.py">
+        <value name="_version.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Arrayterator">
+        <value name="Arrayterator" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_arraysetops_impl.py">
+        <value name="_arraysetops_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_function_base_impl.py">
+        <value name="_function_base_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="StringConverter">
+        <value name="StringConverter" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_nanfunctions_impl.py">
+        <value name="_nanfunctions_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_twodim_base_impl.py">
+        <value name="_twodim_base_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="format.py">
+        <value name="format.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_polynomial_impl.py">
+        <value name="_polynomial_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="WriteWrap">
+        <value name="WriteWrap" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_datasource.py">
+        <value name="_datasource.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="vectorize">
+        <value name="vectorize" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_arrayterator_impl.py">
+        <value name="_arrayterator_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="NpzFile">
+        <value name="NpzFile" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="container">
+        <value name="container" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_FileOpeners">
+        <value name="_FileOpeners" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_array_utils_impl.py">
+        <value name="_array_utils_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ndenumerate">
+        <value name="ndenumerate" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_histograms_impl.py">
+        <value name="_histograms_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_shape_base_impl.py">
+        <value name="_shape_base_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="poly1d">
+        <value name="poly1d" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="IndexExpression">
+        <value name="IndexExpression" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="NameValidator">
+        <value name="NameValidator" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="recfunctions.py">
+        <value name="recfunctions.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_npyio_impl.py">
+        <value name="_npyio_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_iotools.py">
+        <value name="_iotools.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_stride_tricks_impl.py">
+        <value name="_stride_tricks_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="ndindex">
+        <value name="ndindex" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="introspect.py">
+        <value name="introspect.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_utils_impl.py">
+        <value name="_utils_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="mixins.py">
+        <value name="mixins.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="LineSplitter">
+        <value name="LineSplitter" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_Deprecate">
+        <value name="_Deprecate" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_ufunclike_impl.py">
+        <value name="_ufunclike_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="_index_tricks_impl.py">
+        <value name="_index_tricks_impl.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="numpytyping.AGGREGATED::aggregated">
+    <value signature="numpytyping.AGGREGATED::aggregated" name="AGGREGATED" package="numpytyping">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="numpytyping.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="mypy_plugin.py">
+        <value name="mypy_plugin.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="te_pyinstaller.AGGREGATED::aggregated">
+    <value signature="te_pyinstaller.AGGREGATED::aggregated" name="AGGREGATED" package="te_pyinstaller">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="te_pyinstaller.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="hook-numpy.py">
+        <value name="hook-numpy.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="itertools.AGGREGATED::aggregated">
+    <value signature="itertools.AGGREGATED::aggregated" name="AGGREGATED" package="itertools">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="itertools.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="ommatrixlib.AGGREGATED::aggregated">
+    <value signature="ommatrixlib.AGGREGATED::aggregated" name="AGGREGATED" package="ommatrixlib">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="ommatrixlib.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="defmatrix.py">
+        <value name="defmatrix.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="f2pytests.AGGREGATED::aggregated">
+    <value signature="f2pytests.AGGREGATED::aggregated" name="AGGREGATED" package="f2pytests">
+      <providedOperations key="__aggregated_operation__">
+        <value signature="f2pytests.AGGREGATED::aggregated::AGGREGATED" name="AGGREGATED" returnType="void"/>
+      </providedOperations>
+      <providedStorages key="util.py">
+        <value name="util.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Intent">
+        <value name="Intent" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="Array">
+        <value name="Array" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_pyf_src.py">
+        <value name="test_pyf_src.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_f2py2e.py">
+        <value name="test_f2py2e.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="CompilerChecker">
+        <value name="CompilerChecker" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_array_from_pyobj.py">
+        <value name="test_array_from_pyobj.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_docs.py">
+        <value name="test_docs.py" type="&lt;unknown>"/>
+      </providedStorages>
+      <providedStorages key="test_return_character.py">
+        <value name="test_return_character.py" type="&lt;unknown>"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+</type:TypeModel>

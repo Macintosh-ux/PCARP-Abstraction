@@ -1,0 +1,166 @@
+# Note: see array_api_compat/torch/_aliases.py for links to corresponding
+# pytorch issues
+
+# We cannot wrap the array object
+
+# Indexing does not support negative step
+array_api_tests/test_array_object.py::test_getitem
+array_api_tests/test_array_object.py::test_setitem
+# Masking doesn't suport 0 dimensions in the mask
+array_api_tests/test_array_object.py::test_getitem_masking
+
+# Overflow error from large inputs
+array_api_tests/test_creation_functions.py::test_arange
+# pytorch linspace bug (should be fixed in torch 2.0)
+
+# We cannot wrap the tensor object
+array_api_tests/test_has_names.py::test_has_names[array_method-__array_namespace__]
+array_api_tests/test_has_names.py::test_has_names[array_method-to_device]
+
+# We cannot wrap the tensor object
+array_api_tests/test_operators_and_elementwise_functions.py::test_add[__add__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_bitwise_and[__and__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_bitwise_left_shift[__lshift__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_bitwise_or[__or__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_bitwise_right_shift[__rshift__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_bitwise_right_shift[__irshift__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_bitwise_xor[__xor__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_divide[__truediv__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_equal[__eq__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_not_equal[__ne__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_floor_divide[__floordiv__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_floor_divide[__floordiv__(x, s)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_floor_divide[__ifloordiv__(x, s)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_floor_divide[__ifloordiv__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_floor_divide[floor_divide(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_greater[__gt__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_greater_equal[__ge__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_less[__lt__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_less_equal[__le__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_multiply[__mul__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_pow[__pow__(x1, x2)]
+# This test is skipped instead of xfailed because it causes core dumps on CI
+# array_api_tests/test_operators_and_elementwise_functions.py::test_remainder[__mod__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_remainder[__imod__(x1, x2)]
+array_api_tests/test_operators_and_elementwise_functions.py::test_subtract[__sub__(x1, x2)]
+
+# inverse trig functions are too inaccurate on CPU
+array_api_tests/test_operators_and_elementwise_functions.py::test_acos
+array_api_tests/test_operators_and_elementwise_functions.py::test_atan
+array_api_tests/test_operators_and_elementwise_functions.py::test_asin
+
+# Torch bug for remainder in some cases with large values
+array_api_tests/test_operators_and_elementwise_functions.py::test_remainder[remainder(x1, x2)]
+
+# unique_all cannot be implemented because torch's unique does not support
+# returning indices
+array_api_tests/test_set_functions.py::test_unique_all
+# unique_inverse incorrectly counts nan values
+# (https://github.com/pytorch/pytorch/issues/94106)
+array_api_tests/test_set_functions.py::test_unique_inverse
+
+
+# We cannot add attributes to the tensor object
+array_api_tests/test_signatures.py::test_array_method_signature[__array_namespace__]
+array_api_tests/test_signatures.py::test_array_method_signature[to_device]
+
+
+# We do not attempt to work around special-case differences (most are on
+# tensor methods which we couldn't fix anyway).
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(isfinite(x1_i) and x1_i < 0 and x2_i is +infinity) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(isfinite(x1_i) and x1_i < 0 and x2_i is -infinity) -> +0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(isfinite(x1_i) and x1_i > 0 and x2_i is +infinity) -> +0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(isfinite(x1_i) and x1_i > 0 and x2_i is -infinity) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i < 0 and x2_i is +0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i < 0 and x2_i is -0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i > 0 and x2_i is +0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i > 0 and x2_i is -0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is +0 and x2_i < 0) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is +0 and x2_i > 0) -> +0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i < 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i > 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is -0 and x2_i < 0) -> +0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is -0 and x2_i > 0) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i < 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[__floordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i > 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[__mod__(isfinite(x1_i) and x1_i < 0 and x2_i is +infinity) -> x2_i]
+array_api_tests/test_special_cases.py::test_binary[__mod__(isfinite(x1_i) and x1_i < 0 and x2_i is -infinity) -> x1_i]
+array_api_tests/test_special_cases.py::test_binary[__mod__(isfinite(x1_i) and x1_i > 0 and x2_i is +infinity) -> x1_i]
+array_api_tests/test_special_cases.py::test_binary[__mod__(isfinite(x1_i) and x1_i > 0 and x2_i is -infinity) -> x2_i]
+array_api_tests/test_special_cases.py::test_binary[__mod__(x1_i is +0 and x2_i < 0) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__mod__(x1_i is +0 and x2_i > 0) -> +0]
+array_api_tests/test_special_cases.py::test_binary[__mod__(x1_i is -0 and x2_i < 0) -> -0]
+array_api_tests/test_special_cases.py::test_binary[__mod__(x1_i is -0 and x2_i > 0) -> +0]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(isfinite(x1_i) and x1_i < 0 and x2_i is +infinity) -> -0]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(isfinite(x1_i) and x1_i > 0 and x2_i is -infinity) -> -0]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is +infinity and isfinite(x2_i) and x2_i < 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is +infinity and isfinite(x2_i) and x2_i > 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is -infinity and isfinite(x2_i) and x2_i < 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_binary[floor_divide(x1_i is -infinity and isfinite(x2_i) and x2_i > 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_binary[remainder(x1_i is +0 and x2_i < 0) -> -0]
+array_api_tests/test_special_cases.py::test_binary[remainder(x1_i is -0 and x2_i > 0) -> +0]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(isfinite(x1_i) and x1_i < 0 and x2_i is +infinity) -> -0]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(isfinite(x1_i) and x1_i > 0 and x2_i is -infinity) -> -0]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i < 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is +infinity and isfinite(x2_i) and x2_i > 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i < 0) -> +infinity]
+array_api_tests/test_special_cases.py::test_iop[__ifloordiv__(x1_i is -infinity and isfinite(x2_i) and x2_i > 0) -> -infinity]
+array_api_tests/test_special_cases.py::test_iop[__imod__(x1_i is +0 and x2_i < 0) -> -0]
+array_api_tests/test_special_cases.py::test_iop[__imod__(x1_i is -0 and x2_i > 0) -> +0]
+
+# Float correction is not supported by pytorch
+# (https://github.com/data-apis/array-api-tests/issues/168)
+array_api_tests/test_statistical_functions.py::test_std
+array_api_tests/test_statistical_functions.py::test_var
+
+
+# These functions do not yet support complex numbers
+array_api_tests/test_operators_and_elementwise_functions.py::test_round
+array_api_tests/test_set_functions.py::test_unique_counts
+array_api_tests/test_set_functions.py::test_unique_values
+
+# finfo/iinfo.dtype is a string instead of a dtype
+array_api_tests/test_data_type_functions.py::test_finfo_dtype
+array_api_tests/test_data_type_functions.py::test_iinfo_dtype
+
+# 2023.12 support
+# https://github.com/pytorch/pytorch/issues/151311: torch.repeat_interleave rejects short integers
+array_api_tests/test_manipulation_functions.py::test_repeat
+# Argument 'device' missing from signature
+array_api_tests/test_signatures.py::test_func_signature[from_dlpack]
+# Argument 'max_version' missing from signature
+array_api_tests/test_signatures.py::test_array_method_signature[__dlpack__]
+
+# 2024.12 support
+array_api_tests/test_signatures.py::test_func_signature[bitwise_and]
+array_api_tests/test_signatures.py::test_func_signature[bitwise_left_shift]
+array_api_tests/test_signatures.py::test_func_signature[bitwise_or]
+array_api_tests/test_signatures.py::test_func_signature[bitwise_right_shift]
+array_api_tests/test_signatures.py::test_func_signature[bitwise_xor]
+array_api_tests/test_signatures.py::test_array_method_signature[__and__]
+array_api_tests/test_signatures.py::test_array_method_signature[__lshift__]
+array_api_tests/test_signatures.py::test_array_method_signature[__or__]
+array_api_tests/test_signatures.py::test_array_method_signature[__rshift__]
+array_api_tests/test_signatures.py::test_array_method_signature[__xor__]
+
+# 2024.12 support: binary functions reject python scalar arguments
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[atan2]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[copysign]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[divide]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[hypot]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[logaddexp]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[maximum]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[minimum]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[nextafter]
+
+# https://github.com/pytorch/pytorch/issues/149815
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[equal]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[not_equal]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[less]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[less_equal]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[greater]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_real[greater_equal]
+
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_bool[logical_and]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_bool[logical_or]
+array_api_tests/test_operators_and_elementwise_functions.py::test_binary_with_scalars_bool[logical_xor]

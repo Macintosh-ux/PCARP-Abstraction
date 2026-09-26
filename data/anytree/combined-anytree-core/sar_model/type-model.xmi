@@ -1,0 +1,2000 @@
+<?xml version='1.0' encoding='ASCII'?>
+<type:TypeModel xmlns:xmi="http://www.omg.org/XMI" xmlns:type="platform:/resource/Kieker/model/analysismodel.ecore/type" xmi:version="2.0">
+  <componentTypes key="anytree.render">
+    <value signature="anytree.render" name="render" package="anytree">
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="logging.getLogger">
+        <value signature="logging.getLogger" name="logging.getLogger" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="logging.getLogger.warning">
+        <value signature="logging.getLogger.warning" name="logging.getLogger.warning" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_getattr">
+        <value signature="_getattr" name="_getattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edgetypefunc">
+        <value signature="edgetypefunc" name="edgetypefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__get">
+        <value signature="self.__get" name="self.__get" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="AbstractIter._get_children">
+        <value signature="AbstractIter._get_children" name="AbstractIter._get_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="getattr">
+        <value signature="getattr" name="getattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__next">
+        <value signature="__next" name="__next" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_is_last">
+        <value signature="_is_last" name="_is_last" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__next">
+        <value signature="self.__next" name="self.__next" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="LevelOrderGroupIter._get_grandchildren">
+        <value signature="LevelOrderGroupIter._get_grandchildren" name="LevelOrderGroupIter._get_grandchildren" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__item">
+        <value signature="__item" name="__item" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="os.environ.get">
+        <value signature="os.environ.get" name="os.environ.get" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="super.__getattr__">
+        <value signature="super.__getattr__" name="super.__getattr__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="PostOrderIter.__next">
+        <value signature="PostOrderIter.__next" name="PostOrderIter.__next" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="childiter">
+        <value signature="childiter" name="childiter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.target.__dict__.update">
+        <value signature="self.target.__dict__.update" name="self.target.__dict__.update" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="get">
+        <value signature="get" name="get" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="empty">
+        <value signature="empty" name="empty" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__repr__">
+        <value signature="__repr__" name="__repr__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attrname">
+        <value signature="attrname" name="attrname" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_format_row_any">
+        <value signature="_format_row_any" name="_format_row_any" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="style">
+        <value signature="style" name="style" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter__">
+        <value signature="__iter__" name="__iter__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="RenderTree.__item">
+        <value signature="RenderTree.__item" name="RenderTree.__item" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="vertical">
+        <value signature="vertical" name="vertical" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="cont">
+        <value signature="cont" name="cont" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="end">
+        <value signature="end" name="end" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="next_children">
+        <value signature="next_children" name="next_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attr">
+        <value signature="attr" name="attr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="pathattr">
+        <value signature="pathattr" name="pathattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="items">
+        <value signature="items" name="items" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="continues">
+        <value signature="continues" name="continues" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="indent">
+        <value signature="indent" name="indent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="branch">
+        <value signature="branch" name="branch" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="continues.continues">
+        <value signature="continues.continues" name="continues.continues" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="style.cont">
+        <value signature="style.cont" name="style.cont" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="args">
+        <value signature="args" name="args" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="style.end">
+        <value signature="style.end" name="style.end" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="pre">
+        <value signature="pre" name="pre" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Row">
+        <value signature="Row" name="Row" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="lines">
+        <value signature="lines" name="lines" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="fill">
+        <value signature="fill" name="fill" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="str.splitlines">
+        <value signature="str.splitlines" name="str.splitlines" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="kwargs">
+        <value signature="kwargs" name="kwargs" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="iter_">
+        <value signature="iter_" name="iter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="repr.splitlines">
+        <value signature="repr.splitlines" name="repr.splitlines" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="pchildren.index">
+        <value signature="pchildren.index" name="pchildren.index" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="old_children">
+        <value signature="old_children" name="old_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nextitem">
+        <value signature="nextitem" name="nextitem" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="target">
+        <value signature="target" name="target" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="classname">
+        <value signature="classname" name="classname" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="item">
+        <value signature="item" name="item" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="CONT_STYLE">
+        <value signature="CONT_STYLE" name="CONT_STYLE" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="render.py">
+        <value name="render.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.search">
+    <value signature="anytree.search" name="search" package="anytree">
+      <providedOperations key="super.__init__">
+        <value signature="super.__init__" name="super.__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="stop">
+        <value signature="stop" name="stop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="filter_">
+        <value signature="filter_" name="filter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="search.findall">
+        <value signature="search.findall" name="search.findall" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="search.findall_by_attr">
+        <value signature="search.findall_by_attr" name="search.findall_by_attr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="search.find">
+        <value signature="search.find" name="search.find" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="search.find_by_attr">
+        <value signature="search.find_by_attr" name="search.find_by_attr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__find">
+        <value signature="self.__find" name="self.__find" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_find">
+        <value signature="_find" name="_find" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_findall">
+        <value signature="_findall" name="_findall" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="findall">
+        <value signature="findall" name="findall" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="findall_by_attr">
+        <value signature="findall_by_attr" name="findall_by_attr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_filter_by_name">
+        <value signature="_filter_by_name" name="_filter_by_name" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="find">
+        <value signature="find" name="find" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="find_by_attr">
+        <value signature="find_by_attr" name="find_by_attr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="items">
+        <value signature="items" name="items" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="resultlen">
+        <value signature="resultlen" name="resultlen" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="result">
+        <value signature="result" name="result" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="value">
+        <value signature="value" name="value" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="msg">
+        <value signature="msg" name="msg" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.mermaidexporter">
+    <value signature="anytree.exporter.mermaidexporter" name="mermaidexporter" package="anytree.exporter">
+      <providedOperations key="__iter_nodes">
+        <value signature="__iter_nodes" name="__iter_nodes" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="write">
+        <value signature="write" name="write" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__iter_options">
+        <value signature="self.__iter_options" name="self.__iter_options" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__iter_edges">
+        <value signature="self.__iter_edges" name="self.__iter_edges" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__iter_nodes">
+        <value signature="self.__iter_nodes" name="self.__iter_nodes" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodenamefunc">
+        <value signature="nodenamefunc" name="nodenamefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="DotExporter.esc">
+        <value signature="DotExporter.esc" name="DotExporter.esc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodefunc">
+        <value signature="nodefunc" name="nodefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter_edges">
+        <value signature="__iter_edges" name="__iter_edges" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__iter">
+        <value signature="self.__iter" name="self.__iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="esc">
+        <value signature="esc" name="esc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="to_file">
+        <value signature="to_file" name="to_file" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edgefunc">
+        <value signature="edgefunc" name="edgefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_default_nodenamefunc">
+        <value signature="_default_nodenamefunc" name="_default_nodenamefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter__">
+        <value signature="__iter__" name="__iter__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter">
+        <value signature="__iter" name="__iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="re.escape">
+        <value signature="re.escape" name="re.escape" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_default_nodefunc">
+        <value signature="_default_nodefunc" name="_default_nodefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="MermaidExporter.esc">
+        <value signature="MermaidExporter.esc" name="MermaidExporter.esc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__node_ids">
+        <value signature="self.__node_ids" name="self.__node_ids" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="num">
+        <value signature="num" name="num" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_RE_ESC">
+        <value signature="_RE_ESC" name="_RE_ESC" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edgeattr">
+        <value signature="edgeattr" name="edgeattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node_id">
+        <value signature="node_id" name="node_id" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="graph">
+        <value signature="graph" name="graph" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="stop">
+        <value signature="stop" name="stop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="filter_">
+        <value signature="filter_" name="filter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodename">
+        <value signature="nodename" name="nodename" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="indent">
+        <value signature="indent" name="indent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="options">
+        <value signature="options" name="options" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="maxlevel">
+        <value signature="maxlevel" name="maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="childname">
+        <value signature="childname" name="childname" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edge">
+        <value signature="edge" name="edge" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="mermaidexporter.py">
+        <value name="mermaidexporter.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.preorderiter.PreOrderIter">
+    <value signature="anytree.iterators.preorderiter.PreOrderIter" name="PreOrderIter" package="anytree.iterators.preorderiter">
+      <providedOperations key="PreOrderIter">
+        <value signature="PreOrderIter" name="PreOrderIter" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="logging">
+    <value signature="logging" name="logging" package="logging">
+      <providedOperations key="re.compile">
+        <value signature="re.compile" name="re.compile" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="collections.namedtuple">
+        <value signature="collections.namedtuple" name="collections.namedtuple" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="args.append">
+        <value signature="args.append" name="args.append" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="format">
+        <value signature="format" name="format" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dotfile.flush">
+        <value signature="dotfile.flush" name="dotfile.flush" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="matches.append">
+        <value signature="matches.append" name="matches.append" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="reversed">
+        <value signature="reversed" name="reversed" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="warnings.warn">
+        <value signature="warnings.warn" name="warnings.warn" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="common.append">
+        <value signature="common.append" name="common.append" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="repr">
+        <value signature="repr" name="repr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="repr.splitlines">
+        <value signature="repr.splitlines" name="repr.splitlines" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="re_pat.match">
+        <value signature="re_pat.match" name="re_pat.match" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="filter">
+        <value signature="filter" name="filter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="re.IGNORECASE">
+        <value signature="re.IGNORECASE" name="re.IGNORECASE" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.nodemixin">
+    <value signature="anytree.node.nodemixin" name="nodemixin" package="anytree.node">
+      <providedOperations key="height">
+        <value signature="height" name="height" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="depth">
+        <value signature="depth" name="depth" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.iter_path_reverse">
+        <value signature="self.iter_path_reverse" name="self.iter_path_reverse" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="size">
+        <value signature="size" name="size" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parent">
+        <value signature="parent" name="parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="pchildren.index">
+        <value signature="pchildren.index" name="pchildren.index" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="path.split">
+        <value signature="path.split" name="path.split" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="path.startswith">
+        <value signature="path.startswith" name="path.startswith" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="path.splitext">
+        <value signature="path.splitext" name="path.splitext" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="leaves">
+        <value signature="leaves" name="leaves" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="is_leaf">
+        <value signature="is_leaf" name="is_leaf" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__attach">
+        <value signature="__attach" name="__attach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._post_attach">
+        <value signature="self._post_attach" name="self._post_attach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__children_or_empty">
+        <value signature="__children_or_empty" name="__children_or_empty" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="descendants">
+        <value signature="descendants" name="descendants" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_path">
+        <value signature="_path" name="_path" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__check_children">
+        <value signature="__check_children" name="__check_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="anchestors">
+        <value signature="anchestors" name="anchestors" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__check_loop">
+        <value signature="self.__check_loop" name="self.__check_loop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__detach">
+        <value signature="self.__detach" name="self.__detach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__attach">
+        <value signature="self.__attach" name="self.__attach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__check_loop">
+        <value signature="__check_loop" name="__check_loop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node.iter_path_reverse">
+        <value signature="node.iter_path_reverse" name="node.iter_path_reverse" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="NodeMixin.__check_children">
+        <value signature="NodeMixin.__check_children" name="NodeMixin.__check_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__detach">
+        <value signature="__detach" name="__detach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._pre_detach">
+        <value signature="self._pre_detach" name="self._pre_detach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._pre_attach_children">
+        <value signature="self._pre_attach_children" name="self._pre_attach_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._post_detach">
+        <value signature="self._post_detach" name="self._post_detach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._post_attach_children">
+        <value signature="self._post_attach_children" name="self._post_attach_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._pre_attach">
+        <value signature="self._pre_attach" name="self._pre_attach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parentchildren.append">
+        <value signature="parentchildren.append" name="parentchildren.append" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._pre_detach_children">
+        <value signature="self._pre_detach_children" name="self._pre_detach_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._post_detach_children">
+        <value signature="self._post_detach_children" name="self._post_detach_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="siblings">
+        <value signature="siblings" name="siblings" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="LightNodeMixin.__check_children">
+        <value signature="LightNodeMixin.__check_children" name="LightNodeMixin.__check_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__parent">
+        <value signature="self.__parent" name="self.__parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="start.path">
+        <value signature="start.path" name="start.path" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="end.path">
+        <value signature="end.path" name="end.path" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node">
+        <value signature="node" name="node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="seen">
+        <value signature="seen" name="seen" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="msg">
+        <value signature="msg" name="msg" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="path.splitext.path.splitext.path.splitext.path.splitext">
+        <value signature="path.splitext.path.splitext.path.splitext.path.splitext" name="path.splitext.path.splitext.path.splitext.path.splitext" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="childid">
+        <value signature="childid" name="childid" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="old_children">
+        <value signature="old_children" name="old_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parentchildren">
+        <value signature="parentchildren" name="parentchildren" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parent.__children">
+        <value signature="parent.__children" name="parent.__children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="child.parent">
+        <value signature="child.parent" name="child.parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.children">
+        <value signature="self.children" name="self.children" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="audioop">
+    <value signature="audioop" name="audioop" package="audioop">
+      <providedOperations key="max">
+        <value signature="max" name="max" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.dotexporter">
+    <value signature="anytree.exporter.dotexporter" name="dotexporter" package="anytree.exporter">
+      <providedOperations key="_default_nodenamefunc">
+        <value signature="_default_nodenamefunc" name="_default_nodenamefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter">
+        <value signature="__iter" name="__iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="esc">
+        <value signature="esc" name="esc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="to_picture">
+        <value signature="to_picture" name="to_picture" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter_nodes">
+        <value signature="__iter_nodes" name="__iter_nodes" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodeattrfunc">
+        <value signature="nodeattrfunc" name="nodeattrfunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter_edges">
+        <value signature="__iter_edges" name="__iter_edges" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edgeattrfunc">
+        <value signature="edgeattrfunc" name="edgeattrfunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__iter__">
+        <value signature="__iter__" name="__iter__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="to_dotfile">
+        <value signature="to_dotfile" name="to_dotfile" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="num">
+        <value signature="num" name="num" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="filter_">
+        <value signature="filter_" name="filter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__node_ids">
+        <value signature="self.__node_ids" name="self.__node_ids" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edgetype">
+        <value signature="edgetype" name="edgetype" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edgetypefunc">
+        <value signature="edgetypefunc" name="edgetypefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="cmd">
+        <value signature="cmd" name="cmd" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="fileformat">
+        <value signature="fileformat" name="fileformat" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="edgeattr">
+        <value signature="edgeattr" name="edgeattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="options">
+        <value signature="options" name="options" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodename">
+        <value signature="nodename" name="nodename" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dotfilename">
+        <value signature="dotfilename" name="dotfilename" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodeattr">
+        <value signature="nodeattr" name="nodeattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="maxlevel">
+        <value signature="maxlevel" name="maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_RE_ESC">
+        <value signature="_RE_ESC" name="_RE_ESC" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="indent">
+        <value signature="indent" name="indent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="AbstractIter.__default_filter">
+        <value signature="AbstractIter.__default_filter" name="AbstractIter.__default_filter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodenamefunc">
+        <value signature="nodenamefunc" name="nodenamefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="childname">
+        <value signature="childname" name="childname" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node_id">
+        <value signature="node_id" name="node_id" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="dotexporter.py">
+        <value name="dotexporter.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="unittest">
+    <value signature="unittest" name="unittest" package="unittest">
+      <providedOperations key="id">
+        <value signature="id" name="id" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="re">
+    <value signature="re" name="re" package="re">
+      <providedOperations key="enumerate">
+        <value signature="enumerate" name="enumerate" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_RE_ESC.sub">
+        <value signature="_RE_ESC.sub" name="_RE_ESC.sub" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="str.splitlines">
+        <value signature="str.splitlines" name="str.splitlines" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.importer.dictimporter">
+    <value signature="anytree.importer.dictimporter" name="dictimporter" package="anytree.importer">
+      <providedOperations key="import_">
+        <value signature="import_" name="import_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__import">
+        <value signature="self.__import" name="self.__import" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dictimporter.import_">
+        <value signature="dictimporter.import_" name="dictimporter.import_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__import">
+        <value signature="__import" name="__import" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attrs">
+        <value signature="attrs" name="attrs" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attrs.pop">
+        <value signature="attrs.pop" name="attrs.pop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node">
+        <value signature="node" name="node" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.abstractiter">
+    <value signature="anytree.iterators.abstractiter" name="abstractiter" package="anytree.iterators">
+      <providedOperations key="__next__">
+        <value signature="__next__" name="__next__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__init">
+        <value signature="self.__init" name="self.__init" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_get_children">
+        <value signature="_get_children" name="_get_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__init">
+        <value signature="__init" name="__init" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="AbstractIter._abort_at_level">
+        <value signature="AbstractIter._abort_at_level" name="AbstractIter._abort_at_level" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._iter">
+        <value signature="self._iter" name="self._iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="PreOrderIter._iter">
+        <value signature="PreOrderIter._iter" name="PreOrderIter._iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node.children">
+        <value signature="node.children" name="node.children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node.separator">
+        <value signature="node.separator" name="node.separator" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node">
+        <value signature="node" name="node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node.root">
+        <value signature="node.root" name="node.root" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodecls">
+        <value signature="nodecls" name="nodecls" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__iter">
+        <value signature="self.__iter" name="self.__iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodes">
+        <value signature="nodes" name="nodes" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodeattr">
+        <value signature="nodeattr" name="nodeattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="stop">
+        <value signature="stop" name="stop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodefunc">
+        <value signature="nodefunc" name="nodefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="filter_">
+        <value signature="filter_" name="filter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="AbstractIter.__default_stop">
+        <value signature="AbstractIter.__default_stop" name="AbstractIter.__default_stop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="maxlevel">
+        <value signature="maxlevel" name="maxlevel" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.util">
+    <value signature="anytree.node.util" name="util" package="anytree.node">
+      <providedOperations key="_repr">
+        <value signature="_repr" name="_repr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="args">
+        <value signature="args" name="args" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="classname">
+        <value signature="classname" name="classname" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nameblacklist">
+        <value signature="nameblacklist" name="nameblacklist" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="math">
+    <value signature="math" name="math" package="math">
+      <providedOperations key="item.item.startswith">
+        <value signature="item.item.startswith" name="item.item.startswith" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="next">
+        <value signature="next" name="next" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__dict__.update">
+        <value signature="self.__dict__.update" name="self.__dict__.update" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="isinstance">
+        <value signature="isinstance" name="isinstance" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="super">
+        <value signature="super" name="super" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="len">
+        <value signature="len" name="len" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="sorted">
+        <value signature="sorted" name="sorted" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="tuple">
+        <value signature="tuple" name="tuple" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="hex">
+        <value signature="hex" name="hex" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.childiter">
+        <value signature="self.childiter" name="self.childiter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="seen.add">
+        <value signature="seen.add" name="seen.add" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="pat.upper">
+        <value signature="pat.upper" name="pat.upper" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="name.upper">
+        <value signature="name.upper" name="name.upper" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="callable">
+        <value signature="callable" name="callable" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="iter">
+        <value signature="iter" name="iter" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.node">
+    <value signature="anytree.node.node" name="node" package="anytree.node">
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__repr__">
+        <value signature="__repr__" name="__repr__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.children">
+        <value signature="self.children" name="self.children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="args">
+        <value signature="args" name="args" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="os">
+    <value signature="os" name="os" package="os">
+      <providedOperations key="remove">
+        <value signature="remove" name="remove" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.anynode">
+    <value signature="anytree.node.anynode" name="anynode" package="anytree.node">
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__repr__">
+        <value signature="__repr__" name="__repr__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.children">
+        <value signature="self.children" name="self.children" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="tokenize">
+    <value signature="tokenize" name="tokenize" package="tokenize">
+      <providedOperations key="hasattr">
+        <value signature="hasattr" name="hasattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="str">
+        <value signature="str" name="str" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="any">
+        <value signature="any" name="any" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.cachedsearch">
+    <value signature="anytree.cachedsearch" name="cachedsearch" package="anytree">
+      <providedOperations key="find_by_attr">
+        <value signature="find_by_attr" name="find_by_attr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_cache">
+        <value signature="_cache" name="_cache" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="wrapped">
+        <value signature="wrapped" name="wrapped" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="func">
+        <value signature="func" name="func" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="findall">
+        <value signature="findall" name="findall" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="findall_by_attr">
+        <value signature="findall_by_attr" name="findall_by_attr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="find">
+        <value signature="find" name="find" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Resolver._match_cache.clear">
+        <value signature="Resolver._match_cache.clear" name="Resolver._match_cache.clear" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="cachedsearch.py">
+        <value name="cachedsearch.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.resolver">
+    <value signature="anytree.resolver" name="resolver" package="anytree">
+      <providedOperations key="__get">
+        <value signature="__get" name="__get" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__cmp">
+        <value signature="self.__cmp" name="self.__cmp" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="glob">
+        <value signature="glob" name="glob" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__start">
+        <value signature="self.__start" name="self.__start" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__glob">
+        <value signature="self.__glob" name="self.__glob" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__start">
+        <value signature="__start" name="__start" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="cmp_">
+        <value signature="cmp_" name="cmp_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="get">
+        <value signature="get" name="get" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__glob">
+        <value signature="__glob" name="__glob" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Resolver.is_wildcard">
+        <value signature="Resolver.is_wildcard" name="Resolver.is_wildcard" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_getattr">
+        <value signature="_getattr" name="_getattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__find">
+        <value signature="__find" name="__find" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__match">
+        <value signature="self.__match" name="self.__match" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__translate">
+        <value signature="__translate" name="__translate" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__cmp">
+        <value signature="__cmp" name="__cmp" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__match">
+        <value signature="__match" name="__match" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Resolver.__translate">
+        <value signature="Resolver.__translate" name="Resolver.__translate" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parent">
+        <value signature="parent" name="parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="sep">
+        <value signature="sep" name="sep" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="re.compile">
+        <value signature="re.compile" name="re.compile" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="filename">
+        <value signature="filename" name="filename" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parts">
+        <value signature="parts" name="parts" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node.parent">
+        <value signature="node.parent" name="node.parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="re_pat">
+        <value signature="re_pat" name="re_pat" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dict">
+        <value signature="dict" name="dict" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Resolver._match_cache">
+        <value signature="Resolver._match_cache" name="Resolver._match_cache" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="flags">
+        <value signature="flags" name="flags" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attrname">
+        <value signature="attrname" name="attrname" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node">
+        <value signature="node" name="node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="rootpart">
+        <value signature="rootpart" name="rootpart" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="matches">
+        <value signature="matches" name="matches" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="nodenamefunc">
+        <value signature="nodenamefunc" name="nodenamefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dotfilename">
+        <value signature="dotfilename" name="dotfilename" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="ignorecase">
+        <value signature="ignorecase" name="ignorecase" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="child">
+        <value signature="child" name="child" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="relax">
+        <value signature="relax" name="relax" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="name">
+        <value signature="name" name="name" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="k">
+        <value signature="k" name="k" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="pat">
+        <value signature="pat" name="pat" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="itertools.count">
+        <value signature="itertools.count" name="itertools.count" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dotfile.name">
+        <value signature="dotfile.name" name="dotfile.name" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Resolver._match_cache.Resolver._match_cache">
+        <value signature="Resolver._match_cache.Resolver._match_cache" name="Resolver._match_cache.Resolver._match_cache" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="collections.namedtuple">
+        <value signature="collections.namedtuple" name="collections.namedtuple" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="res">
+        <value signature="res" name="res" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parts.parts">
+        <value signature="parts.parts" name="parts.parts" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="remainder">
+        <value signature="remainder" name="remainder" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parent.__children_or_empty">
+        <value signature="parent.__children_or_empty" name="parent.__children_or_empty" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parentnodes.parentnodes">
+        <value signature="parentnodes.parentnodes" name="parentnodes.parentnodes" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="namestr">
+        <value signature="namestr" name="namestr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parentchildren">
+        <value signature="parentchildren" name="parentchildren" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="root">
+        <value signature="root" name="root" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node.parent.children">
+        <value signature="node.parent.children" name="node.parent.children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node.__class__.__name__">
+        <value signature="node.__class__.__name__" name="node.__class__.__name__" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="resolver.py">
+        <value name="resolver.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.util.__init__">
+    <value signature="anytree.util.__init__" name="__init__" package="anytree.util">
+      <providedOperations key="leftsibling">
+        <value signature="leftsibling" name="leftsibling" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="rightsibling">
+        <value signature="rightsibling" name="rightsibling" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="commonancestors">
+        <value signature="commonancestors" name="commonancestors" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="ancestors">
+        <value signature="ancestors" name="ancestors" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parentnode">
+        <value signature="parentnode" name="parentnode" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="idx">
+        <value signature="idx" name="idx" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="pchildren">
+        <value signature="pchildren" name="pchildren" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.importer.jsonimporter">
+    <value signature="anytree.importer.jsonimporter" name="jsonimporter" package="anytree.importer">
+      <providedOperations key="__import">
+        <value signature="__import" name="__import" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="import_">
+        <value signature="import_" name="import_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="read">
+        <value signature="read" name="read" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dictimporter">
+        <value signature="dictimporter" name="dictimporter" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.importer.dictimporter.DictImporter">
+    <value signature="anytree.importer.dictimporter.DictImporter" name="DictImporter" package="anytree.importer.dictimporter">
+      <providedOperations key="DictImporter">
+        <value signature="DictImporter" name="DictImporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.nodecls">
+        <value signature="self.nodecls" name="self.nodecls" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="DictImporter">
+        <value name="DictImporter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.exceptions.TreeError">
+    <value signature="anytree.node.exceptions.TreeError" name="TreeError" package="anytree.node.exceptions">
+      <providedOperations key="TreeError">
+        <value signature="TreeError" name="TreeError" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="platform">
+    <value signature="platform" name="platform" package="platform">
+      <providedOperations key="node.__dict__.items">
+        <value signature="node.__dict__.items" name="node.__dict__.items" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.nodecls">
+        <value signature="self.nodecls" name="self.nodecls" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="itertools.count">
+        <value signature="itertools.count" name="itertools.count" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.resolver.Resolver">
+    <value signature="anytree.resolver.Resolver" name="Resolver" package="anytree.resolver">
+      <providedOperations key="ChildResolverError">
+        <value signature="ChildResolverError" name="ChildResolverError" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="ResolverError">
+        <value signature="ResolverError" name="ResolverError" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="RootResolverError">
+        <value signature="RootResolverError" name="RootResolverError" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.pathattr">
+        <value signature="self.pathattr" name="self.pathattr" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Resolver">
+        <value signature="Resolver" name="Resolver" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.ignorecase">
+        <value signature="self.ignorecase" name="self.ignorecase" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.relax">
+        <value signature="self.relax" name="self.relax" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="Resolver">
+        <value name="Resolver" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="asyncio">
+    <value signature="asyncio" name="asyncio" package="asyncio">
+      <providedOperations key="join">
+        <value signature="join" name="join" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.separator.join">
+        <value signature="self.separator.join" name="self.separator.join" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="set">
+        <value signature="set" name="set" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="setattr">
+        <value signature="setattr" name="setattr" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="subprocess">
+    <value signature="subprocess" name="subprocess" package="subprocess">
+      <providedOperations key="check_call">
+        <value signature="check_call" name="check_call" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="_pickle">
+    <value signature="_pickle" name="_pickle" package="_pickle">
+      <providedOperations key="json.loads">
+        <value signature="json.loads" name="json.loads" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="json.load">
+        <value signature="json.load" name="json.load" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="json.dumps">
+        <value signature="json.dumps" name="json.dumps" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="json.dump">
+        <value signature="json.dump" name="json.dump" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="functools">
+    <value signature="functools" name="functools" package="functools">
+      <providedOperations key="wraps">
+        <value signature="wraps" name="wraps" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="calendar">
+    <value signature="calendar" name="calendar" package="calendar">
+      <providedOperations key="dict">
+        <value signature="dict" name="dict" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="tkinter">
+    <value signature="tkinter" name="tkinter" package="tkinter">
+      <providedOperations key="m.group">
+        <value signature="m.group" name="m.group" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="ossaudiodev">
+    <value signature="ossaudiodev" name="ossaudiodev" package="ossaudiodev">
+      <providedOperations key="codecs.open">
+        <value signature="codecs.open" name="codecs.open" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.jsonexporter">
+    <value signature="anytree.exporter.jsonexporter" name="jsonexporter" package="anytree.exporter">
+      <providedOperations key="file.write">
+        <value signature="file.write" name="file.write" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dotfile.write">
+        <value signature="dotfile.write" name="dotfile.write" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="export">
+        <value signature="export" name="export" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="write">
+        <value signature="write" name="write" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_export">
+        <value signature="_export" name="_export" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dictexporter">
+        <value signature="dictexporter" name="dictexporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="data">
+        <value signature="data" name="data" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dictexporter.maxlevel">
+        <value signature="dictexporter.maxlevel" name="dictexporter.maxlevel" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="_weakrefset">
+    <value signature="_weakrefset" name="_weakrefset" package="_weakrefset">
+      <providedOperations key="parts.pop">
+        <value signature="parts.pop" name="parts.pop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attrs.pop">
+        <value signature="attrs.pop" name="attrs.pop" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="tempfile">
+    <value signature="tempfile" name="tempfile" package="tempfile">
+      <providedOperations key="NamedTemporaryFile">
+        <value signature="NamedTemporaryFile" name="NamedTemporaryFile" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="pdb">
+    <value signature="pdb" name="pdb" package="pdb">
+      <providedOperations key="encode">
+        <value signature="encode" name="encode" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.dotexport">
+    <value signature="anytree.dotexport" name="dotexport" package="anytree">
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.lightnodemixin">
+    <value signature="anytree.node.lightnodemixin" name="lightnodemixin" package="anytree.node">
+      <providedOperations key="_path">
+        <value signature="_path" name="_path" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__detach">
+        <value signature="__detach" name="__detach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__attach">
+        <value signature="__attach" name="__attach" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__children_or_empty">
+        <value signature="__children_or_empty" name="__children_or_empty" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__check_children">
+        <value signature="__check_children" name="__check_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="size">
+        <value signature="size" name="size" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parent">
+        <value signature="parent" name="parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="descendants">
+        <value signature="descendants" name="descendants" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__check_loop">
+        <value signature="__check_loop" name="__check_loop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="siblings">
+        <value signature="siblings" name="siblings" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="depth">
+        <value signature="depth" name="depth" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="height">
+        <value signature="height" name="height" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="is_leaf">
+        <value signature="is_leaf" name="is_leaf" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="leaves">
+        <value signature="leaves" name="leaves" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="node">
+        <value signature="node" name="node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="seen">
+        <value signature="seen" name="seen" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="childid">
+        <value signature="childid" name="childid" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="msg">
+        <value signature="msg" name="msg" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="old_children">
+        <value signature="old_children" name="old_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="child.parent">
+        <value signature="child.parent" name="child.parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parentchildren">
+        <value signature="parentchildren" name="parentchildren" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="parent.__children">
+        <value signature="parent.__children" name="parent.__children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.children">
+        <value signature="self.children" name="self.children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__parent">
+        <value signature="self.__parent" name="self.__parent" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.preorderiter">
+    <value signature="anytree.iterators.preorderiter" name="preorderiter" package="anytree.iterators">
+      <providedOperations key="_iter">
+        <value signature="_iter" name="_iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="descendantmaxlevel">
+        <value signature="descendantmaxlevel" name="descendantmaxlevel" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.dictexporter">
+    <value signature="anytree.exporter.dictexporter" name="dictexporter" package="anytree.exporter">
+      <providedOperations key="export">
+        <value signature="export" name="export" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__export">
+        <value signature="self.__export" name="self.__export" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._export">
+        <value signature="self._export" name="self._export" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_iter_attr_values">
+        <value signature="_iter_attr_values" name="_iter_attr_values" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__export">
+        <value signature="__export" name="__export" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attriter">
+        <value signature="attriter" name="attriter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self._iter_attr_values">
+        <value signature="self._iter_attr_values" name="self._iter_attr_values" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dictcls">
+        <value signature="dictcls" name="dictcls" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="dictexporter.export">
+        <value signature="dictexporter.export" name="dictexporter.export" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="maxlevel">
+        <value signature="maxlevel" name="maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="attr_values">
+        <value signature="attr_values" name="attr_values" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="data">
+        <value signature="data" name="data" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.zigzaggroupiter">
+    <value signature="anytree.iterators.zigzaggroupiter" name="zigzaggroupiter" package="anytree.iterators">
+      <providedOperations key="_iter">
+        <value signature="_iter" name="_iter" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.levelordergroupiter.LevelOrderGroupIter">
+    <value signature="anytree.iterators.levelordergroupiter.LevelOrderGroupIter" name="LevelOrderGroupIter" package="anytree.iterators.levelordergroupiter">
+      <providedOperations key="LevelOrderGroupIter">
+        <value signature="LevelOrderGroupIter" name="LevelOrderGroupIter" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.levelordergroupiter">
+    <value signature="anytree.iterators.levelordergroupiter" name="levelordergroupiter" package="anytree.iterators">
+      <providedOperations key="_iter">
+        <value signature="_iter" name="_iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="_get_grandchildren">
+        <value signature="_get_grandchildren" name="_get_grandchildren" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="next_children">
+        <value signature="next_children" name="next_children" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.config">
+    <value signature="anytree.config" name="config" package="anytree">
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="ASSERTIONS">
+        <value signature="ASSERTIONS" name="ASSERTIONS" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="config.py">
+        <value name="config.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="builtins">
+    <value signature="builtins" name="builtins" package="builtins">
+      <providedOperations key="bool">
+        <value signature="bool" name="bool" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="all">
+        <value signature="all" name="all" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="zip">
+        <value signature="zip" name="zip" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="pydoc">
+    <value signature="pydoc" name="pydoc" package="pydoc">
+      <providedOperations key="list">
+        <value signature="list" name="list" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="_sqlite3">
+    <value signature="_sqlite3" name="_sqlite3" package="_sqlite3">
+      <providedOperations key="Row">
+        <value signature="Row" name="Row" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.symlinknode">
+    <value signature="anytree.node.symlinknode" name="symlinknode" package="anytree.node">
+      <providedOperations key="__repr__">
+        <value signature="__repr__" name="__repr__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__init__">
+        <value signature="__init__" name="__init__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.children">
+        <value signature="self.children" name="self.children" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.symlinknodemixin">
+    <value signature="anytree.node.symlinknodemixin" name="symlinknodemixin" package="anytree.node">
+      <providedOperations key="__getattr__">
+        <value signature="__getattr__" name="__getattr__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__setattr__">
+        <value signature="__setattr__" name="__setattr__" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="super.__setattr__">
+        <value signature="super.__setattr__" name="super.__setattr__" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.exceptions.LoopError">
+    <value signature="anytree.node.exceptions.LoopError" name="LoopError" package="anytree.node.exceptions">
+      <providedOperations key="LoopError">
+        <value signature="LoopError" name="LoopError" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.walker">
+    <value signature="anytree.walker" name="walker" package="anytree">
+      <providedOperations key="walk">
+        <value signature="walk" name="walk" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="Walker.__calc_common">
+        <value signature="Walker.__calc_common" name="Walker.__calc_common" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__calc_common">
+        <value signature="__calc_common" name="__calc_common" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="startpath">
+        <value signature="startpath" name="startpath" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="endpath">
+        <value signature="endpath" name="endpath" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="msg">
+        <value signature="msg" name="msg" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="start">
+        <value signature="start" name="start" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="upwards">
+        <value signature="upwards" name="upwards" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="common">
+        <value signature="common" name="common" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="down">
+        <value signature="down" name="down" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="endpath.endpath">
+        <value signature="endpath.endpath" name="endpath.endpath" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="len_common">
+        <value signature="len_common" name="len_common" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.walker.WalkError">
+    <value signature="anytree.walker.WalkError" name="WalkError" package="anytree.walker">
+      <providedOperations key="WalkError">
+        <value signature="WalkError" name="WalkError" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.levelorderiter">
+    <value signature="anytree.iterators.levelorderiter" name="levelorderiter" package="anytree.iterators">
+      <providedOperations key="_iter">
+        <value signature="_iter" name="_iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="next_children">
+        <value signature="next_children" name="next_children" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="children">
+        <value signature="children" name="children" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.postorderiter">
+    <value signature="anytree.iterators.postorderiter" name="postorderiter" package="anytree.iterators">
+      <providedOperations key="_iter">
+        <value signature="_iter" name="_iter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="__next">
+        <value signature="__next" name="__next" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="grandchildren">
+        <value signature="grandchildren" name="grandchildren" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="ftplib">
+    <value signature="ftplib" name="ftplib" package="ftplib">
+      <providedOperations key="AttributeError">
+        <value signature="AttributeError" name="AttributeError" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.render.ContStyle">
+    <value signature="anytree.render.ContStyle" name="ContStyle" package="anytree.render">
+      <providedOperations key="ContStyle">
+        <value signature="ContStyle" name="ContStyle" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.search.CountError">
+    <value signature="anytree.search.CountError" name="CountError" package="anytree.search">
+      <providedOperations key="CountError">
+        <value signature="CountError" name="CountError" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.dictexporter.DictExporter">
+    <value signature="anytree.exporter.dictexporter.DictExporter" name="DictExporter" package="anytree.exporter.dictexporter">
+      <providedOperations key="DictExporter">
+        <value signature="DictExporter" name="DictExporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.maxlevel">
+        <value signature="self.maxlevel" name="self.maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.attriter">
+        <value signature="self.attriter" name="self.attriter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.dictcls">
+        <value signature="self.dictcls" name="self.dictcls" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.childiter">
+        <value signature="self.childiter" name="self.childiter" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="DictExporter">
+        <value name="DictExporter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="shutil">
+    <value signature="shutil" name="shutil" package="shutil">
+      <providedOperations key="int">
+        <value signature="int" name="int" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.render.AbstractStyle">
+    <value signature="anytree.render.AbstractStyle" name="AbstractStyle" package="anytree.render">
+      <providedOperations key="self.vertical">
+        <value signature="self.vertical" name="self.vertical" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.cont">
+        <value signature="self.cont" name="self.cont" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.end">
+        <value signature="self.end" name="self.end" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="AbstractStyle">
+        <value signature="AbstractStyle" name="AbstractStyle" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="AbstractStyle">
+        <value name="AbstractStyle" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.render.RenderTree">
+    <value signature="anytree.render.RenderTree" name="RenderTree" package="anytree.render">
+      <providedOperations key="RenderTree">
+        <value signature="RenderTree" name="RenderTree" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.style">
+        <value signature="self.style" name="self.style" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.node">
+        <value signature="self.node" name="self.node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.childiter">
+        <value signature="self.childiter" name="self.childiter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.maxlevel">
+        <value signature="self.maxlevel" name="self.maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="RenderTree">
+        <value name="RenderTree" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.resolver.ResolverError">
+    <value signature="anytree.resolver.ResolverError" name="ResolverError" package="anytree.resolver">
+      <providedOperations key="self.child">
+        <value signature="self.child" name="self.child" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.node">
+        <value signature="self.node" name="self.node" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="ResolverError">
+        <value name="ResolverError" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.resolver.RootResolverError">
+    <value signature="anytree.resolver.RootResolverError" name="RootResolverError" package="anytree.resolver">
+      <providedOperations key="msg">
+        <value signature="msg" name="msg" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="RootResolverError">
+        <value name="RootResolverError" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.resolver.ChildResolverError">
+    <value signature="anytree.resolver.ChildResolverError" name="ChildResolverError" package="anytree.resolver">
+      <providedOperations key="msg">
+        <value signature="msg" name="msg" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="names">
+        <value signature="names" name="names" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="ChildResolverError">
+        <value name="ChildResolverError" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.jsonexporter.JsonExporter">
+    <value signature="anytree.exporter.jsonexporter.JsonExporter" name="JsonExporter" package="anytree.exporter.jsonexporter">
+      <providedOperations key="self.maxlevel">
+        <value signature="self.maxlevel" name="self.maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.dictexporter">
+        <value signature="self.dictexporter" name="self.dictexporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="JsonExporter">
+        <value signature="JsonExporter" name="JsonExporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.kwargs">
+        <value signature="self.kwargs" name="self.kwargs" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="JsonExporter">
+        <value name="JsonExporter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.mermaidexporter.MermaidExporter">
+    <value signature="anytree.exporter.mermaidexporter.MermaidExporter" name="MermaidExporter" package="anytree.exporter.mermaidexporter">
+      <providedOperations key="MermaidExporter">
+        <value signature="MermaidExporter" name="MermaidExporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.node">
+        <value signature="self.node" name="self.node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.graph">
+        <value signature="self.graph" name="self.graph" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.name">
+        <value signature="self.name" name="self.name" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.options">
+        <value signature="self.options" name="self.options" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.indent">
+        <value signature="self.indent" name="self.indent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.nodenamefunc">
+        <value signature="self.nodenamefunc" name="self.nodenamefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.stop">
+        <value signature="self.stop" name="self.stop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.nodefunc">
+        <value signature="self.nodefunc" name="self.nodefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.filter_">
+        <value signature="self.filter_" name="self.filter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.edgefunc">
+        <value signature="self.edgefunc" name="self.edgefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.maxlevel">
+        <value signature="self.maxlevel" name="self.maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.__node_counter">
+        <value signature="self.__node_counter" name="self.__node_counter" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="MermaidExporter">
+        <value name="MermaidExporter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.dotexporter.DotExporter">
+    <value signature="anytree.exporter.dotexporter.DotExporter" name="DotExporter" package="anytree.exporter.dotexporter">
+      <providedOperations key="DotExporter">
+        <value signature="DotExporter" name="DotExporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.nodenamefunc">
+        <value signature="self.nodenamefunc" name="self.nodenamefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.nodeattrfunc">
+        <value signature="self.nodeattrfunc" name="self.nodeattrfunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.edgeattrfunc">
+        <value signature="self.edgeattrfunc" name="self.edgeattrfunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.edgetypefunc">
+        <value signature="self.edgetypefunc" name="self.edgetypefunc" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.filter_">
+        <value signature="self.filter_" name="self.filter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.maxlevel">
+        <value signature="self.maxlevel" name="self.maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.stop">
+        <value signature="self.stop" name="self.stop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.node">
+        <value signature="self.node" name="self.node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.graph">
+        <value signature="self.graph" name="self.graph" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.name">
+        <value signature="self.name" name="self.name" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="UniqueDotExporter">
+        <value signature="UniqueDotExporter" name="UniqueDotExporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.options">
+        <value signature="self.options" name="self.options" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.indent">
+        <value signature="self.indent" name="self.indent" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="DotExporter">
+        <value name="DotExporter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.dotexporter.UniqueDotExporter">
+    <value signature="anytree.exporter.dotexporter.UniqueDotExporter" name="UniqueDotExporter" package="anytree.exporter.dotexporter">
+      <providedOperations key="self.__node_counter">
+        <value signature="self.__node_counter" name="self.__node_counter" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="UniqueDotExporter">
+        <value name="UniqueDotExporter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.anynode.AnyNode">
+    <value signature="anytree.node.anynode.AnyNode" name="AnyNode" package="anytree.node.anynode">
+      <providedOperations key="self.parent">
+        <value signature="self.parent" name="self.parent" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="AnyNode">
+        <value name="AnyNode" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.node.Node">
+    <value signature="anytree.node.node.Node" name="Node" package="anytree.node.node">
+      <providedOperations key="self.name">
+        <value signature="self.name" name="self.name" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.parent">
+        <value signature="self.parent" name="self.parent" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="Node">
+        <value name="Node" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.symlinknode.SymlinkNode">
+    <value signature="anytree.node.symlinknode.SymlinkNode" name="SymlinkNode" package="anytree.node.symlinknode">
+      <providedOperations key="self.parent">
+        <value signature="self.parent" name="self.parent" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.target">
+        <value signature="self.target" name="self.target" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="SymlinkNode">
+        <value name="SymlinkNode" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.abstractiter.AbstractIter">
+    <value signature="anytree.iterators.abstractiter.AbstractIter" name="AbstractIter" package="anytree.iterators.abstractiter">
+      <providedOperations key="AbstractIter">
+        <value signature="AbstractIter" name="AbstractIter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.filter_">
+        <value signature="self.filter_" name="self.filter_" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.node">
+        <value signature="self.node" name="self.node" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.stop">
+        <value signature="self.stop" name="self.stop" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.maxlevel">
+        <value signature="self.maxlevel" name="self.maxlevel" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="AbstractIter">
+        <value name="AbstractIter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.importer.jsonimporter.JsonImporter">
+    <value signature="anytree.importer.jsonimporter.JsonImporter" name="JsonImporter" package="anytree.importer.jsonimporter">
+      <providedOperations key="JsonImporter">
+        <value signature="JsonImporter" name="JsonImporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.dictimporter">
+        <value signature="self.dictimporter" name="self.dictimporter" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="self.kwargs">
+        <value signature="self.kwargs" name="self.kwargs" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="JsonImporter">
+        <value name="JsonImporter" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.__init__">
+    <value signature="anytree.__init__" name="__init__" package="anytree">
+      <providedOperations key="LevelGroupOrderIter">
+        <value signature="LevelGroupOrderIter" name="LevelGroupOrderIter" returnType="unknown"/>
+      </providedOperations>
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.exporter.__init__">
+    <value signature="anytree.exporter.__init__" name="__init__" package="anytree.exporter">
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.importer.__init__">
+    <value signature="anytree.importer.__init__" name="__init__" package="anytree.importer">
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.iterators.__init__">
+    <value signature="anytree.iterators.__init__" name="__init__" package="anytree.iterators">
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.__init__">
+    <value signature="anytree.node.__init__" name="__init__" package="anytree.node">
+      <providedStorages key="__init__.py">
+        <value name="__init__.py" type="&lt;unknown&gt;"/>
+      </providedStorages>
+    </value>
+  </componentTypes>
+  <componentTypes key="anytree.node.nodemixin.NodeMixin">
+    <value signature="anytree.node.nodemixin.NodeMixin" name="NodeMixin" package="anytree.node.nodemixin">
+      <providedOperations key="NodeMixin">
+        <value signature="NodeMixin" name="NodeMixin" returnType="unknown"/>
+      </providedOperations>
+      <providedOperations key="LightNodeMixin">
+        <value signature="LightNodeMixin" name="LightNodeMixin" returnType="unknown"/>
+      </providedOperations>
+    </value>
+  </componentTypes>
+</type:TypeModel>
