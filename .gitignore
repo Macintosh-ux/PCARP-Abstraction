@@ -1,1 +1,8 @@
 bin
+# Generated build and Python cache files
+**/__pycache__/
+**/out/
+**/test-out/
+*.pyc
+*.class
+otkt-gen/collector/target/
